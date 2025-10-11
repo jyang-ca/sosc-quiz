@@ -258,5 +258,135 @@
     "chapter": "Chapter 6: The Aware Mind: Consciousness",
     "related_info": "Benefits of REM Sleep. REM deprivation is linked to: irritability and difficulty concentrating.",
     "incorrect_count": 0
+  },
+  {
+    "question": "A person is in a state of deep unconsciousness, is unresponsive to pain or light, and has no sleep-wake cycles. This condition is called a ________.",
+    "options": {
+      "A": "vegetative state",
+      "B": "coma",
+      "C": "generalized seizure",
+      "D": "cataplexy"
+    },
+    "answer": "B",
+    "chapter": "Chapter 6: The Aware Mind: Consciousness",
+    "related_info": "Coma: An abnormal state of deep unconsciousness. No sleep-wake cycles, Unresponsive to pain/light, No voluntary behavior.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which of the following is considered a stimulant drug?",
+    "options": {
+      "A": "Alcohol",
+      "B": "Marijuana",
+      "C": "Opioids",
+      "D": "MDMA (Ecstasy)"
+    },
+    "answer": "D",
+    "chapter": "Chapter 6: The Aware Mind: Consciousness",
+    "related_info": "MDMA (Ecstasy): Stimulates activity of serotonin and oxytocin. Consequences for Consciousness: Increased sociability, Increased heart rate, blood pressure, and body temperature.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "The physical response to the removal of a drug, which often produces effects opposite to those of the drug, is known as ________.",
+    "options": {
+      "A": "tolerance",
+      "B": "addiction",
+      "C": "withdrawal",
+      "D": "relapse"
+    },
+    "answer": "C",
+    "chapter": "Chapter 6: The Aware Mind: Consciousness",
+    "related_info": "Withdrawal: Physical response to the removal of a drug. Effects opposite of the drug.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "A ________ seizure originates in a particular part of the brain and distorts consciousness, while a ________ seizure involves abnormal activation of circuits connecting the cortex and thalamus, leading to a loss of consciousness.",
+    "options": {
+      "A": "generalized; partial",
+      "B": "partial; generalized",
+      "C": "focal; tonic-clonic",
+      "D": "tonic-clonic; focal"
+    },
+    "answer": "B",
+    "chapter": "Chapter 6: The Aware Mind: Consciousness",
+    "related_info": "Seizures. Partial: originate in a particular part of the brain (focal area) -> Consciousness distorted. Generalized: abnormal activation of circuits connecting the cerebral cortex and thalamus -> Consciousness lost.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "From an evolutionary perspective, the ability of higher-order animals to recognize themselves in a mirror is an example of ________, which helps in choosing appropriate responses to threats.",
+    "options": {
+      "A": "awareness of sensations",
+      "B": "variations in alertness",
+      "C": "self-awareness",
+      "D": "default mode network"
+    },
+    "answer": "C",
+    "chapter": "Chapter 6: The Aware Mind: Consciousness",
+    "related_info": "The Evolutionary Perspective: Consciousness. Self-awareness: Heightens our ability to choose appropriate responses to threat and engage in self-preservation.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Sleep spindles and K-complexes are characteristic brain wave patterns of which stage of sleep?",
+    "options": {
+      "A": "N-REM Stage 1",
+      "B": "N-REM Stage 2",
+      "C": "N-REM Stage 3",
+      "D": "REM Sleep"
+    },
+    "answer": "B",
+    "chapter": "Chapter 6: The Aware Mind: Consciousness",
+    "related_info": "N-REM Sleep Stages. Stage 2: Brain still monitoring external environment, K complexes and sleep spindles.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which of the following best describes the difference in function between N-REM and REM sleep?",
+    "options": {
+      "A": "N-REM helps the mind and REM helps the body.",
+      "B": "N-REM helps the body and REM helps the mind.",
+      "C": "Both N-REM and REM are primarily for physical restoration.",
+      "D": "Both N-REM and REM are primarily for memory consolidation."
+    },
+    "answer": "B",
+    "chapter": "Chapter 6: The Aware Mind: Consciousness",
+    "related_info": "Benefits of N-REM Sleep: ...Helps the BODY. Benefits of REM Sleep: ...Helps the MIND.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Stimulant medications like Methylphenidate (Ritalin) are used to treat ADHD by boosting the neurotransmitters ________ and ________.",
+    "options": {
+      "A": "serotonin; GABA",
+      "B": "acetylcholine; endorphins",
+      "C": "dopamine; norepinephrine",
+      "D": "serotonin; oxytocin"
+    },
+    "answer": "C",
+    "chapter": "Chapter 6: The Aware Mind: Consciousness",
+    "related_info": "Methylphenidate (Ritalin): Common medication used to treat ADHD. Boosts dopamine and norepinephrine.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "The cycle of addiction is characterized by needing more of a drug to get the same effect, which is called ________, and then needing to take the drug to avoid negative physical symptoms, which is called ________.",
+    "options": {
+      "A": "withdrawal; tolerance",
+      "B": "dependence; withdrawal",
+      "C": "tolerance; withdrawal",
+      "D": "addiction; tolerance"
+    },
+    "answer": "C",
+    "chapter": "Chapter 6: The Aware Mind: Consciousness",
+    "related_info": "Addiction [diagram]: Need more of the drug to have the same effect (tolerance) → Need to take the drug to avoid withdrawal.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "A disorder characterized by involuntary movement and tingling feelings in the legs, which can interfere with sleep, is known as ________.",
+    "options": {
+      "A": "Cataplexy",
+      "B": "Sleep Apnea",
+      "C": "Restless Legs Syndrome (RLS)",
+      "D": "Sudden Infant Death Syndrome (SIDS)"
+    },
+    "answer": "C",
+    "chapter": "Chapter 6: The Aware Mind: Consciousness",
+    "related_info": "Restless Legs Syndrome (RLS): Characterized by involuntary movement of an extremity (usually one leg). Tingling feeling.",
+    "incorrect_count": 0
   }
 ]
