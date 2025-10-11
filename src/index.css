@@ -1,16 +1,16 @@
 /* Terminal-style CSS */
 
 :root {
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #1a1a1a;
-  --text-primary: #00ff00;
-  --text-secondary: #ffffff;
-  --text-dim: #888888;
-  --text-error: #ff4444;
-  --text-success: #00ff00;
-  --text-warning: #ffaa00;
-  --border-color: #333333;
-  --selection-bg: #00ff0033;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --text-primary: #000000;
+  --text-secondary: #000000;
+  --text-dim: #666666;
+  --text-error: #dc3545;
+  --text-success: #28a745;
+  --text-warning: #ffc107;
+  --border-color: #cccccc;
+  --selection-bg: #ffeb3b;
 }
 
 * {
@@ -29,7 +29,7 @@ body {
 
 ::selection {
   background-color: var(--selection-bg);
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 #root {
@@ -204,5 +204,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--text-primary);
+  background: var(--text-dim);
 }
