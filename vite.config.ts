@@ -7,5 +7,5 @@ export default defineConfig({
   // For GitHub Pages deployment:
   // If deploying to https://<USERNAME>.github.io/<REPO>/, set base to '/<REPO>/'
   // If deploying to https://<USERNAME>.github.io/, set base to '/'
-  base: './',
+  base: '/sosc-quiz/',
 })
