@@ -259,10 +259,11 @@ export async function loadAllProblems(): Promise<Problem[]> {
   ];
 
   const allProblems: Problem[] = [];
+  const baseUrl = import.meta.env.BASE_URL;
 
   for (const file of problemFiles) {
     try {
-      const response = await fetch(`/problems/${file}`);
+      const response = await fetch(`${baseUrl}problems/${file}`);
       if (response.ok) {
         const problems: Problem[] = await response.json();
         allProblems.push(...problems);
