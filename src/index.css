@@ -1,0 +1,360 @@
+/* Terminal-style CSS */
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #1a1a1a;
+  --text-primary: #00ff00;
+  --text-secondary: #ffffff;
+  --text-dim: #888888;
+  --text-error: #ff4444;
+  --text-success: #00ff00;
+  --text-warning: #ffaa00;
+  --border-color: #333333;
+  --selection-bg: #00ff0033;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', 'Courier', monospace;
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--text-primary);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Terminal container */
+.terminal {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-dim {
+  color: var(--text-dim);
+}
+
+.text-error {
+  color: var(--text-error);
+}
+
+.text-success {
+  color: var(--text-success);
+}
+
+.text-warning {
+  color: var(--text-warning);
+}
+
+/* Separators */
+.separator {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 1rem 0;
+}
+
+.separator-heavy {
+  border: none;
+  border-top: 2px solid var(--text-primary);
+  margin: 1.5rem 0;
+}
+
+/* ASCII Art */
+.ascii-art {
+  color: var(--text-primary);
+  white-space: pre;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Buttons */
+.btn {
+  background-color: transparent;
+  border: 2px solid var(--text-primary);
+  color: var(--text-primary);
+  padding: 0.75rem 1.5rem;
+  font-family: 'Courier New', 'Courier', monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 0.5rem;
+}
+
+.btn:hover {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.btn:focus {
+  outline: 2px solid var(--text-warning);
+  outline-offset: 2px;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Option list */
+.option-list {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.option-item {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: var(--bg-secondary);
+}
+
+.option-item:hover {
+  border-color: var(--text-primary);
+  background-color: var(--bg-primary);
+}
+
+.option-item.selected {
+  border-color: var(--text-primary);
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.option-item:focus {
+  outline: 2px solid var(--text-warning);
+  outline-offset: 2px;
+}
+
+/* Question display */
+.question-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--text-primary);
+}
+
+.question-meta {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.question-text {
+  font-size: 1.1rem;
+  margin: 1.5rem 0;
+  line-height: 1.8;
+}
+
+/* Feedback display */
+.feedback {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+.feedback.correct {
+  border-color: var(--text-success);
+  background-color: rgba(0, 255, 0, 0.05);
+}
+
+.feedback.incorrect {
+  border-color: var(--text-error);
+  background-color: rgba(255, 68, 68, 0.05);
+}
+
+.feedback-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.feedback-content {
+  margin: 0.5rem 0;
+}
+
+.feedback-explanation {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+/* Statistics */
+.stats-container {
+  margin: 2rem 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.stat-card {
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-secondary);
+}
+
+.stat-label {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-value {
+  color: var(--text-primary);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.stat-list {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.stat-list-item {
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-left: 3px solid var(--text-primary);
+  padding-left: 1rem;
+  background-color: var(--bg-secondary);
+}
+
+/* Loading spinner */
+.loading {
+  text-align: center;
+  padding: 3rem;
+}
+
+.spinner {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { content: '|'; }
+  25% { content: '/'; }
+  50% { content: '-'; }
+  75% { content: '\\'; }
+  100% { content: '|'; }
+}
+
+.spinner::after {
+  content: '|';
+  font-size: 2rem;
+  color: var(--text-primary);
+}
+
+/* Blinking cursor */
+.cursor {
+  display: inline-block;
+  width: 0.6rem;
+  height: 1.2rem;
+  background-color: var(--text-primary);
+  animation: blink 1s infinite;
+  margin-left: 0.2rem;
+}
+
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+/* Progress bar */
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  border: 1px solid var(--border-color);
+  margin: 1rem 0;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: var(--text-primary);
+  transition: width 0.3s;
+}
+
+.progress-text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 20px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  mix-blend-mode: difference;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .terminal {
+    padding: 10px;
+  }
+
+  .question-text {
+    font-size: 1rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-primary);
+}
