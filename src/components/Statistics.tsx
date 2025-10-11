@@ -36,7 +36,7 @@ const Statistics = ({
                 <div style={{ margin: '1.5rem 0' }}>
                     <p className="text-success">[ITERATION COMPLETE]</p>
                     <p className="text-secondary" style={{ marginTop: '0.5rem' }}>
-                        All 100 problems answered correctly. Starting Iteration {state.iteration}
+                        All 150 problems answered correctly. Starting Iteration {state.iteration}
                     </p>
                     <hr className="separator" />
                 </div>
