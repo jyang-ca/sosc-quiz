@@ -2,14 +2,9 @@ const Loading = () => {
   return (
     <div className="loading">
       <div className="ascii-art">
-{`
-🧠 🧠 🧠 🧠 🧠 🧠 🧠 🧠 🧠 🧠 
-Psychology Quiz Application
-Progressive Learning System
-🧠 🧠 🧠 🧠 🧠 🧠 🧠 🧠 🧠 🧠
-`}
+        {`$ psychology-quiz`}
       </div>
-      <p className="text-primary">Loading problems...</p>
+      <p className="text-dim" style={{ marginTop: '1rem' }}>Loading problems...</p>
       <div className="spinner"></div>
     </div>
   );

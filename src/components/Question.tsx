@@ -52,20 +52,19 @@ const Question = ({
 
     return (
         <div>
-            <div className="question-header">
-                <div className="question-meta">
+            <div style={{ marginBottom: '1.5rem' }}>
+                <p>
                     <span className="text-primary">
-                        Question {questionNumber}/{totalQuestions}
-                        {isRetry && ` [Retry Round ${retryRound}]`}
+                        [{questionNumber}/{totalQuestions}]
+                        {isRetry && ` retry-${retryRound}`}
                     </span>
-                    {' • '}
+                    {' '}
                     <span className="text-dim">{problem.chapter}</span>
-                </div>
-                <hr className="separator" />
+                </p>
             </div>
 
-            <div className="question-text">
-                {problem.question}
+            <div style={{ margin: '1rem 0', lineHeight: '1.8' }}>
+                <p className="text-secondary">{problem.question}</p>
             </div>
 
             <ul className="option-list">
@@ -82,27 +81,19 @@ const Question = ({
                             }
                         }}
                     >
-                        <strong>{option}.</strong> {problem.options[option]}
+                        {option}. {problem.options[option]}
                     </li>
                 ))}
             </ul>
 
-            <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+            <div style={{ margin: '2rem 0' }}>
                 <button
                     className="btn"
                     onClick={onSubmit}
                     disabled={!selectedAnswer}
                 >
-                    Submit Answer {selectedAnswer && `(${selectedAnswer})`}
+                    &gt; Submit {selectedAnswer && `(${selectedAnswer})`}
                 </button>
-            </div>
-
-            <hr className="separator" />
-
-            <div style={{ textAlign: 'center', padding: '1rem 0' }}>
-                <p className="text-dim" style={{ fontSize: '0.9rem' }}>
-                    Use ↑↓ arrow keys to navigate • Enter to submit
-                </p>
             </div>
         </div>
     );

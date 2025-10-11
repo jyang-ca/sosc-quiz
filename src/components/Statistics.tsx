@@ -32,114 +32,69 @@ const Statistics = ({
 
     return (
         <div>
-            <hr className="separator-heavy" />
-
             {iterationCompleted && (
-                <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-                    <div className="ascii-art">
-                        {`
-🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 
-   ITERATION COMPLETE!
-🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉
-`}
-                    </div>
-                    <p className="text-success" style={{ fontSize: '1.2rem', margin: '1rem 0' }}>
-                        You have completed all 100 problems correctly!
-                    </p>
-                    <p className="text-primary">
-                        Starting Iteration {state.iteration}
+                <div style={{ margin: '1.5rem 0' }}>
+                    <p className="text-success">[ITERATION COMPLETE]</p>
+                    <p className="text-secondary" style={{ marginTop: '0.5rem' }}>
+                        All 100 problems answered correctly. Starting Iteration {state.iteration}
                     </p>
                     <hr className="separator" />
                 </div>
             )}
 
-            <h2 className="text-primary">📊 Quiz Statistics</h2>
-
-            <div className="stats-container">
-                <h3 className="text-secondary">Current Session</h3>
-                <div className="stats-grid">
-                    <div className="stat-card">
-                        <div className="stat-label">Total Questions</div>
-                        <div className="stat-value">{currentStats.total_questions}</div>
-                    </div>
-
-                    <div className="stat-card">
-                        <div className="stat-label">First Try Correct</div>
-                        <div className="stat-value text-success">{currentStats.correct_first_try}</div>
-                    </div>
-
-                    <div className="stat-card">
-                        <div className="stat-label">First Try Accuracy</div>
-                        <div className="stat-value text-success">{firstTryAccuracy.toFixed(1)}%</div>
-                    </div>
-
-                    <div className="stat-card">
-                        <div className="stat-label">Overall Accuracy</div>
-                        <div className="stat-value text-primary">{overallAccuracy.toFixed(1)}%</div>
-                    </div>
-                </div>
+            <div style={{ margin: '1.5rem 0' }}>
+                <p className="text-primary">Session Results:</p>
+                <p style={{ marginLeft: '1rem', marginTop: '0.5rem' }}>
+                    <span className="text-dim">Questions:</span>{' '}
+                    <span className="text-secondary">{currentStats.total_questions}</span>
+                    {' | '}
+                    <span className="text-dim">First-try:</span>{' '}
+                    <span className="text-success">{currentStats.correct_first_try}</span>
+                    {' '}
+                    <span className="text-success">({firstTryAccuracy.toFixed(1)}%)</span>
+                    {' | '}
+                    <span className="text-dim">Overall:</span>{' '}
+                    <span className="text-primary">{overallAccuracy.toFixed(1)}%</span>
+                </p>
             </div>
 
             <hr className="separator" />
 
-            <div className="stats-container">
-                <h3 className="text-secondary">Overall Progress</h3>
-
-                <div className="stats-grid">
-                    <div className="stat-card">
-                        <div className="stat-label">Current Iteration</div>
-                        <div className="stat-value">{state.iteration}</div>
-                    </div>
-
-                    <div className="stat-card">
-                        <div className="stat-label">Problems Seen</div>
-                        <div className="stat-value">{state.seen_problems.length} / {totalProblems}</div>
-                    </div>
-
-                    <div className="stat-card">
-                        <div className="stat-label">Correct Problems</div>
-                        <div className="stat-value text-success">{state.correct_problems.length} / {totalProblems}</div>
-                    </div>
-
-                    <div className="stat-card">
-                        <div className="stat-label">Remaining</div>
-                        <div className="stat-value text-warning">
-                            {totalProblems - state.correct_problems.length}
-                        </div>
-                    </div>
-                </div>
-
-                <div className="progress-bar">
-                    <div className="progress-fill" style={{ width: `${progress}%` }}></div>
-                    <div className="progress-text">{progress.toFixed(1)}%</div>
-                </div>
+            <div style={{ margin: '1.5rem 0' }}>
+                <p className="text-primary">Progress:</p>
+                <p style={{ marginLeft: '1rem', marginTop: '0.5rem' }}>
+                    <span className="text-dim">Iteration:</span>{' '}
+                    <span className="text-secondary">{state.iteration}</span>
+                    {' | '}
+                    <span className="text-dim">Correct:</span>{' '}
+                    <span className="text-success">{state.correct_problems.length}/{totalProblems}</span>
+                    {' '}
+                    <span className="text-success">({progress.toFixed(1)}%)</span>
+                    {' | '}
+                    <span className="text-dim">Remaining:</span>{' '}
+                    <span className="text-warning">{totalProblems - state.correct_problems.length}</span>
+                </p>
             </div>
 
             {state.iteration_stats.length > 0 && (
                 <>
                     <hr className="separator" />
-                    <div className="stats-container">
-                        <h3 className="text-secondary">📜 Previous Iterations</h3>
-                        <ul className="stat-list">
-                            {state.iteration_stats.slice(-5).reverse().map((stat, idx) => (
-                                <li key={idx} className="stat-list-item">
-                                    <div>
-                                        <span className="text-primary">Iteration {stat.iteration}</span>
-                                        {' - '}
-                                        <span className="text-dim">
-                                            {new Date(stat.completed_at).toLocaleDateString()}
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <span className="text-secondary">
-                                            {stat.correct_first_try}/{stat.total_questions} questions
-                                        </span>
-                                        {' - '}
-                                        <span className="text-success">{stat.accuracy.toFixed(1)}% accuracy</span>
-                                    </div>
-                                </li>
-                            ))}
-                        </ul>
+                    <div style={{ margin: '1.5rem 0' }}>
+                        <p className="text-dim">Previous iterations:</p>
+                        {state.iteration_stats.slice(-5).reverse().map((stat, idx) => (
+                            <p key={idx} style={{ marginLeft: '1rem', marginTop: '0.5rem' }}>
+                                <span className="text-dim">#{stat.iteration}:</span>{' '}
+                                <span className="text-secondary">
+                                    {stat.correct_first_try}/{stat.total_questions}
+                                </span>
+                                {' '}
+                                <span className="text-success">({stat.accuracy.toFixed(1)}%)</span>
+                                {' '}
+                                <span className="text-dim">
+                                    {new Date(stat.completed_at).toLocaleDateString()}
+                                </span>
+                            </p>
+                        ))}
                     </div>
                 </>
             )}
@@ -147,58 +102,45 @@ const Statistics = ({
             {topIncorrect.length > 0 && (
                 <>
                     <hr className="separator" />
-                    <div className="stats-container">
-                        <h3 className="text-secondary">❗ Most Difficult Problems</h3>
-                        <ul className="stat-list">
-                            {topIncorrect.map((item, idx) => {
-                                const shortQuestion = item.question.length > 80
-                                    ? item.question.substring(0, 80) + '...'
-                                    : item.question;
+                    <div style={{ margin: '1.5rem 0' }}>
+                        <p className="text-dim">Most difficult problems:</p>
+                        {topIncorrect.map((item, idx) => {
+                            const shortQuestion = item.question.length > 60
+                                ? item.question.substring(0, 60) + '...'
+                                : item.question;
 
-                                return (
-                                    <li key={idx} className="stat-list-item">
-                                        <div>
-                                            <span className="text-error">#{idx + 1}</span>
-                                            {' - '}
-                                            <span className="text-dim">[{item.stat.chapter}]</span>
-                                        </div>
-                                        <div className="text-secondary" style={{ fontSize: '0.9rem', marginTop: '0.3rem' }}>
-                                            {shortQuestion}
-                                        </div>
-                                        <div style={{ marginTop: '0.3rem' }}>
-                                            <span className="text-warning">
-                                                Incorrect: {item.stat.incorrect_count} times
-                                            </span>
-                                        </div>
-                                    </li>
-                                );
-                            })}
-                        </ul>
+                            return (
+                                <p key={idx} style={{ marginLeft: '1rem', marginTop: '0.5rem' }}>
+                                    <span className="text-warning">#{idx + 1}</span>
+                                    {' '}
+                                    <span className="text-dim">[{item.stat.chapter}]</span>
+                                    {' '}
+                                    <span className="text-error">x{item.stat.incorrect_count}</span>
+                                    <br />
+                                    <span className="text-secondary" style={{ fontSize: '0.9rem', marginLeft: '1.5rem' }}>
+                                        {shortQuestion}
+                                    </span>
+                                </p>
+                            );
+                        })}
                     </div>
                 </>
             )}
 
-            <hr className="separator-heavy" />
-
-            <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-                <p className="text-success" style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>
-                    ✅ Quiz completed! All problems answered correctly.
-                </p>
-                <button className="btn" onClick={onBackToWelcome}>
-                    Back to Home
-                </button>
-            </div>
-
             <hr className="separator" />
 
-            <div style={{ textAlign: 'center', padding: '1rem 0' }}>
-                <p className="text-dim" style={{ fontSize: '0.9rem' }}>
-                    👋 Great work! Keep learning!
+            <div style={{ margin: '2rem 0' }}>
+                <p className="text-success" style={{ marginBottom: '1rem' }}>
+                    [QUIZ COMPLETE]
                 </p>
+                <button className="btn" onClick={onBackToWelcome}>
+                    &gt; Back to Home
+                </button>
             </div>
         </div>
     );
 };
 
 export default Statistics;
+
 

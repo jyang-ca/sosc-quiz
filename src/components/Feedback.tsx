@@ -27,55 +27,47 @@ const Feedback = ({ problem, selectedAnswer, onContinue }: FeedbackProps) => {
 
     return (
         <div>
-            <div className={`feedback ${isCorrect ? 'correct' : 'incorrect'}`}>
-                <div className="feedback-title">
+            <div style={{ margin: '1rem 0' }}>
+                <p>
                     {isCorrect ? (
-                        <span className="text-success">✅ Correct!</span>
+                        <span className="text-success">[CORRECT]</span>
                     ) : (
-                        <span className="text-error">❌ Incorrect</span>
+                        <span className="text-error">[INCORRECT]</span>
                     )}
-                </div>
-
-                <div className="feedback-content">
-                    <p>
-                        <strong>Your answer:</strong>{' '}
-                        <span className={isCorrect ? 'text-success' : 'text-error'}>
-                            {selectedAnswer}. {problem.options[selectedAnswer]}
-                        </span>
-                    </p>
-
-                    {!isCorrect && (
-                        <p>
-                            <strong>Correct answer:</strong>{' '}
-                            <span className="text-success">
-                                {problem.answer}. {problem.options[problem.answer]}
-                            </span>
-                        </p>
-                    )}
-                </div>
-
-                <div className="feedback-explanation">
-                    <p>
-                        <strong>📝 Explanation:</strong>
-                    </p>
-                    <p style={{ marginTop: '0.5rem', lineHeight: '1.8' }}>
-                        {problem.related_info}
-                    </p>
-                </div>
+                </p>
             </div>
 
-            <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-                <button className="btn" onClick={onContinue} autoFocus>
-                    Continue
-                </button>
+            <div style={{ margin: '1.5rem 0' }}>
+                <p>
+                    <span className="text-dim">Your answer:</span>{' '}
+                    <span className={isCorrect ? 'text-success' : 'text-error'}>
+                        {selectedAnswer}. {problem.options[selectedAnswer]}
+                    </span>
+                </p>
+
+                {!isCorrect && (
+                    <p style={{ marginTop: '0.5rem' }}>
+                        <span className="text-dim">Correct:</span>{' '}
+                        <span className="text-success">
+                            {problem.answer}. {problem.options[problem.answer]}
+                        </span>
+                    </p>
+                )}
             </div>
 
             <hr className="separator" />
 
-            <div style={{ textAlign: 'center', padding: '1rem 0' }}>
-                <p className="text-dim" style={{ fontSize: '0.9rem' }}>
-                    Press Enter or Space to continue
+            <div style={{ margin: '1.5rem 0', lineHeight: '1.8' }}>
+                <p className="text-dim">Explanation:</p>
+                <p className="text-secondary" style={{ marginTop: '0.5rem' }}>
+                    {problem.related_info}
                 </p>
+            </div>
+
+            <div style={{ margin: '2rem 0' }}>
+                <button className="btn" onClick={onContinue} autoFocus>
+                    &gt; Continue
+                </button>
             </div>
         </div>
     );
