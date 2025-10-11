@@ -25,6 +25,7 @@ body {
   color: var(--text-secondary);
   line-height: 1.6;
   overflow-x: hidden;
+  font-weight: bold;
 }
 
 ::selection {

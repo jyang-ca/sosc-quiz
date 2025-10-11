@@ -62,6 +62,9 @@ const Feedback = ({ problem, selectedAnswer, onContinue }: FeedbackProps) => {
                 <p className="text-secondary" style={{ marginTop: '0.5rem' }}>
                     {problem.related_info}
                 </p>
+                <p className="text-dim" style={{ marginTop: '0.5rem', fontSize: '0.9em' }}>
+                    [Lecture Slide: {problem.chapter}]
+                </p>
             </div>
 
             <div style={{ margin: '2rem 0' }}>
