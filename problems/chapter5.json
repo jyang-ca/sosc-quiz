@@ -1,0 +1,262 @@
+[
+    {
+      "question": "When Jose first gets into his friend's car, the smell from old food and coffee is unbearable, but after a while, he stops noticing it. This is an example of ________.",
+      "options": {
+        "A": "bottom-up processing",
+        "B": "sensory adaptation",
+        "C": "absolute threshold",
+        "D": "difference threshold"
+      },
+      "answer": "B",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Sensory adaptation: The tendency to pay less attention to information that is not changing.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "Mallika takes her sunglasses off and suddenly finds herself squinting in the bright sunlight. Mallika's ________ is contracting to let in less light and help her eyes adjust to the sun.",
+      "options": {
+        "A": "lens",
+        "B": "retina",
+        "C": "cornea",
+        "D": "iris"
+      },
+      "answer": "D",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "The Biology of Vision: The pathway of light includes the Cornea -> Pupil -> Lens -> Retina. The iris is the muscle that controls the size of the pupil to regulate light entry.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "At an art museum, Sonya sees a confusing picture of lines and shading. However, once her friend tells her the image is a cat, she sees it immediately. This is due to (her) ________.",
+      "options": {
+        "A": "bottom-up processing",
+        "B": "absolute threshold",
+        "C": "difference threshold",
+        "D": "top-down processing"
+      },
+      "answer": "D",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Top-down processing: using models, ideas, and expectations to interpret sensory information. 'Is that something I've seen before?'",
+      "incorrect_count": 0
+    },
+    {
+      "question": "It is Marcus's job to determine if any stars that he sees are actually meteors heading towards Earth! He decides to be very cautious and only report a meteor if he is absolutely certain. His high personal criterion for making this decision is a key component of ________.",
+      "options": {
+        "A": "difference threshold",
+        "B": "signal detection theory",
+        "C": "transduction",
+        "D": "sensory adaptation"
+      },
+      "answer": "B",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Signal Detection: The analysis of sensory and decision-making process in detecting uncertain stimuli. It involves the individual observer's criteria.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "Corey learns that he has a color deficiency. The doctor tells him that he has difficulty distinguishing between red and green. A malfunction in the mechanisms described by the ________ best explains this.",
+      "options": {
+        "A": "Opponent process theory",
+        "B": "Gestalt psychology",
+        "C": "Trichromatic theory",
+        "D": "Signal detection theory"
+      },
+      "answer": "C",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Trichromatic theory: We have three types of cones (detecting short, medium, and long wavelengths) that are sensitive to three primary colors: blue, green, and red. Red-Green deficiencies are most common.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "The process of converting sensory information, like light waves, into neural signals that the brain can understand is called ________.",
+      "options": {
+        "A": "perception",
+        "B": "sensation",
+        "C": "transduction",
+        "D": "adaptation"
+      },
+      "answer": "C",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Sensation → Perception. Transduction: Sensory information → Neural signal.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "Which photoreceptors in the retina are specialized to process color and provide fine detail?",
+      "options": {
+        "A": "Rods",
+        "B": "Cones",
+        "C": "Pupils",
+        "D": "Optic nerves"
+      },
+      "answer": "B",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "The Retina. Cones: Photoreceptors specialized to process color and fine detail.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "According to the Gestalt principle of ________, you perceive the FedEx logo as having a hidden arrow, even though it is formed by the negative space between the 'E' and 'x'.",
+      "options": {
+        "A": "proximity",
+        "B": "similarity",
+        "C": "continuity",
+        "D": "figure-ground"
+      },
+      "answer": "D",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Figure-ground: We divide a scene into a main figure and a background. The principle explains how we can perceive shapes in the negative space.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "The ________ is the area of the retina where vision is clearest because of the high concentration of cones.",
+      "options": {
+        "A": "blind spot",
+        "B": "optic nerve",
+        "C": "fovea",
+        "D": "cornea"
+      },
+      "answer": "C",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Fovea: Area of the retina where vision is the clearest.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "An artist paints a distant mountain range smaller and with less detail than the trees in the foreground. This artist is using the monocular depth cue of ________.",
+      "options": {
+        "A": "occlusion and texture",
+        "B": "linear perspective and shading",
+        "C": "relative size and texture",
+        "D": "retinal disparity"
+      },
+      "answer": "C",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Monocular Cues. Relative size: If we know the size of an object, we can use that to judge its distance. Texture: Closer objects have more texture/detail.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "Staring at a green circle for a minute and then looking at a white wall may cause you to see a red afterimage. This phenomenon is best explained by the ________ theory of color vision.",
+      "options": {
+        "A": "Trichromatic",
+        "B": "Opponent-Process",
+        "C": "Signal Detection",
+        "D": "Gestalt"
+      },
+      "answer": "B",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Opponent Process Theory: We have a red-green color channel and a blue-yellow color channel in which activation of one color in each pair inhibits the other color. This explains afterimages.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "The visual information from the optic nerve is relayed to the occipital lobe by which brain structure?",
+      "options": {
+        "A": "Hippocampus",
+        "B": "Amygdala",
+        "C": "Thalamus",
+        "D": "Cerebellum"
+      },
+      "answer": "C",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Visual Pathways: Optic Nerve → Optic Chiasm → Optic Tracts → Thalamus → Occipital Lobe.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "Even though a door is opening and the image on your retina changes from a rectangle to a trapezoid, you still perceive the door as being rectangular. This is an example of ________.",
+      "options": {
+        "A": "color constancy",
+        "B": "perceptual constancy (shape constancy)",
+        "C": "retinal disparity",
+        "D": "sensory adaptation"
+      },
+      "answer": "B",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Top-down processing involves using models and expectations to interpret sensory info. Perceptual constancies (like shape and size constancy) are top-down processes where we perceive objects as stable despite changing sensory input.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "The ability to perceive depth in 3D movies is primarily based on the binocular cue of ________.",
+      "options": {
+        "A": "occlusion",
+        "B": "linear perspective",
+        "C": "relative size",
+        "D": "retinal disparity"
+      },
+      "answer": "D",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Depth Perception: Binocular Cues - Retinal disparity: The difference between the images projected onto each eye. Application: 3D movies.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "According to the Gestalt principle of ________, we tend to group together objects that are physically close to one another.",
+      "options": {
+        "A": "similarity",
+        "B": "closure",
+        "C": "proximity",
+        "D": "continuity"
+      },
+      "answer": "C",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Proximity: Objects that are close together tend to be grouped together.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "A radiologist correctly identifies a tumor in a blurry X-ray. In signal detection terms, this is a ________.",
+      "options": {
+        "A": "Hit",
+        "B": "Miss",
+        "C": "False Alarm",
+        "D": "Correct Rejection"
+      },
+      "answer": "A",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Signal Detection. Participant Response: I detect a stimulus; Stimulus is PRESENT. Outcome: Hit.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "The Müller-Lyer illusion, where two lines of the same length appear different, demonstrates the influence of ________ on perception.",
+      "options": {
+        "A": "color constancy",
+        "B": "depth cues",
+        "C": "sensory adaptation",
+        "D": "absolute threshold"
+      },
+      "answer": "B",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Depth Perception: Monocular Illusions - The Müller-Lyer Illusion. This illusion is often explained by misapplied depth cues related to corners and perspectives.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "Human infants tend to prefer looking at objects that are ________, which helps their developing visual system process information.",
+      "options": {
+        "A": "small and low-contrast",
+        "B": "large and high-contrast",
+        "C": "stationary and familiar",
+        "D": "blue and green"
+      },
+      "answer": "B",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Development of Vision: Human infants see everything that adults see, but with less detail (prefer large, high-contrast objects).",
+      "incorrect_count": 0
+    },
+    {
+      "question": "When you see a line of holiday lights, you perceive them as a single, flowing line of motion even though they are just individual bulbs flashing on and off. This is best described by the Gestalt principle of ________.",
+      "options": {
+        "A": "closure",
+        "B": "continuity",
+        "C": "proximity",
+        "D": "simplicity"
+      },
+      "answer": "B",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Continuity: We assume that the item continues, even when it is occluded (blocked). We perceive smooth, continuous patterns rather than discontinuous ones.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "The initial step in vision, where light is detected by sensory receptors in the eye, is an example of ________.",
+      "options": {
+        "A": "perception",
+        "B": "top-down processing",
+        "C": "sensation",
+        "D": "transduction"
+      },
+      "answer": "C",
+      "chapter": "Chapter 5: The Perceiving Mind",
+      "related_info": "Sensation vs. Perception. Sensation: Detection of stimuli.",
+      "incorrect_count": 0
+    }
+  ]

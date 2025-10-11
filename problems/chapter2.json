@@ -1,0 +1,262 @@
+[
+    {
+      "question": "A researcher observes that cities with more libraries tend to have lower crime rates. Based on this observation alone, the researcher can conclude that:",
+      "options": {
+        "A": "Building more libraries will cause a decrease in crime.",
+        "B": "There is a negative correlation between the number of libraries and the crime rate.",
+        "C": "There is a positive correlation between the number of libraries and the crime rate.",
+        "D": "The presence of a third variable, such as city funding, has been ruled out."
+      },
+      "answer": "B",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Correlational Methods: A measure of the direction and strength of the relationship between two variables. Weaknesses: CANNOT be used to discuss causality. CORRELATION ≠ CAUSATION.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "Dr. Smith wants to study the effect of caffeine on alertness. He gives one group of participants coffee with caffeine and a second group decaffeinated coffee, then measures their reaction times. In this experiment, the reaction time is the ________.",
+      "options": {
+        "A": "independent variable",
+        "B": "dependent variable",
+        "C": "confounding variable",
+        "D": "placebo"
+      },
+      "answer": "B",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Dependent variable (DV): A measure that demonstrates the effects of the IV... It DEPENDS on the IV.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "Which of the following research methods is the only one that can be used to determine a cause-and-effect relationship between variables?",
+      "options": {
+        "A": "Case study",
+        "B": "Naturalistic observation",
+        "C": "Correlational method",
+        "D": "Experimental method"
+      },
+      "answer": "D",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Experiment: A research method that tests hypotheses and allows researchers to make conclusions about causality. Strengths: ...Can establish causality.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "A psychologist studies the case of 'Genie,' a girl who was socially isolated for years, to learn about language development. This type of in-depth analysis of a single individual is known as a(n) ________.",
+      "options": {
+        "A": "survey",
+        "B": "experiment",
+        "C": "case study",
+        "D": "naturalistic observation"
+      },
+      "answer": "C",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Case study: In-depth analysis of the behavior of one person or a small number of people. Weaknesses: Limited generalization.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "To minimize the effects of pre-existing differences between participants in the experimental and control groups, researchers use ________.",
+      "options": {
+        "A": "double-blind procedures",
+        "B": "operationalization",
+        "C": "random assignment",
+        "D": "descriptive statistics"
+      },
+      "answer": "C",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Random assignment: Procedure that ensures each participant has an equal chance of being placed in any group of an experiment. If individuals are randomly assigned to groups, then individual differences can be distributed.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "A researcher is studying the long-term effects of early childhood education by following the same group of 100 children from age 3 to age 18. This is an example of a ________ study.",
+      "options": {
+        "A": "cross-sectional",
+        "B": "correlational",
+        "C": "longitudinal",
+        "D": "case"
+      },
+      "answer": "C",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Longitudinal study: Obtaining data from same individuals over a long period of time.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "If a personality test consistently produces the same score for an individual every time they take it, but it doesn't actually measure personality, the test is said to be ________.",
+      "options": {
+        "A": "reliable but not valid",
+        "B": "valid but not reliable",
+        "C": "both reliable and valid",
+        "D": "neither reliable nor valid"
+      },
+      "answer": "A",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Reliability: Consistency of a measure. Validity: Extent to which a measure assesses what it claims to measure. [Image of target with clustered but off-center shots labeled 'Reliable Not Valid'].",
+      "incorrect_count": 0
+    },
+    {
+      "question": "In an experiment testing a new antidepressant, neither the participants nor the researchers know who is receiving the actual drug and who is receiving a sugar pill. This procedure is called a ________.",
+      "options": {
+        "A": "random assignment",
+        "B": "double-blind procedure",
+        "C": "control condition",
+        "D": "meta-analysis"
+      },
+      "answer": "B",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Double-blind procedure: NEITHER the participant NOR the experimenter know whether the participant was given the treatment or a placebo.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "The tendency to notice and remember instances that support your pre-existing beliefs, while ignoring instances that contradict them, is known as ________.",
+      "options": {
+        "A": "critical thinking",
+        "B": "the scientific method",
+        "C": "confirmation bias",
+        "D": "operationalization"
+      },
+      "answer": "C",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Confirmation Bias: The tendency to notice and remember instances that support your beliefs than instances that contradict them.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "A researcher defines 'happiness' for her study as 'the number of times a person smiles in a one-hour period.' This specific, measurable definition of an abstract concept is called ________.",
+      "options": {
+        "A": "a hypothesis",
+        "B": "a theory",
+        "C": "an operationalization",
+        "D": "a variable"
+      },
+      "answer": "C",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Operationalization: Abstract concepts/properties → Measurable observations. How to measure happiness... The duration (in minutes) a person smile/laugh during a day.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "In a set of scores (1, 2, 2, 3, 7), the number '2' represents the ________.",
+      "options": {
+        "A": "mean",
+        "B": "median",
+        "C": "mode",
+        "D": "standard deviation"
+      },
+      "answer": "C",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Measures of central tendency: Mean: numerical average; Median: halfway mark; Mode: most frequently-occurring score.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "A major weakness of correlational studies is that they ________.",
+      "options": {
+        "A": "are too artificial and lack real-world relevance",
+        "B": "can only be used with a very small number of participants",
+        "C": "are often more expensive than experiments",
+        "D": "cannot determine if one variable causes another"
+      },
+      "answer": "D",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Correlational Methods - Weaknesses: CANNOT be used to discuss causality. CORRELATION ≠ CAUSATION.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "The ethical principle that requires researchers to provide participants with information about the risks and benefits of a study before they agree to participate is known as ________.",
+      "options": {
+        "A": "debriefing",
+        "B": "confidentiality",
+        "C": "informed consent",
+        "D": "voluntary participation"
+      },
+      "answer": "C",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Protections for Participants: Informed consent - Risks and benefits are known.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "A researcher finds a strong positive correlation between ice cream sales and shark attacks. The most likely explanation for this relationship is ________.",
+      "options": {
+        "A": "eating ice cream makes people more attractive to sharks",
+        "B": "shark attacks cause people to buy more ice cream",
+        "C": "the correlation is spurious and meaningless",
+        "D": "a third variable, such as warm weather, is responsible for both"
+      },
+      "answer": "D",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Third variable: A variable that is responsible for a correlation observed between two other variables of interest. [Image showing ice cream sales and shark attacks peaking in summer].",
+      "incorrect_count": 0
+    },
+    {
+      "question": "In the scientific method, a testable prediction derived from a broader theory is called a ________.",
+      "options": {
+        "A": "phenomenon",
+        "B": "hypothesis",
+        "C": "conclusion",
+        "D": "variable"
+      },
+      "answer": "B",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Hypothesis: A proposed explanation for a situation. Usually takes the form: 'If A happens, then B will be the result'. Specific, testable prediction.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "Psychology researchers have been criticized for disproportionately using samples of college students who are White, Educated, Industrialized, Rich, and Democratic. This is known as a ________ sample.",
+      "options": {
+        "A": "random",
+        "B": "representative",
+        "C": "WEIRD",
+        "D": "biased"
+      },
+      "answer": "C",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "WEIRD sample: White, Educated, Industrialized, Rich, and Democratic. → Diverse voice in psychology!",
+      "incorrect_count": 0
+    },
+    {
+      "question": "A researcher compares the test scores of 6-year-olds, 8-year-olds, and 10-year-olds all at the same time to study developmental changes. A major concern with this ________ study is ________.",
+      "options": {
+        "A": "longitudinal; participant dropout",
+        "B": "cross-sectional; cohort effects",
+        "C": "experimental; lack of a control group",
+        "D": "case study; limited generalization"
+      },
+      "answer": "B",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Cross-sectional study: Simultaneously obtaining data from people of differing ages... Weaknesses: Subject to cohort effects.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "In inferential statistics, the default position that there is no real difference between two measures is called the ________.",
+      "options": {
+        "A": "alternative hypothesis",
+        "B": "experimental hypothesis",
+        "C": "null hypothesis",
+        "D": "statistical significance"
+      },
+      "answer": "C",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Null hypothesis (H₀): Default position saying that there is no real difference between two measures. GOAL: Reject the null hypothesis.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "A statistical analysis of many previous experiments on a single topic to form an overall conclusion is known as a ________.",
+      "options": {
+        "A": "replication",
+        "B": "meta-analysis",
+        "C": "longitudinal study",
+        "D": "peer review"
+      },
+      "answer": "B",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Meta-analysis: Statistical analysis of many previous experiments on a single topic.",
+      "incorrect_count": 0
+    },
+    {
+      "question": "A researcher secretly watches and records the behavior of children in a playground to see how they interact. This is an example of ________. A primary weakness of this method is that ________.",
+      "options": {
+        "A": "a survey; people may lie",
+        "B": "an experiment; it is too artificial",
+        "C": "a case study; findings are not generalizable",
+        "D": "naturalistic observation; participants may act differently if watched"
+      },
+      "answer": "D",
+      "chapter": "Chapter 2: The Measure of Mind",
+      "related_info": "Naturalistic observation: An in-depth study of a phenomenon in its natural setting. Weaknesses: Participants act differently when watched.",
+      "incorrect_count": 0
+    }
+  ]
