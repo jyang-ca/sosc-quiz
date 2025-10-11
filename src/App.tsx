@@ -15,7 +15,7 @@ function App() {
   const [incorrectInRound, setIncorrectInRound] = useState<Problem[]>([]);
   const [isRetryPhase, setIsRetryPhase] = useState(false);
   const [retryRound, setRetryRound] = useState(1);
-  const [selectedAnswer, setSelectedAnswer] = useState<'A' | 'B' | 'C' | 'D' | null>(null);
+  const [selectedAnswer, setSelectedAnswer] = useState<'A' | 'B' | 'C' | 'D' | 'E' | null>(null);
   const [stateManager] = useState(() => new QuizStateManager());
   const [iterationCompleted, setIterationCompleted] = useState(false);
 
@@ -39,7 +39,7 @@ function App() {
     setPhase('question');
   }, [allProblems, stateManager]);
 
-  const handleAnswerSelect = useCallback((answer: 'A' | 'B' | 'C' | 'D') => {
+  const handleAnswerSelect = useCallback((answer: 'A' | 'B' | 'C' | 'D' | 'E') => {
     setSelectedAnswer(answer);
   }, []);
 
@@ -50,7 +50,8 @@ function App() {
       ? incorrectInRound[currentProblemIndex]
       : quizProblems[currentProblemIndex];
 
-    const isCorrect = selectedAnswer === currentProblem.answer;
+    // If user selects "I don't know" (E), treat as incorrect
+    const isCorrect = selectedAnswer !== 'E' && selectedAnswer === currentProblem.answer;
 
     // Update state
     stateManager.markSeen(currentProblem);

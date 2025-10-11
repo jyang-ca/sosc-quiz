@@ -7,8 +7,8 @@ interface QuestionProps {
     totalQuestions: number;
     isRetry: boolean;
     retryRound: number;
-    selectedAnswer: 'A' | 'B' | 'C' | 'D' | null;
-    onSelectAnswer: (answer: 'A' | 'B' | 'C' | 'D') => void;
+    selectedAnswer: 'A' | 'B' | 'C' | 'D' | 'E' | null;
+    onSelectAnswer: (answer: 'A' | 'B' | 'C' | 'D' | 'E') => void;
     onSubmit: () => void;
 }
 
@@ -22,7 +22,7 @@ const Question = ({
     onSelectAnswer,
     onSubmit,
 }: QuestionProps) => {
-    const options: Array<'A' | 'B' | 'C' | 'D'> = ['A', 'B', 'C', 'D'];
+    const options: Array<'A' | 'B' | 'C' | 'D' | 'E'> = ['A', 'B', 'C', 'D', 'E'];
 
     // Keyboard navigation
     const handleKeyDown = useCallback(
@@ -81,7 +81,11 @@ const Question = ({
                             }
                         }}
                     >
-                        {option}. {problem.options[option]}
+                        {option === 'E' ? (
+                            <>E. I don't know (Repeat this problem)</>
+                        ) : (
+                            <>{option}. {problem.options[option]}</>
+                        )}
                     </li>
                 ))}
             </ul>

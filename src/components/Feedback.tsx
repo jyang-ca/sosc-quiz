@@ -3,12 +3,12 @@ import type { Problem } from '../types';
 
 interface FeedbackProps {
     problem: Problem;
-    selectedAnswer: 'A' | 'B' | 'C' | 'D';
+    selectedAnswer: 'A' | 'B' | 'C' | 'D' | 'E';
     onContinue: () => void;
 }
 
 const Feedback = ({ problem, selectedAnswer, onContinue }: FeedbackProps) => {
-    const isCorrect = selectedAnswer === problem.answer;
+    const isCorrect = selectedAnswer !== 'E' && selectedAnswer === problem.answer;
 
     const handleKeyDown = useCallback(
         (e: KeyboardEvent) => {
@@ -41,7 +41,11 @@ const Feedback = ({ problem, selectedAnswer, onContinue }: FeedbackProps) => {
                 <p>
                     <span className="text-dim">Your answer:</span>{' '}
                     <span className={isCorrect ? 'text-success' : 'text-error'}>
-                        {selectedAnswer}. {problem.options[selectedAnswer]}
+                        {selectedAnswer === 'E' ? (
+                            <>E. I don't know</>
+                        ) : (
+                            <>{selectedAnswer}. {problem.options[selectedAnswer]}</>
+                        )}
                     </span>
                 </p>
 
