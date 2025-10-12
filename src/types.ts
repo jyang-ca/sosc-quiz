@@ -1,5 +1,13 @@
 // Types for the Psychology Quiz Application
 
+export type ChapterType = 'all' | 'chapter2' | 'chapter4' | 'chapter5' | 'chapter6' | 'chapter9';
+
+export interface ChapterInfo {
+  id: ChapterType;
+  title: string;
+  fileName: string;
+}
+
 export interface Problem {
   question: string;
   options: {

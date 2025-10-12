@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
-import type { Problem, GamePhase } from './types';
-import { QuizStateManager, loadAllProblems } from './quizLogic';
+import type { Problem, GamePhase, ChapterType } from './types';
+import { QuizStateManager, loadProblemsForChapter } from './quizLogic';
 import Welcome from './components/Welcome';
 import Question from './components/Question';
 import Feedback from './components/Feedback';
@@ -9,6 +9,7 @@ import Loading from './components/Loading';
 
 function App() {
   const [phase, setPhase] = useState<GamePhase>('loading');
+  const [selectedChapter, setSelectedChapter] = useState<ChapterType>('all');
   const [allProblems, setAllProblems] = useState<Problem[]>([]);
   const [quizProblems, setQuizProblems] = useState<Problem[]>([]);
   const [currentProblemIndex, setCurrentProblemIndex] = useState(0);
@@ -16,15 +17,23 @@ function App() {
   const [isRetryPhase, setIsRetryPhase] = useState(false);
   const [retryRound, setRetryRound] = useState(1);
   const [selectedAnswer, setSelectedAnswer] = useState<'A' | 'B' | 'C' | 'D' | 'E' | null>(null);
-  const [stateManager] = useState(() => new QuizStateManager());
+  const [stateManager, setStateManager] = useState<QuizStateManager>(() => new QuizStateManager('all'));
   const [iterationCompleted, setIterationCompleted] = useState(false);
 
-  // Load problems on mount
+  // Load problems when chapter changes
   useEffect(() => {
-    loadAllProblems().then(problems => {
+    setPhase('loading');
+    loadProblemsForChapter(selectedChapter).then(problems => {
       setAllProblems(problems);
       setPhase('welcome');
     });
+  }, [selectedChapter]);
+
+  // Update state manager when chapter changes
+  const handleChapterChange = useCallback((chapter: ChapterType) => {
+    setSelectedChapter(chapter);
+    setStateManager(new QuizStateManager(chapter));
+    setIterationCompleted(false);
   }, []);
 
   const startQuiz = useCallback(() => {
@@ -153,6 +162,8 @@ function App() {
           stateManager={stateManager}
           onStartQuiz={startQuiz}
           totalProblems={allProblems.length}
+          selectedChapter={selectedChapter}
+          onChapterChange={handleChapterChange}
         />
       )}
 

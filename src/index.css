@@ -122,6 +122,22 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-dim);
 }
 
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 0.5rem 1rem;
+  font-family: 'Courier New', 'Courier', monospace;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.btn-secondary:hover {
+  border-color: var(--text-primary);
+  background-color: var(--bg-secondary);
+}
+
 /* Option list */
 .option-list {
   list-style: none;

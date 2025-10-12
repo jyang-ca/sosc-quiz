@@ -5,16 +5,30 @@ import type {
   QuizState,
   ProblemStat,
   CurrentIterationStats,
+  ChapterType,
+  ChapterInfo,
 } from './types';
 
-const STATE_KEY = 'psychology_quiz_state';
 const QUESTIONS_PER_QUIZ = 20;
+
+export const CHAPTER_INFO: ChapterInfo[] = [
+  { id: 'all', title: 'All Chapters', fileName: '' },
+  { id: 'chapter2', title: 'Chapter 2: The Measure of Mind', fileName: 'chapter2.json' },
+  { id: 'chapter4', title: 'Chapter 4: The Biological Mind', fileName: 'chapter4.json' },
+  { id: 'chapter5', title: 'Chapter 5: The Perceiving Mind', fileName: 'chapter5.json' },
+  { id: 'chapter6', title: 'Chapter 6: The Aware Mind: Consciousness', fileName: 'chapter6.json' },
+  { id: 'chapter9', title: 'Chapter 9: Memory', fileName: 'chapter9.json' },
+];
 
 export class QuizStateManager {
   private state: QuizState;
   private currentIterationStats: CurrentIterationStats;
+  private chapter: ChapterType;
+  private stateKey: string;
 
-  constructor() {
+  constructor(chapter: ChapterType = 'all') {
+    this.chapter = chapter;
+    this.stateKey = `psychology_quiz_state_${chapter}`;
     this.state = this.loadState();
     this.currentIterationStats = {
       total_questions: 0,
@@ -25,7 +39,7 @@ export class QuizStateManager {
   }
 
   private loadState(): QuizState {
-    const saved = localStorage.getItem(STATE_KEY);
+    const saved = localStorage.getItem(this.stateKey);
     if (saved) {
       try {
         return JSON.parse(saved);
@@ -46,7 +60,11 @@ export class QuizStateManager {
 
   saveState(): void {
     this.state.last_updated = new Date().toISOString();
-    localStorage.setItem(STATE_KEY, JSON.stringify(this.state));
+    localStorage.setItem(this.stateKey, JSON.stringify(this.state));
+  }
+
+  getChapter(): ChapterType {
+    return this.chapter;
   }
 
   getState(): QuizState {
@@ -120,8 +138,11 @@ export class QuizStateManager {
     const totalProblems = this.state.seen_problems.length;
     const correctProblems = this.state.correct_problems.length;
 
+    // Determine required problems based on chapter
+    const requiredProblems = this.chapter === 'all' ? 150 : 30;
+
     // Check if all problems have been answered correctly
-    if (correctProblems >= 100 && totalProblems >= 100) {
+    if (correctProblems >= requiredProblems && totalProblems >= requiredProblems) {
       // Save iteration stats
       this.state.iteration_stats.push({
         iteration: this.state.iteration,
@@ -231,7 +252,7 @@ export class QuizStateManager {
   }
 
   resetState(): void {
-    localStorage.removeItem(STATE_KEY);
+    localStorage.removeItem(this.stateKey);
     this.state = {
       incorrect_problems: [],
       seen_problems: [],
@@ -274,5 +295,29 @@ export async function loadAllProblems(): Promise<Problem[]> {
   }
 
   return allProblems;
+}
+
+export async function loadProblemsForChapter(chapter: ChapterType): Promise<Problem[]> {
+  if (chapter === 'all') {
+    return loadAllProblems();
+  }
+
+  const chapterInfo = CHAPTER_INFO.find(c => c.id === chapter);
+  if (!chapterInfo || !chapterInfo.fileName) {
+    return [];
+  }
+
+  const baseUrl = import.meta.env.BASE_URL;
+  try {
+    const response = await fetch(`${baseUrl}problems/${chapterInfo.fileName}`);
+    if (response.ok) {
+      const problems: Problem[] = await response.json();
+      return problems;
+    }
+  } catch (e) {
+    console.error(`Failed to load ${chapterInfo.fileName}:`, e);
+  }
+
+  return [];
 }
 

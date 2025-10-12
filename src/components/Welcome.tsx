@@ -1,21 +1,51 @@
-import { QuizStateManager } from '../quizLogic';
+import { QuizStateManager, CHAPTER_INFO } from '../quizLogic';
+import type { ChapterType } from '../types';
 
 interface WelcomeProps {
     stateManager: QuizStateManager;
     onStartQuiz: () => void;
     totalProblems: number;
+    selectedChapter: ChapterType;
+    onChapterChange: (chapter: ChapterType) => void;
 }
 
-const Welcome = ({ stateManager, onStartQuiz, totalProblems }: WelcomeProps) => {
+const Welcome = ({ stateManager, onStartQuiz, totalProblems, selectedChapter, onChapterChange }: WelcomeProps) => {
     const state = stateManager.getState();
+    const currentChapterInfo = CHAPTER_INFO.find(c => c.id === selectedChapter);
 
     return (
         <div>
             <div className="ascii-art">
-{`$ psychology-quiz`}
+                {`$ psychology-quiz`}
             </div>
 
             <div style={{ margin: '1.5rem 0' }}>
+                <p className="text-dim" style={{ marginBottom: '0.75rem' }}>Select Chapter:</p>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                    {CHAPTER_INFO.map(chapter => (
+                        <button
+                            key={chapter.id}
+                            className={selectedChapter === chapter.id ? 'btn' : 'btn-secondary'}
+                            onClick={() => onChapterChange(chapter.id)}
+                            style={{
+                                fontSize: '0.85rem',
+                                padding: '0.4rem 0.8rem',
+                            }}
+                        >
+                            {chapter.id === 'all' ? '🎯 ' : ''}{chapter.title}
+                        </button>
+                    ))}
+                </div>
+            </div>
+
+            <hr className="separator" />
+
+            <div style={{ margin: '1.5rem 0' }}>
+                <p style={{ marginBottom: '0.5rem' }}>
+                    <span className="text-primary" style={{ fontSize: '1.1rem' }}>
+                        {currentChapterInfo?.title}
+                    </span>
+                </p>
                 <p>
                     <span className="text-dim">Iteration:</span>{' '}
                     <span className="text-primary">{state.iteration}</span>
