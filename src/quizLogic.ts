@@ -13,11 +13,13 @@ const QUESTIONS_PER_QUIZ = 20;
 
 export const CHAPTER_INFO: ChapterInfo[] = [
   { id: 'all', title: 'All Chapters', fileName: '' },
-  { id: 'chapter2', title: 'Chapter 2: The Measure of Mind', fileName: 'chapter2.json' },
-  { id: 'chapter4', title: 'Chapter 4: The Biological Mind', fileName: 'chapter4.json' },
-  { id: 'chapter5', title: 'Chapter 5: The Perceiving Mind', fileName: 'chapter5.json' },
-  { id: 'chapter6', title: 'Chapter 6: The Aware Mind: Consciousness', fileName: 'chapter6.json' },
+  { id: 'chapter6', title: 'Chapter 6: Learning', fileName: 'chapter6.json' },
+  { id: 'chapter7', title: 'Chapter 7: Development', fileName: 'chapter7.json' },
+  { id: 'chapter8', title: 'Chapter 8: Social Psychology', fileName: 'chapter8.json' },
   { id: 'chapter9', title: 'Chapter 9: Memory', fileName: 'chapter9.json' },
+  { id: 'chapter10', title: 'Chapter 10: Stress and Health', fileName: 'chapter10.json' },
+  { id: 'chapter11', title: 'Chapter 11: Psychological Disorders', fileName: 'chapter11.json' },
+  { id: 'chapter12', title: 'Chapter 12: Psychological Disorders Treatment', fileName: 'chapter12.json' },
 ];
 
 export class QuizStateManager {
@@ -49,11 +51,7 @@ export class QuizStateManager {
     }
     
     return {
-      incorrect_problems: [],
-      seen_problems: [],
-      correct_problems: [],
-      iteration: 0,
-      iteration_stats: [],
+      sessions: [],
       problem_stats: {},
     };
   }
@@ -75,23 +73,13 @@ export class QuizStateManager {
     return { ...this.currentIterationStats };
   }
 
-  markSeen(problem: Problem): void {
-    if (!this.state.seen_problems.includes(problem.question)) {
-      this.state.seen_problems.push(problem.question);
-    }
+  markSeen(_problem: Problem): void {
+    // No-op in new logic, or we could track seen problems per session if needed
+    // But for now, we don't track global seen problems
   }
 
-  markCorrect(problem: Problem): void {
-    const question = problem.question;
-    
-    if (!this.state.correct_problems.includes(question)) {
-      this.state.correct_problems.push(question);
-    }
-
-    // Remove from incorrect list
-    this.state.incorrect_problems = this.state.incorrect_problems.filter(
-      p => p.question !== question
-    );
+  markCorrect(_problem: Problem): void {
+    // No-op for global state
   }
 
   markIncorrect(problem: Problem): void {
@@ -108,15 +96,22 @@ export class QuizStateManager {
 
     this.state.problem_stats[question].incorrect_count += 1;
     this.state.problem_stats[question].total_attempts += 1;
+  }
 
-    // Add to incorrect list if not already there
-    const exists = this.state.incorrect_problems.some(
-      p => p.question === question
-    );
-
-    if (!exists) {
-      this.state.incorrect_problems.push({ ...problem });
-    }
+  markRemainingAsIncorrect(problems: Problem[]): void {
+    problems.forEach(problem => {
+      // Mark as seen
+      this.markSeen(problem);
+      
+      // Mark as incorrect
+      this.markIncorrect(problem);
+      
+      // Update attempt stats (incorrect)
+      this.updateAttemptStats(false);
+      
+      // Record attempt
+      this.recordQuestionAttempt();
+    });
   }
 
   updateAttemptStats(isCorrect: boolean): void {
@@ -134,99 +129,56 @@ export class QuizStateManager {
     this.currentIterationStats.correct_first_try += 1;
   }
 
-  finalizeIteration(): boolean {
-    const totalProblems = this.state.seen_problems.length;
-    const correctProblems = this.state.correct_problems.length;
+  addSession(
+    wrongProblems: Problem[],
+    totalQuestions: number
+  ): void {
+    // Create new session
+    const newId = this.state.sessions.length > 0
+      ? Math.max(...this.state.sessions.map(s => s.id)) + 1
+      : 1;
 
-    // Determine required problems based on chapter
-    const requiredProblems = this.chapter === 'all' ? 150 : 30;
+    this.state.sessions.push({
+      id: newId,
+      timestamp: new Date().toISOString(),
+      chapter: this.chapter,
+      total_questions: totalQuestions,
+      wrong_problems: wrongProblems,
+      score: totalQuestions - wrongProblems.length
+    });
 
-    // Check if all problems have been answered correctly
-    if (correctProblems >= requiredProblems && totalProblems >= requiredProblems) {
-      // Save iteration stats
-      this.state.iteration_stats.push({
-        iteration: this.state.iteration,
-        completed_at: new Date().toISOString(),
-        total_questions: this.currentIterationStats.total_questions,
-        correct_first_try: this.currentIterationStats.correct_first_try,
-        accuracy:
-          this.currentIterationStats.total_questions > 0
-            ? (this.currentIterationStats.correct_first_try /
-                this.currentIterationStats.total_questions) *
-              100
-            : 0,
-      });
-
-      // Increment iteration
-      this.state.iteration += 1;
-
-      // Reset for next iteration
-      this.state.correct_problems = [];
-      this.state.seen_problems = [];
-      this.state.incorrect_problems = [];
-
-      // Reset current iteration stats
-      this.currentIterationStats = {
-        total_questions: 0,
-        correct_first_try: 0,
-        total_attempts: 0,
-        correct_attempts: 0,
-      };
-
-      this.saveState();
-      return true;
-    }
-
-    // Reset current iteration stats for next session
-    this.currentIterationStats = {
-      total_questions: 0,
-      correct_first_try: 0,
-      total_attempts: 0,
-      correct_attempts: 0,
-    };
-
-    return false;
+    this.saveState();
   }
 
-  selectQuizProblems(allProblems: Problem[]): Problem[] {
+  selectQuizProblems(allProblems: Problem[], reviewProblems: Problem[] = [], onlyReview: boolean = false): Problem[] {
     const selected: Problem[] = [];
 
-    // 1. Select from incorrect problems first
-    if (this.state.incorrect_problems.length > 0) {
-      const availableIncorrect = [...this.state.incorrect_problems];
-      this.shuffleArray(availableIncorrect);
-
-      const numFromIncorrect = Math.min(
-        availableIncorrect.length,
-        QUESTIONS_PER_QUIZ
-      );
-      selected.push(...availableIncorrect.slice(0, numFromIncorrect));
+    // 1. Add review problems
+    if (reviewProblems.length > 0) {
+      selected.push(...reviewProblems);
     }
 
-    // 2. Fill remaining with unseen problems
-    let remaining = QUESTIONS_PER_QUIZ - selected.length;
-    if (remaining > 0) {
-      const unseen = allProblems.filter(
-        p => !this.state.seen_problems.includes(p.question)
-      );
-      this.shuffleArray(unseen);
-
-      const numFromUnseen = Math.min(unseen.length, remaining);
-      selected.push(...unseen.slice(0, numFromUnseen));
+    // If only review, return immediately (after shuffling if needed, but shuffling is done at end)
+    if (onlyReview) {
+      this.shuffleArray(selected);
+      return selected;
     }
 
-    // 3. If still not enough, fill with seen problems
-    remaining = QUESTIONS_PER_QUIZ - selected.length;
-    if (remaining > 0) {
-      const selectedQuestions = new Set(selected.map(p => p.question));
-      const seenButNotSelected = allProblems.filter(
-        p =>
-          this.state.seen_problems.includes(p.question) &&
-          !selectedQuestions.has(p.question)
-      );
-      this.shuffleArray(seenButNotSelected);
-      selected.push(...seenButNotSelected.slice(0, remaining));
-    }
+    // 2. Add new random problems
+    // Avoid duplicates if review problem is also selected randomly
+    const reviewQuestions = new Set(selected.map(p => p.question));
+    
+    const availableProblems = allProblems.filter(
+      p => !reviewQuestions.has(p.question)
+    );
+    this.shuffleArray(availableProblems);
+
+    // Always add QUESTIONS_PER_QUIZ new problems
+    const numToAdd = QUESTIONS_PER_QUIZ;
+    selected.push(...availableProblems.slice(0, numToAdd));
+
+    // Shuffle final list
+    this.shuffleArray(selected);
 
     return selected;
   }
@@ -254,11 +206,7 @@ export class QuizStateManager {
   resetState(): void {
     localStorage.removeItem(this.stateKey);
     this.state = {
-      incorrect_problems: [],
-      seen_problems: [],
-      correct_problems: [],
-      iteration: 0,
-      iteration_stats: [],
+      sessions: [],
       problem_stats: {},
     };
     this.currentIterationStats = {
@@ -272,11 +220,13 @@ export class QuizStateManager {
 
 export async function loadAllProblems(): Promise<Problem[]> {
   const problemFiles = [
-    'chapter2.json',
-    'chapter4.json',
-    'chapter5.json',
     'chapter6.json',
+    'chapter7.json',
+    'chapter8.json',
     'chapter9.json',
+    'chapter10.json',
+    'chapter11.json',
+    'chapter12.json',
   ];
 
   const allProblems: Problem[] = [];

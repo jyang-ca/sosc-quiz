@@ -1,6 +1,6 @@
 // Types for the Psychology Quiz Application
 
-export type ChapterType = 'all' | 'chapter2' | 'chapter4' | 'chapter5' | 'chapter6' | 'chapter9';
+export type ChapterType = 'all' | 'chapter6' | 'chapter7' | 'chapter8' | 'chapter9' | 'chapter10' | 'chapter11' | 'chapter12';
 
 export interface ChapterInfo {
   id: ChapterType;
@@ -22,22 +22,19 @@ export interface Problem {
   incorrect_count: number;
 }
 
-export interface QuizState {
-  incorrect_problems: Problem[];
-  seen_problems: string[]; // question texts
-  correct_problems: string[]; // question texts
-  iteration: number;
-  iteration_stats: IterationStat[];
-  problem_stats: Record<string, ProblemStat>;
-  last_updated?: string;
+export interface Session {
+  id: number;
+  timestamp: string;
+  chapter: ChapterType;
+  total_questions: number;
+  wrong_problems: Problem[];
+  score: number;
 }
 
-export interface IterationStat {
-  iteration: number;
-  completed_at: string;
-  total_questions: number;
-  correct_first_try: number;
-  accuracy: number;
+export interface QuizState {
+  sessions: Session[];
+  problem_stats: Record<string, ProblemStat>;
+  last_updated?: string;
 }
 
 export interface ProblemStat {

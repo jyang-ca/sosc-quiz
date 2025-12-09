@@ -3,15 +3,39 @@ import type { ChapterType } from '../types';
 
 interface WelcomeProps {
     stateManager: QuizStateManager;
-    onStartQuiz: () => void;
-    totalProblems: number;
+    onStartQuiz: (reviewProblems?: any[], onlyReview?: boolean) => void;
     selectedChapter: ChapterType;
     onChapterChange: (chapter: ChapterType) => void;
 }
 
-const Welcome = ({ stateManager, onStartQuiz, totalProblems, selectedChapter, onChapterChange }: WelcomeProps) => {
+import { useState } from 'react';
+
+const Welcome = ({ stateManager, onStartQuiz, selectedChapter, onChapterChange }: WelcomeProps) => {
     const state = stateManager.getState();
     const currentChapterInfo = CHAPTER_INFO.find(c => c.id === selectedChapter);
+    const [selectedSessions, setSelectedSessions] = useState<number[]>([]);
+
+    const sessionsWithWrong = state.sessions.filter(s => s.wrong_problems.length > 0);
+
+    const toggleSession = (sessionId: number) => {
+        setSelectedSessions(prev =>
+            prev.includes(sessionId)
+                ? prev.filter(id => id !== sessionId)
+                : [...prev, sessionId]
+        );
+    };
+
+    const handleStartWithReview = () => {
+        const reviewProblems = state.sessions
+            .filter(s => selectedSessions.includes(s.id))
+            .flatMap(s => s.wrong_problems);
+
+        // Deduplicate problems based on question text
+        const uniqueReviewProblems = Array.from(new Set(reviewProblems.map(p => p.question)))
+            .map(q => reviewProblems.find(p => p.question === q)!);
+
+        onStartQuiz(uniqueReviewProblems, true);
+    };
 
     return (
         <div>
@@ -47,45 +71,57 @@ const Welcome = ({ stateManager, onStartQuiz, totalProblems, selectedChapter, on
                     </span>
                 </p>
                 <p>
-                    <span className="text-dim">Iteration:</span>{' '}
-                    <span className="text-primary">{state.iteration}</span>
-                    {' | '}
-                    <span className="text-dim">Correct:</span>{' '}
-                    <span className="text-success">{state.correct_problems.length}/{totalProblems}</span>
-                    {' | '}
-                    <span className="text-dim">Seen:</span>{' '}
-                    <span className="text-secondary">{state.seen_problems.length}/{totalProblems}</span>
-                    {state.incorrect_problems.length > 0 && (
-                        <>
-                            {' | '}
-                            <span className="text-dim">Incorrect:</span>{' '}
-                            <span className="text-warning">{state.incorrect_problems.length}</span>
-                        </>
-                    )}
+                    <span className="text-dim">Total Sessions:</span>{' '}
+                    <span className="text-primary">{state.sessions.length}</span>
                 </p>
             </div>
 
-            <div style={{ margin: '2rem 0' }}>
-                <button className="btn" onClick={onStartQuiz}>
-                    &gt; Start Quiz
+            <div style={{ margin: '2rem 0', display: 'flex', gap: '1rem' }}>
+                <button className="btn" onClick={() => onStartQuiz([])}>
+                    &gt; Start New Quiz
                 </button>
             </div>
 
-            {state.iteration_stats.length > 0 && (
+            {sessionsWithWrong.length > 0 && (
                 <>
                     <hr className="separator" />
                     <div style={{ margin: '1rem 0' }}>
-                        <p className="text-dim">Previous:</p>
-                        {state.iteration_stats.slice(-5).reverse().map((stat, idx) => (
-                            <p key={idx} style={{ marginLeft: '1rem', marginTop: '0.5rem' }}>
-                                <span className="text-dim">#{stat.iteration}:</span>{' '}
-                                <span className="text-secondary">
-                                    {stat.correct_first_try}/{stat.total_questions}
-                                </span>
-                                {' '}
-                                <span className="text-success">({stat.accuracy.toFixed(1)}%)</span>
-                            </p>
-                        ))}
+                        <p className="text-dim" style={{ marginBottom: '1rem' }}>Review Wrong Answers:</p>
+
+                        <div style={{ maxHeight: '300px', overflowY: 'auto', marginBottom: '1rem' }}>
+                            {sessionsWithWrong.slice().reverse().map(session => (
+                                <div
+                                    key={session.id}
+                                    onClick={() => toggleSession(session.id)}
+                                    style={{
+                                        padding: '0.5rem',
+                                        marginBottom: '0.5rem',
+                                        cursor: 'pointer',
+                                        border: selectedSessions.includes(session.id) ? '1px solid #4af626' : '1px solid #333',
+                                        borderRadius: '4px',
+                                        backgroundColor: selectedSessions.includes(session.id) ? 'rgba(74, 246, 38, 0.1)' : 'transparent'
+                                    }}
+                                >
+                                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                                        <span className="text-secondary">Session #{session.id}</span>
+                                        <span className="text-dim">{new Date(session.timestamp).toLocaleDateString()}</span>
+                                    </div>
+                                    <div style={{ fontSize: '0.9rem', marginTop: '0.25rem' }}>
+                                        <span className="text-warning">{session.wrong_problems.length} wrong</span>
+                                        {' | '}
+                                        <span className="text-dim">Score: {session.score}/{session.total_questions}</span>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+
+                        <button
+                            className="btn-secondary"
+                            onClick={handleStartWithReview}
+                            disabled={selectedSessions.length === 0}
+                        >
+                            &gt; Review Session ({selectedSessions.length} sessions)
+                        </button>
                     </div>
                 </>
             )}

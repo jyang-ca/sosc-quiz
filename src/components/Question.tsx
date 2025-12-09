@@ -10,6 +10,7 @@ interface QuestionProps {
     selectedAnswer: 'A' | 'B' | 'C' | 'D' | 'E' | null;
     onSelectAnswer: (answer: 'A' | 'B' | 'C' | 'D' | 'E') => void;
     onSubmit: () => void;
+    onExit: () => void;
 }
 
 const Question = ({
@@ -21,6 +22,7 @@ const Question = ({
     selectedAnswer,
     onSelectAnswer,
     onSubmit,
+    onExit,
 }: QuestionProps) => {
     const options: Array<'A' | 'B' | 'C' | 'D' | 'E'> = ['A', 'B', 'C', 'D', 'E'];
 
@@ -90,13 +92,27 @@ const Question = ({
                 ))}
             </ul>
 
-            <div style={{ margin: '2rem 0' }}>
+            <div style={{ margin: '2rem 0', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <button
                     className="btn"
                     onClick={onSubmit}
                     disabled={!selectedAnswer}
                 >
                     &gt; Submit {selectedAnswer && `(${selectedAnswer})`}
+                </button>
+
+                <button
+                    className="btn"
+                    onClick={onExit}
+                    style={{
+                        backgroundColor: 'transparent',
+                        color: '#666',
+                        border: '1px solid #666',
+                        fontSize: '0.9rem',
+                        padding: '0.5rem 1rem'
+                    }}
+                >
+                    Exit Quiz
                 </button>
             </div>
         </div>

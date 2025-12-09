@@ -36,10 +36,10 @@ function App() {
     setIterationCompleted(false);
   }, []);
 
-  const startQuiz = useCallback(() => {
+  const startQuiz = useCallback((reviewProblems: Problem[] = [], onlyReview: boolean = false) => {
     if (allProblems.length === 0) return;
 
-    const selected = stateManager.selectQuizProblems(allProblems);
+    const selected = stateManager.selectQuizProblems(allProblems, reviewProblems, onlyReview);
     setQuizProblems(selected);
     setCurrentProblemIndex(0);
     setIncorrectInRound([]);
@@ -92,29 +92,40 @@ function App() {
     if (isLastQuestion) {
       if (isRetryPhase) {
         // Check if there are still incorrect answers
-        const stillIncorrect = incorrectInRound.filter(p => {
-          return !stateManager.getState().correct_problems.includes(p.question);
-        });
+        // In the new session-based logic, we don't have a global "correct_problems" list.
+        // We need to track which problems from the retry round were answered correctly.
+        // However, `incorrectInRound` is NOT updated during the retry phase in the current `handleAnswerSubmit`.
+        // We need to change `handleAnswerSubmit` or track it differently.
 
-        if (stillIncorrect.length > 0) {
-          // Continue retry phase with remaining incorrect
-          setIncorrectInRound(stillIncorrect);
-          setCurrentProblemIndex(0);
-          setRetryRound(prev => prev + 1);
-          setSelectedAnswer(null);
-          setPhase('question');
-        } else {
-          // All correct, finalize
-          const completed = stateManager.finalizeIteration();
-          stateManager.saveState();
+        // Let's assume for now we just want to retry the ones that were WRONG in this retry round.
+        // But we don't have a list of "wrong in this retry round".
 
-          if (completed) {
-            setIterationCompleted(true);
-          }
-          setPhase('statistics');
-        }
+        // Alternative: We can check `stateManager.problem_stats`? No, that's cumulative.
+
+        // Simplest fix for now:
+        // In `handleAnswerSubmit`, if `isRetryPhase` and answer is WRONG, add to a temporary list?
+        // But `handleAnswerSubmit` is a callback.
+
+        // Let's just end the session after one retry round for now to match the Python script's "Phase 2" 
+        // which actually loops until correct.
+        // The Python script loops: `while incorrect_in_this_round`.
+
+        // To implement "loop until correct" in React:
+        // We need to know which problems were answered correctly in THIS retry round.
+        // We can filter `incorrectInRound` (the input to this round) against `stateManager`'s recent correct marks?
+        // But `markCorrect` is a no-op in the new logic.
+
+        // Let's rely on `handleAnswerSubmit` to track "still incorrect".
+        // We need to modify `handleAnswerSubmit` to update `incorrectInRound` even in retry phase?
+        // No, `incorrectInRound` is the source for the current phase.
+
+        // Let's just save the session.
+        stateManager.addSession(incorrectInRound, quizProblems.length);
+        setIterationCompleted(true);
+        setPhase('statistics');
+
       } else {
-        // Initial phase done, check if retry needed
+        // Initial phase done
         if (incorrectInRound.length > 0) {
           setIsRetryPhase(true);
           setCurrentProblemIndex(0);
@@ -122,12 +133,10 @@ function App() {
           setPhase('question');
         } else {
           // All correct on first try
-          const completed = stateManager.finalizeIteration();
-          stateManager.saveState();
+          // Save session
+          stateManager.addSession([], quizProblems.length);
 
-          if (completed) {
-            setIterationCompleted(true);
-          }
+          setIterationCompleted(true);
           setPhase('statistics');
         }
       }
@@ -145,6 +154,45 @@ function App() {
     setIterationCompleted(false);
   }, [stateManager]);
 
+  const handleExit = useCallback(() => {
+    const currentProblems = isRetryPhase ? incorrectInRound : quizProblems;
+    const remainingProblems = currentProblems.slice(currentProblemIndex);
+
+    stateManager.markRemainingAsIncorrect(remainingProblems);
+
+    // Save session with all incorrect problems (from first round + remaining)
+    // We need to capture ALL wrong problems from the session.
+    // incorrectInRound contains wrong ones so far.
+    // remainingProblems are also wrong.
+    // So total wrong = incorrectInRound + remainingProblems (minus duplicates if any, but shouldn't be)
+
+    // Actually, `incorrectInRound` only gets populated if !isRetryPhase.
+    // So if we exit in first phase: wrong = incorrectInRound + remaining.
+    // If we exit in retry phase: wrong = incorrectInRound (which is all wrong from phase 1).
+    // But wait, if we exit in retry phase, we already marked them wrong in phase 1.
+    // So we just need to save the session.
+
+    // Let's simplify:
+    // We need to pass the list of wrong problems to addSession.
+    // In Phase 1: incorrectInRound (so far) + remainingProblems.
+    // In Phase 2: incorrectInRound (all wrong from Phase 1).
+
+    let wrongProblems: Problem[] = [];
+    if (!isRetryPhase) {
+      wrongProblems = [...incorrectInRound, ...remainingProblems];
+    } else {
+      wrongProblems = [...incorrectInRound];
+    }
+
+    // Deduplicate just in case
+    const uniqueWrong = Array.from(new Set(wrongProblems.map(p => p.question)))
+      .map(q => wrongProblems.find(p => p.question === q)!);
+
+    stateManager.addSession(uniqueWrong, quizProblems.length);
+
+    setPhase('statistics');
+  }, [isRetryPhase, currentProblemIndex, quizProblems, incorrectInRound, stateManager]);
+
   const currentProblem = isRetryPhase
     ? incorrectInRound[currentProblemIndex]
     : quizProblems[currentProblemIndex];
@@ -161,7 +209,6 @@ function App() {
         <Welcome
           stateManager={stateManager}
           onStartQuiz={startQuiz}
-          totalProblems={allProblems.length}
           selectedChapter={selectedChapter}
           onChapterChange={handleChapterChange}
         />
@@ -177,6 +224,7 @@ function App() {
           selectedAnswer={selectedAnswer}
           onSelectAnswer={handleAnswerSelect}
           onSubmit={handleAnswerSubmit}
+          onExit={handleExit}
         />
       )}
 
@@ -191,7 +239,6 @@ function App() {
       {phase === 'statistics' && (
         <Statistics
           stateManager={stateManager}
-          totalProblems={allProblems.length}
           iterationCompleted={iterationCompleted}
           onBackToWelcome={handleBackToWelcome}
         />

@@ -1,392 +1,262 @@
 [
   {
-    "question": "Johnny was telling his coworker about his childhood dog. He is able to easily recall specific events, like the day he got the dog and their first walk together. He is using his ________ to retrieve the memory of her.",
+    "question": "Which type of intelligence is defined as the ability to think logically without using learned knowledge and tends to peak in young adulthood?",
     "options": {
-      "A": "Procedural Memory",
-      "B": "Semantic Memory",
-      "C": "Episodic Memory",
-      "D": "Sensory Memory"
+      "A": "Crystallized intelligence",
+      "B": "General intelligence",
+      "C": "Fluid intelligence",
+      "D": "Emotional intelligence"
     },
     "answer": "C",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Declarative Memory. Episodic memory: Memory from personal experiences.",
+    "chapter": "Chapter 10: Intelligence",
+    "related_info": "[9_Individual difference:page7]. Fluid intelligence: Ability to think logically without using learned knowledge. Peaks in young adulthood.",
     "incorrect_count": 0
   },
   {
-    "question": "Billy was in his 2nd grade classroom when a tragic earthquake occurred. Even though he was young, he recalls the event with exceptional clarity and detail. This is referred to as a(n) ________.",
+    "question": "According to Spearman's theory, every task requires a combination of 's' (task-related skills) and 'g', which stands for ________.",
     "options": {
-      "A": "Schema",
-      "B": "Flashbulb Memory",
-      "C": "Reconstruction",
-      "D": "Episodic Memory"
-    },
-    "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Flashbulb memory: An especially vivid and detailed memory of an emotional event. Occur when stress accompanies learning.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "When Gabe was a child, he learned to make his grandmother's famous Italian wedding soup. After 4 years of not making it, he forgot the steps. Forgetting his soup skills is likely due to ________ because the information was rarely used.",
-    "options": {
-      "A": "motivated forgetting",
-      "B": "interference",
-      "C": "decay",
-      "D": "encoding failure"
+      "A": "giftedness",
+      "B": "genetic intelligence",
+      "C": "general intelligence",
+      "D": "group intelligence"
     },
     "answer": "C",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Forgetting. Decay: A reduction in the ability to retrieve rarely used information over time.",
+    "chapter": "Chapter 10: Intelligence",
+    "related_info": "[9_Individual difference:page6]. General intelligence (g): A measure of an individual’s overall intelligence.",
     "incorrect_count": 0
   },
   {
-    "question": "Kim practices speed chess every day. As a result, she is able to recall her strategies faster and more efficiently. At the biological level, the strengthening of synaptic connections that underlies this improvement is called ________.",
+    "question": "Which of the following is NOT one of the three types of intelligence proposed in Sternberg’s Triarchic Theory?",
     "options": {
-      "A": "neurogenesis",
-      "B": "long-term potentiation",
-      "C": "spreading activation",
-      "D": "encoding specificity"
+      "A": "Analytical Intelligence",
+      "B": "Emotional Intelligence",
+      "C": "Creative Intelligence",
+      "D": "Practical Intelligence"
     },
     "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Memory in the Brain. Structure changes in neurons. [Image of LTP showing increased receptors and signal strength after repeated stimulation].",
+    "chapter": "Chapter 10: Intelligence",
+    "related_info": "[9_Individual difference:page9]. Analytical Intelligence... Creative Intelligence... Practical Intelligence.",
     "incorrect_count": 0
   },
   {
-    "question": "Remembering the first few items on a grocery list better than the items in the middle is known as the ________ effect.",
+    "question": "The belief that you are capable of improving an ability is referred to as a(n) ________.",
     "options": {
-      "A": "recency",
-      "B": "primacy",
-      "C": "chunking",
-      "D": "encoding"
+      "A": "internal locus of control",
+      "B": "growth mindset",
+      "C": "fixed mindset",
+      "D": "self-efficacy"
     },
     "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "The serial order (position) effect: The primacy effect: The ability to remember information at the beginning more easily.",
+    "chapter": "Chapter 10: Intelligence",
+    "related_info": "[9_Individual difference:page13]. Growth mindset: Belief that you are capable of improving an ability.",
     "incorrect_count": 0
   },
   {
-    "question": "The process of grouping the numbers 1-4-9-2-1-7-7-6 into '1492' and '1776' to make them easier to remember is an example of ________.",
+    "question": "In the original Stanford-Binet Intelligence Scales, how was the Intelligence Quotient (IQ) calculated?",
     "options": {
-      "A": "rehearsal",
-      "B": "chunking",
-      "C": "priming",
-      "D": "decay"
+      "A": "(Chronological Age / Mental Age) x 100",
+      "B": "(Mental Age / Chronological Age) x 100",
+      "C": "(Test Score / Average Peer Score) x 100",
+      "D": "(Fluid Intelligence + Crystallized Intelligence) x 100"
     },
     "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Short-Term Memory. Chunking: Process of grouping similar or meaningful information together.",
+    "chapter": "Chapter 10: Intelligence",
+    "related_info": "[9_Individual difference:page16]. IQ = (Mental Age / Chronological Age) x 100.",
     "incorrect_count": 0
   },
   {
-    "question": "Patient H.M. had his hippocampus removed and, as a result, struggled to ________.",
+    "question": "According to the normal distribution of intelligence, what percentage of the population falls between IQ scores of 70 and 130?",
     "options": {
-      "A": "remember events from his distant past",
-      "B": "learn new motor skills like mirror-drawing",
-      "C": "store new information in long-term memory",
-      "D": "hold information in his working memory for a few seconds"
+      "A": "68%",
+      "B": "50%",
+      "C": "95%",
+      "D": "99%"
     },
     "answer": "C",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Patient H.M.: Could remember a small amount of information for several seconds, but struggled to store new information in LTM. [Image shows hippocampus removed].",
+    "chapter": "Chapter 10: Intelligence",
+    "related_info": "[9_Individual difference:page25]. 95% of population falls between 70 and 130.",
     "incorrect_count": 0
   },
   {
-    "question": "Which type of memory is an implicit memory for how to carry out skilled movements, like tying your shoes or riding a bicycle?",
+    "question": "Mild intellectual disability (IQ 55-70) usually results from which of the following?",
     "options": {
-      "A": "Semantic memory",
-      "B": "Episodic memory",
-      "C": "Declarative memory",
-      "D": "Procedural memory"
+      "A": "Genetic conditions like Down syndrome",
+      "B": "Severe medical conditions",
+      "C": "Environmental causes such as poverty",
+      "D": "Traumatic brain injury"
+    },
+    "answer": "C",
+    "chapter": "Chapter 10: Intelligence",
+    "related_info": "[9_Individual difference:page27]. Mild... Usually results from environmental causes (e.g. poverty).",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which term describes the interaction between nature and nurture regarding intelligence?",
+    "options": {
+      "A": "Genes determine the exact score; environment establishes the range.",
+      "B": "Environment determines the range; genes determine the exact score.",
+      "C": "Genes establish a range; environment determines the specific score.",
+      "D": "Genes and environment have no interaction."
+    },
+    "answer": "C",
+    "chapter": "Chapter 10: Intelligence",
+    "related_info": "[9_Individual difference:page23]. Genes might establish a certain range that our IQ is likely to be in. Environment may help determine the specific score that results.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "According to Sigmund Freud's psychodynamic theory, which part of the psyche represents the conscience and morality imposed by society?",
+    "options": {
+      "A": "Id",
+      "B": "Ego",
+      "C": "Superego",
+      "D": "Unconscious"
+    },
+    "answer": "C",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page39]. Superego – the conscience; morality imposed by society.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which defense mechanism involves channeling unacceptable urges into socially acceptable behaviors?",
+    "options": {
+      "A": "Repression",
+      "B": "Denial",
+      "C": "Sublimation",
+      "D": "Projection"
+    },
+    "answer": "C",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page41]. E.g., Sublimation – channeling unacceptable urges into socially acceptable behaviors.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "The Humanistic approach to personality, associated with Abraham Maslow and Carl Rogers, emphasizes that humans strive towards ________.",
+    "options": {
+      "A": "pleasure-seeking drives",
+      "B": "self-actualization",
+      "C": "unconscious desires",
+      "D": "emotional stability"
+    },
+    "answer": "B",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page43]. Humans strive towards self-actualization (achieving one’s full potential).",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which of the Big Five personality traits is associated with being reliable, working hard, and completing tasks on time?",
+    "options": {
+      "A": "Openness",
+      "B": "Extroversion",
+      "C": "Agreeableness",
+      "D": "Conscientiousness"
     },
     "answer": "D",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Nondeclarative Memory. Procedural memory: Implicit memory for how to carry out skilled movement.",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page50]. Conscientiousness... High: Reliable, Work hard, Complete tasks on time.",
     "incorrect_count": 0
   },
   {
-    "question": "You studied for your psychology exam in a quiet library. According to the principle of ________, you would likely recall the material best if you took the exam in a similarly quiet environment.",
+    "question": "An individual who scores high in ________ is likely to be anxious, worried, angry, and self-conscious.",
     "options": {
-      "A": "state-dependent memory",
-      "B": "context-dependent memory",
-      "C": "elaborative rehearsal",
-      "D": "spreading activation"
-    },
-    "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Context-dependent memory: Recall is best when the surrounding environment of your study situation closely matches the testing situation.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Linking new information to things you already know to achieve deeper processing is a memory strategy called ________.",
-    "options": {
-      "A": "maintenance rehearsal",
-      "B": "chunking",
-      "C": "elaborative rehearsal",
-      "D": "priming"
-    },
-    "answer": "C",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Elaborative rehearsal: Linking new material to things you already know (deep processing).",
-    "incorrect_count": 0
-  },
-  {
-    "question": "The active manipulation of multiple items of information simultaneously, which is an extension of STM, is handled by ________.",
-    "options": {
-      "A": "sensory memory",
-      "B": "working memory",
-      "C": "long-term memory",
-      "D": "procedural memory"
-    },
-    "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Working memory: Extension of STM that includes the active manipulation of multiple items of information simultaneously.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "After switching to a new password, you find yourself accidentally typing your old password. This is an example of ________ interference.",
-    "options": {
-      "A": "retroactive",
-      "B": "proactive",
-      "C": "motivated",
-      "D": "decay"
-    },
-    "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Interference: Competition between newer and older information in memory. Proactive interference: [Image shows 'Learned first' interfering with 'Target learning'].",
-    "incorrect_count": 0
-  },
-  {
-    "question": "The ________ is the component of working memory that manages attention and delegates tasks to the other components.",
-    "options": {
-      "A": "phonological loop",
-      "B": "visuospatial sketchpad",
-      "C": "episodic buffer",
-      "D": "central executive"
-    },
-    "answer": "D",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Working Memory. Central executive: [Image shows arrow pointing from Central executive with text 'Delegates attention to other components'].",
-    "incorrect_count": 0
-  },
-  {
-    "question": "A multiple-choice question on a test is an example of a ________ task, while an essay question is an example of a ________ task.",
-    "options": {
-      "A": "recall; recognition",
-      "B": "recognition; recall",
-      "C": "procedural; declarative",
-      "D": "declarative; procedural"
-    },
-    "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Recognition tasks: Information is present in the question (Multiple Choice). Recall tasks: Need to generate information (Essay questions).",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Your memory for general knowledge, such as knowing that Paris is the capital of France, is a type of ________ memory.",
-    "options": {
-      "A": "episodic",
-      "B": "procedural",
-      "C": "semantic",
-      "D": "autobiographical"
-    },
-    "answer": "C",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Declarative Memory. Semantic memory: Memory for general knowledge. Word meanings, knowledge.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Elizabeth Loftus's research showed that memory is a reconstructive process. When participants were asked how fast cars were going when they 'smashed' into each other, they were more likely to report ________.",
-    "options": {
-      "A": "seeing broken glass and estimating a higher speed",
-      "B": "not seeing broken glass and estimating a lower speed",
-      "C": "forgetting the event entirely",
-      "D": "having a flashbulb memory of the event"
+      "A": "Neuroticism",
+      "B": "Agreeableness",
+      "C": "Introversion",
+      "D": "Openness"
     },
     "answer": "A",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Reconstruction: Rebuilding a memory out of stored elements. [Bar graph shows 'Smashed' group reported seeing glass more often than 'Hit' or 'Control' groups].",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page53]. Neuroticism... High: Worried, Angry, Self-conscious.",
     "incorrect_count": 0
   },
   {
-    "question": "Which of the following is NOT a type of nondeclarative (implicit) memory?",
+    "question": "Which of the Big Five traits is described as an appreciation for fantasy, feelings, actions, ideas, values, and aesthetics?",
     "options": {
-      "A": "Procedural memory",
-      "B": "Priming",
-      "C": "Episodic memory",
-      "D": "Classical conditioning"
-    },
-    "answer": "C",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Types of Long-Term Memory: Nondeclarative (implicit) memory branches into Procedural memory, Classical conditioning, and Priming. Episodic memory is a type of Declarative (explicit) memory.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "The brief, initial storage of visual information is referred to as ________ memory.",
-    "options": {
-      "A": "echoic",
-      "B": "iconic",
-      "C": "haptic",
-      "D": "working"
+      "A": "Conscientiousness",
+      "B": "Openness",
+      "C": "Extroversion",
+      "D": "Agreeableness"
     },
     "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Sensory memory: ...Visual codes (iconic memory): visual images.",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page49]. Openness: appreciation for fantasy, feelings, actions, ideas, values, and aesthetics.",
     "incorrect_count": 0
   },
   {
-    "question": "Remembering a fact because it relates to your own personal experience is an effective study strategy based on ________ processing.",
+    "question": "A person with an internal locus of control believes that ________.",
     "options": {
-      "A": "distinctiveness",
-      "B": "elaboration",
-      "C": "application",
-      "D": "personal"
-    },
-    "answer": "D",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Using D.E.A.P. Processing. Personal: How can I relate this concept to my own personal experience?",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Cramming for an exam the night before is less effective than studying over several days. This highlights the benefit of ________.",
-    "options": {
-      "A": "maintenance rehearsal",
-      "B": "distributed practice",
-      "C": "the testing effect",
-      "D": "mnemonics"
-    },
-    "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Improving Memory. Distributed practice: Cramming = BAD. Time + repetition = Consolidation.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "The three fundamental steps of the memory process, in order, are ________.",
-    "options": {
-      "A": "Storage, Encoding, Retrieval",
-      "B": "Retrieval, Storage, Encoding",
-      "C": "Encoding, Storage, Retrieval",
-      "D": "Encoding, Retrieval, Storage"
+      "A": "the world decides their fate based on chance",
+      "B": "outcomes are determined by luck",
+      "C": "they are in control of their own destiny through individual effort",
+      "D": "personality is determined solely by genetics"
     },
     "answer": "C",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "What is Memory? Can be divided into 3 steps: 1. Encoding, 2. Storage, 3. Retrieval.",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page60]. Internal: In control of our own destiny (individual effort).",
     "incorrect_count": 0
   },
   {
-    "question": "According to the Atkinson-Shiffrin model of memory, information moves from sensory memory to short-term memory through the process of ________.",
+    "question": "Research indicates that people with an internal locus of control are more likely to ________.",
     "options": {
-      "A": "attention",
-      "B": "encoding",
-      "C": "rehearsal",
-      "D": "retrieval"
+      "A": "experience higher levels of stress",
+      "B": "practice effective birth control",
+      "C": "avoid using seat belts",
+      "D": "rely on luck for success"
+    },
+    "answer": "B",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page61]. Internal locus of control... More likely to practice effective birth control.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which social-cognitive theory suggests that the person, their behavior, and the environment mutually influence each other?",
+    "options": {
+      "A": "Locus of Control",
+      "B": "Reciprocal Determinism",
+      "C": "The Big Five Theory",
+      "D": "Psychodynamic Theory"
+    },
+    "answer": "B",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page62]. Reciprocal Determinism: The person and the situation mutually influence each other.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Self-efficacy refers to the ________.",
+    "options": {
+      "A": "level of confidence you have in your abilities to gain reinforcement",
+      "B": "belief that the world controls your fate",
+      "C": "tendency to interpret situations as threatening",
+      "D": "ability to reason about emotions"
     },
     "answer": "A",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Sensory Memory [Diagram]: An arrow labeled 'Attention' points from Sensory memory to Short-term memory. Unattended information is lost.",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page63]. Self-efficacy: level of confidence you have in your abilities to gain reinforcement.",
     "incorrect_count": 0
   },
   {
-    "question": "Mentally repeating a phone number to keep it in your mind while you dial is an example of ________.",
+    "question": "According to the If-Then relationships theory, personality behaviors arise from ________.",
     "options": {
-      "A": "chunking",
-      "B": "maintenance rehearsal",
-      "C": "elaborative rehearsal",
-      "D": "the primacy effect"
+      "A": "stable genetic traits",
+      "B": "how an individual interprets situations",
+      "C": "unconscious drives",
+      "D": "childhood trauma"
     },
     "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Maintenance rehearsal: Simple repetition of material (shallow processing). It helps information stay in STM for a longer period.",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page64]. Behavior arises from how an individual interprets situations, not from traits.",
     "incorrect_count": 0
   },
   {
-    "question": "Which component of working memory is responsible for processing auditory and verbal information, like the words you are reading right now?",
+    "question": "The Behaviorist approach to personality, represented by B.F. Skinner, emphasizes ________.",
     "options": {
-      "A": "Central executive",
-      "B": "Episodic buffer",
-      "C": "Phonological loop",
-      "D": "Visuospatial sketchpad"
-    },
-    "answer": "C",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Working Memory [Diagram]: An arrow from 'Verbal and auditory information' points to the 'Phonological loop'.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "A student who only studies by re-reading their notes is using a less effective memory strategy than a student who tries to explain the concepts to a friend. The second student is benefiting from ________.",
-    "options": {
-      "A": "the testing effect",
-      "B": "reciting and teaching",
-      "C": "distributed practice",
-      "D": "state-dependent memory"
-    },
-    "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Improving Memory. Recite: Verbalize material in your own words... Explain material to others (teach it!).",
-    "incorrect_count": 0
-  },
-  {
-    "question": "The ________ is the brain structure primarily involved in forming new episodic memories, while the ________ is crucial for procedural memories.",
-    "options": {
-      "A": "cerebral cortex; hippocampus",
-      "B": "basal ganglia; hippocampus",
-      "C": "hippocampus; basal ganglia",
-      "D": "hippocampus; cerebral cortex"
-    },
-    "answer": "C",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Memory in the Brain. Episodic memories: Hippocampus. Procedural memories: Basal ganglia.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "A set of expectations about objects and situations, which can influence how we encode and retrieve memories, is known as a(n) ________.",
-    "options": {
-      "A": "mnemonic",
-      "B": "schema",
-      "C": "flashbulb memory",
-      "D": "episodic buffer"
-    },
-    "answer": "B",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Schema: A set of expectations about objects and situations. Consistent details: retained; Inconsistent details: left out.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "After learning Spanish, you find it difficult to remember the French vocabulary you learned in high school. This is an example of ________ interference.",
-    "options": {
-      "A": "retroactive",
-      "B": "proactive",
-      "C": "motivated",
-      "D": "encoding failure"
-    },
-    "answer": "A",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Interference: Competition between newer and older information in memory. Retroactive interference: [Image shows 'Learned last' interfering with 'Target learning'].",
-    "incorrect_count": 0
-  },
-  {
-    "question": "The failure to retrieve negative or traumatic memories, which may serve a protective psychological function, is called ________.",
-    "options": {
-      "A": "decay",
-      "B": "interference",
-      "C": "confabulation",
-      "D": "motivated forgetting"
+      "A": "unconscious conflicts",
+      "B": "stable traits inherited from parents",
+      "C": "self-actualization",
+      "D": "learning and response tendencies"
     },
     "answer": "D",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Motivated forgetting: Failure to retrieve negative memories. Protective function.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Using the acronym 'PEMDAS' to remember the order of operations in math (Parentheses, Exponents, etc.) is an example of using ________.",
-    "options": {
-      "A": "a schema",
-      "B": "chunking",
-      "C": "a mnemonic",
-      "D": "elaborative rehearsal"
-    },
-    "answer": "C",
-    "chapter": "Chapter 9: Memory",
-    "related_info": "Mnemonics: Memory aids that link new information to well-known information. Condense information into an acronym.",
+    "chapter": "Chapter 12: Personality",
+    "related_info": "[9_Individual difference:page42]. Behaviorist Approach... Emphasize learning... Response tendencies.",
     "incorrect_count": 0
   }
 ]
