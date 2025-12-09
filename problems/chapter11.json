@@ -1,0 +1,262 @@
+[
+  {
+    "question": "Sarah has been diagnosed with both Major Depressive Disorder and Generalized Anxiety Disorder. The co-occurrence of two or more disorders in a single individual is referred to as ______.",
+    "options": {
+      "A": "prevalence",
+      "B": "comorbidity",
+      "C": "etiology",
+      "D": "concordance"
+    },
+    "answer": "B",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page3]. Comorbidity: Co-occurrence of two or more disorders in a single individual",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Dr. Lee uses a standardized manual to diagnose his patients to ensure consistency with other clinicians. Which manual is he most likely using?",
+    "options": {
+      "A": "The Physician's Desk Reference",
+      "B": "The Gray's Anatomy",
+      "C": "Diagnostic and Statistical Manual of Mental Disorders (DSM-5)",
+      "D": "The Standard Psychological Index"
+    },
+    "answer": "C",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page16]. Diagnostic and Statistical Manual of Mental Disorders (DSM-5)",
+    "incorrect_count": 0
+  },
+  {
+    "question": "According to the Diathesis-Stress Model, a psychological disorder develops due to the interaction between ______.",
+    "options": {
+      "A": "a genetic predisposition and environmental stress",
+      "B": "conscious thoughts and unconscious desires",
+      "C": "positive reinforcement and negative punishment",
+      "D": "biological factors and medication side effects"
+    },
+    "answer": "A",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page20]. The Diathesis-Stress Model: Genetic Predisposition + Environmental Stress",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Eight-year-old Timmy has difficulty maintaining eye contact, struggles to understand others' perspectives, and insists on following a very specific routine every morning. Timmy is displaying symptoms characteristic of ______.",
+    "options": {
+      "A": "Attention Deficit Hyperactivity Disorder (ADHD)",
+      "B": "Autism Spectrum Disorder (ASD)",
+      "C": "Bipolar Disorder",
+      "D": "Social Anxiety Disorder"
+    },
+    "answer": "B",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page22]. Autism Spectrum Disorder (ASD): Characterized by deficits in social relatedness... lack of social-emotional reciprocity... insistence on routine",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which of the following is NOT a key symptom of Attention Deficit Hyperactivity Disorder (ADHD)?",
+    "options": {
+      "A": "Inattention",
+      "B": "Hyperactivity",
+      "C": "Impulsivity",
+      "D": "Aphasia"
+    },
+    "answer": "D",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page25]. Key Symptoms: Inattention... Hyperactivity... Impulsivity",
+    "incorrect_count": 0
+  },
+  {
+    "question": "A patient with schizophrenia believes that the government is controlling their thoughts through radio waves. This is an example of a ______.",
+    "options": {
+      "A": "hallucination",
+      "B": "delusion",
+      "C": "negative symptom",
+      "D": "flight of ideas"
+    },
+    "answer": "B",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page30]. Delusions: Unrealistic beliefs... Control (beliefs that others are directing one’s behavior)",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which of the following is considered a negative symptom of schizophrenia?",
+    "options": {
+      "A": "Hallucinations",
+      "B": "Delusions",
+      "C": "Emotional withdrawal (Avolition)",
+      "D": "Disorganized speech"
+    },
+    "answer": "C",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page29]. Key Negative Symptoms (-): Emotional/Social Withdrawal, Apathy, Avolition",
+    "incorrect_count": 0
+  },
+  {
+    "question": "What is the most common type of hallucination experienced by individuals with schizophrenia?",
+    "options": {
+      "A": "Visual",
+      "B": "Olfactory (Smell)",
+      "C": "Auditory",
+      "D": "Tactile"
+    },
+    "answer": "C",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page31]. Auditory hallucinations are the most common",
+    "incorrect_count": 0
+  },
+  {
+    "question": "To be diagnosed with Major Depressive Disorder (MDD), a person must experience a severely depressed mood or loss of interest/pleasure for at least ______.",
+    "options": {
+      "A": "2 days",
+      "B": "1 week",
+      "C": "2 weeks",
+      "D": "6 months"
+    },
+    "answer": "C",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page37]. Characterized by... most of the day, nearly every day, for a period of at least 2 weeks",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Mark failed his math test. He thinks, 'I failed because I am stupid, I will always fail at everything, and there is nothing I can do about it.' This attribution style, often associated with depression, is described as ______.",
+    "options": {
+      "A": "External, Unstable, Specific",
+      "B": "Internal, Stable, Global",
+      "C": "External, Stable, Global",
+      "D": "Internal, Unstable, Specific"
+    },
+    "answer": "B",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page45]. Attributions: Internal – External; Stable – Unstable; Global – Specific",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which of the following statements regarding suicide is a myth?",
+    "options": {
+      "A": "Previous suicide attempts are a predictor of future attempts.",
+      "B": "Hopelessness is a risk factor for suicide.",
+      "C": "Asking a depressed person about suicide makes them more likely to do it.",
+      "D": "Substance abuse can be a predictor of suicide."
+    },
+    "answer": "C",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page40]. Suicide Myths: Talking to a depressed person about suicide makes him/her more likely to do it",
+    "incorrect_count": 0
+  },
+  {
+    "question": "During a manic episode, an individual with Bipolar Disorder is likely to experience ______.",
+    "options": {
+      "A": "increased need for sleep and low energy",
+      "B": "decreased need for sleep and impulsivity",
+      "C": "social withdrawal and apathy",
+      "D": "slowed thinking and fatigue"
+    },
+    "answer": "B",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page48]. Mania: Impulsivity, Increased energy... Decreased need for sleep",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Maya has an intense, irrational fear of spiders. Even a picture of a spider causes her heart to race, and she avoids basements entirely. Maya likely has ______.",
+    "options": {
+      "A": "Panic Disorder",
+      "B": "Generalized Anxiety Disorder",
+      "C": "a Specific Phobia",
+      "D": "Agoraphobia"
+    },
+    "answer": "C",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page54]. Specific phobias: Fear of something specific... Animals",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Ken is terrified of giving presentations or going to parties because he is afraid he will be scrutinized or criticized by others. This fear impairs his social functioning. Ken likely has ______.",
+    "options": {
+      "A": "Social Anxiety Disorder",
+      "B": "Panic Disorder",
+      "C": "Bipolar Disorder",
+      "D": "Obsessive-Compulsive Disorder"
+    },
+    "answer": "A",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page55]. Social Anxiety Disorder: Unrealistic fear of being scrutinized and criticized by others",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Generalized Anxiety Disorder (GAD) is characterized by excessive worry that ______.",
+    "options": {
+      "A": "is related to a specific object like a snake",
+      "B": "occurs only during panic attacks",
+      "C": "is not correlated with particular objects or situations",
+      "D": "lasts for less than 2 weeks"
+    },
+    "answer": "C",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page59]. Characterized by excessive anxiety and worry that is not correlated with particular objects or situations",
+    "incorrect_count": 0
+  },
+  {
+    "question": "In Obsessive-Compulsive Disorder (OCD), 'compulsions' are defined as ______.",
+    "options": {
+      "A": "intrusive, distressing thoughts",
+      "B": "repetitive, ritualistic behaviors performed to reduce anxiety",
+      "C": "false perceptions of reality",
+      "D": "extreme mood swings"
+    },
+    "answer": "B",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page62]. Compulsions: repetitive, ritualistic behaviors to reduce the high anxiety",
+    "incorrect_count": 0
+  },
+  {
+    "question": "A person who constantly checks mirrors, grooms excessively, and has an unrealistic perception of a physical flaw (such as believing their nose is hideously deformed) may be diagnosed with ______.",
+    "options": {
+      "A": "Panic Disorder",
+      "B": "Major Depressive Disorder",
+      "C": "Body Dysmorphic Disorder",
+      "D": "Generalized Anxiety Disorder"
+    },
+    "answer": "C",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page64]. BDD: unrealistic perception of physical flaws... Checking or avoiding mirrors constantly",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which of the following is NOT a symptom of Posttraumatic Stress Disorder (PTSD)?",
+    "options": {
+      "A": "Hypervigilance",
+      "B": "Flashbacks",
+      "C": "Avoidance of stimuli associated with the trauma",
+      "D": "Manic episodes"
+    },
+    "answer": "D",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page66]. Key Symptoms: Hypervigilance, Avoidance of stimuli associated with the trauma, Flashbacks",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which eating disorder involves bingeing and purging (through vomiting or laxatives) but does not necessarily involve an unusually low body weight?",
+    "options": {
+      "A": "Anorexia Nervosa",
+      "B": "Bulimia Nervosa",
+      "C": "Binge-eating Disorder",
+      "D": "Body Dysmorphic Disorder"
+    },
+    "answer": "B",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page70]. Bulimia nervosa: Characterized by bingeing and purging... Purging through the use of vomiting or laxatives",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Anorexia Nervosa is characterized by ______.",
+    "options": {
+      "A": "eating abnormally large amounts of food in one sitting without purging",
+      "B": "maintenance of unusually low body weight and distorted body image",
+      "C": "obsessive thoughts about contamination",
+      "D": "uncontrollable panic attacks"
+    },
+    "answer": "B",
+    "chapter": "11_Psychological Disorders",
+    "related_info": "[11_Psychological Disorders:page69]. Anorexia Nervosa: Maintenance of unusually low body weight and a distorted body image",
+    "incorrect_count": 0
+  }
+]

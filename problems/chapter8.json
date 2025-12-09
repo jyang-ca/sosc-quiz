@@ -1,0 +1,262 @@
+[
+  {
+    "question": "Which of the following statements about first impressions is true?",
+    "options": {
+      "A": "They take a long time to form.",
+      "B": "They are easily changed by new information.",
+      "C": "They are formed rapidly and are long-lasting.",
+      "D": "They are usually based on deep psychological analysis."
+    },
+    "answer": "C",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page6]. Formed rapidly (sometimes within seconds)... Long-lasting... ...even in the face of contradictory information.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "If you attribute a person's angry behavior to their bad temper or personality, you are making a(n) ________ attribution.",
+    "options": {
+      "A": "situational",
+      "B": "external",
+      "C": "dispositional",
+      "D": "defensive"
+    },
+    "answer": "C",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page8]. Dispositional (Internal) attribution: Personal qualities -> Behavior.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "The tendency to view our own successes as dispositional (internal) and our failures as situational (external) is known as the ________.",
+    "options": {
+      "A": "actor-observer bias",
+      "B": "self-serving bias",
+      "C": "just-world belief",
+      "D": "correspondence bias"
+    },
+    "answer": "B",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page11]. Self-serving bias: Viewing our successes differently than our failures... Success = Dispositional attribution... Failure = Situational attribution.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "In individualistic cultures, people are more likely to ________.",
+    "options": {
+      "A": "emphasize situational factors",
+      "B": "show group-serving bias",
+      "C": "emphasize dispositional factors",
+      "D": "avoid the just-world belief"
+    },
+    "answer": "C",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page13]. INDIVIDUALISTIC CULTURES... More emphasis on dispositional factors.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which component of an attitude refers to the emotion or feeling associated with an object or issue?",
+    "options": {
+      "A": "Cognition",
+      "B": "Behavior",
+      "C": "Affect",
+      "D": "Dissonance"
+    },
+    "answer": "C",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page16]. Attitudes... Affect (i.e., emotion).",
+    "incorrect_count": 0
+  },
+  {
+    "question": "The uncomfortable state that arises when your behaviors do not match your attitudes is called ________.",
+    "options": {
+      "A": "social loafing",
+      "B": "cognitive dissonance",
+      "C": "groupthink",
+      "D": "deindividuation"
+    },
+    "answer": "B",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page18]. Cognitive Dissonance... The uncomfortable state when your behaviors don’t match your attitudes.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "According to the Elaboration Likelihood Model (ELM), which route to persuasion involves considering arguments carefully and thoughtfully?",
+    "options": {
+      "A": "Peripheral route",
+      "B": "Emotional route",
+      "C": "Central route",
+      "D": "Situational route"
+    },
+    "answer": "C",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page21]. Central route: When a person considers persuasive arguments carefully and thoughtfully.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "A simplified set of traits associated with group membership is known as a ________.",
+    "options": {
+      "A": "prejudice",
+      "B": "discrimination",
+      "C": "stereotype",
+      "D": "norm"
+    },
+    "answer": "C",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page24]. Stereotype: Simplified sets of traits associated with group membership (cognition).",
+    "incorrect_count": 0
+  },
+  {
+    "question": "The anxiety that prevents a person from doing their best work due to the fear of confirming a negative group stereotype is called ________.",
+    "options": {
+      "A": "social facilitation",
+      "B": "stereotype threat",
+      "C": "discrimination",
+      "D": "group polarization"
+    },
+    "answer": "B",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page26]. Stereotype threat: Fear of confirming a negative group stereotype... Anxiety of confirming stereotype prevents you from doing your best work.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which test uses reaction time to assess people's unconscious attitudes and potential biases?",
+    "options": {
+      "A": "Elaboration Likelihood Model (ELM)",
+      "B": "Implicit Association Test (IAT)",
+      "C": "Asch Conformity Test",
+      "D": "Milgram Experiment"
+    },
+    "answer": "B",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page28]. Implicit Association Test (IAT): uses reaction time to assess people’s unconscious attitudes.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Matching your behavior and appearance to the perceived social norms of a group is defined as ________.",
+    "options": {
+      "A": "obedience",
+      "B": "compliance",
+      "C": "conformity",
+      "D": "persuasion"
+    },
+    "answer": "C",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page31]. Conformity: matching your behavior and appearance to the perceived social norms of a group.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Agreeing to a request from a person with no perceived authority is known as ________.",
+    "options": {
+      "A": "obedience",
+      "B": "compliance",
+      "C": "conformity",
+      "D": "attribution"
+    },
+    "answer": "B",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page35]. Compliance: agreement with a request from a person with no perceived authority.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which compliance technique involves making a large, unreasonable demand followed by a smaller one?",
+    "options": {
+      "A": "Foot-in-the-door",
+      "B": "Low-balling",
+      "C": "Door-in-the-face",
+      "D": "Reciprocation"
+    },
+    "answer": "C",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page36]. Door-in-the-face: A large, unreasonable demand is followed by a smaller one.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "The 'foot-in-the-door' technique is effective in gaining compliance through the principle of ________.",
+    "options": {
+      "A": "reciprocation",
+      "B": "consistency",
+      "C": "authority",
+      "D": "fear"
+    },
+    "answer": "B",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page37]. Foot-in-the-door... Effective in gaining compliance through consistency.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Stanley Milgram’s famous study investigated which social psychology concept?",
+    "options": {
+      "A": "Stereotype threat",
+      "B": "Conformity to lines",
+      "C": "Obedience to authority",
+      "D": "Social loafing"
+    },
+    "answer": "C",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page39]. Stanley Milgram’s Obedience Study... Compliance with the request of an authority figure.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "According to social facilitation and the Yerkes-Dodson law, the presence of others generally ________ performance on simple tasks.",
+    "options": {
+      "A": "impairs",
+      "B": "improves",
+      "C": "has no effect on",
+      "D": "decreases motivation for"
+    },
+    "answer": "B",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page41]. Simple tasks: Performance improves with arousal.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "The reduced motivation and effort shown by individuals working in a group compared to working alone is called ________.",
+    "options": {
+      "A": "social facilitation",
+      "B": "social loafing",
+      "C": "groupthink",
+      "D": "deindividuation"
+    },
+    "answer": "B",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page42]. Social Loafing... The reduced motivation and effort shown by individuals working in a group as opposed to working alone.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Deindividuation involves the immersion of an individual within a group, making the individual relatively ________.",
+    "options": {
+      "A": "more responsible",
+      "B": "anonymous",
+      "C": "anxious",
+      "D": "rational"
+    },
+    "answer": "B",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page43]. Deindividuation... Immersion of the individual within a group, which makes the individual relatively anonymous.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Group polarization refers to the ________ of an original attitude following discussion.",
+    "options": {
+      "A": "reversal",
+      "B": "weakening",
+      "C": "intensifying",
+      "D": "neutralizing"
+    },
+    "answer": "C",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page44]. Group Polarization... The intensifying of an original attitude following discussion.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "When group members suppress dissenting opinions in the interest of group cohesion, it is known as ________.",
+    "options": {
+      "A": "groupthink",
+      "B": "social facilitation",
+      "C": "compliance",
+      "D": "attribution"
+    },
+    "answer": "A",
+    "chapter": "Chapter 13: The connected mind",
+    "related_info": "[8_Social Psychology:page45]. Groupthink... Group members suppress dissenting opinions in the interests of group cohesion.",
+    "incorrect_count": 0
+  }
+]

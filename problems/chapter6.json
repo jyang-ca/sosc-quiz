@@ -1,392 +1,262 @@
 [
   {
-    "question": "Bijit is falling asleep in class, but when the teacher calls on him, he wakes up and tries to play it off. He was likely in a state of light sleep, characterized by theta waves. Bijit was most likely in ________ sleep.",
+    "question": "Sarah moves into a new apartment next to a busy highway. At first, the sound of the traffic keeps her awake at night, but after a few weeks, she stops noticing the noise and sleeps soundly. This decrease in reaction to a repeated, harmless stimulus is known as ______.",
     "options": {
-      "A": "N-REM stage 1",
-      "B": "N-REM stage 3",
-      "C": "REM",
-      "D": "N-REM stage 4"
+      "A": "sensitization",
+      "B": "habituation",
+      "C": "associative learning",
+      "D": "sensory adaptation"
+    },
+    "answer": "B",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page10]. Habituation: Reactions to repeated stimuli that are unchanging and harmless decrease.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "While watching a scary movie, Tom hears a loud bang and jumps in fear. Immediately after, his sister taps him on the shoulder, and he jumps again, reacting much more strongly than he normally would to a tap. This increased reaction following exposure to a strong stimulus is an example of ______.",
+    "options": {
+      "A": "habituation",
+      "B": "discrimination",
+      "C": "sensitization",
+      "D": "extinction"
+    },
+    "answer": "C",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page12]. Sensitization: An increased reaction to many stimuli following exposure to one strong stimulus.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "A doctor taps a patient's knee with a rubber mallet, and the patient's leg kicks out immediately. This behavior is inevitable, involuntary, and controlled by nervous system circuits. It is best described as a(n) ______.",
+    "options": {
+      "A": "instinct",
+      "B": "learned behavior",
+      "C": "reflex",
+      "D": "operant response"
+    },
+    "answer": "C",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page5]. Reflexes: Inevitable, involuntary response to stimuli. Controlled by nervous system circuits. Fast, automatic, inflexible.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "In Pavlov's experiment, the dog naturally salivates when food is presented. The food, which elicits a response without any prior learning, is called the ______.",
+    "options": {
+      "A": "Conditioned Stimulus (CS)",
+      "B": "Unconditioned Stimulus (UCS)",
+      "C": "Conditioned Response (CR)",
+      "D": "Unconditioned Response (UCR)"
+    },
+    "answer": "B",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page16]. Unconditioned: Something that occurs without learning (reflexive). Unconditioned stimulus.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Every time a bell rings, a dog is given food. Eventually, the dog begins to salivate merely at the sound of the bell. In this scenario, the bell has become the ______.",
+    "options": {
+      "A": "Unconditioned Stimulus (UCS)",
+      "B": "Unconditioned Response (UCR)",
+      "C": "Conditioned Stimulus (CS)",
+      "D": "Neutral Stimulus"
+    },
+    "answer": "C",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page17]. CS (Conditioned Stimulus): Elicits a response after being learned through experience.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "For classical conditioning to work effectively, the Conditioned Stimulus (CS) must occur before the Unconditioned Stimulus (UCS) and they must happen close together in time. This principle is known as ______.",
+    "options": {
+      "A": "contingency",
+      "B": "generalization",
+      "C": "contiguity",
+      "D": "discrimination"
+    },
+    "answer": "C",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page19]. Contiguity: CS must occur before UCS and close together in time.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "After a dog has been conditioned to salivate to a bell, the researcher rings the bell repeatedly without providing food. Eventually, the dog stops salivating to the bell. This process is called ______.",
+    "options": {
+      "A": "acquisition",
+      "B": "spontaneous recovery",
+      "C": "generalization",
+      "D": "extinction"
+    },
+    "answer": "D",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page20]. Extinction: reduction of a learned response (CR). CS is presented repeatedly without the UCS.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "A dog whose conditioned salivation response was extinguished is allowed to rest for a few days. When the bell is rung again, the dog briefly salivates. This reappearance of the response is known as ______.",
+    "options": {
+      "A": "spontaneous recovery",
+      "B": "re-acquisition",
+      "C": "sensitization",
+      "D": "higher-order conditioning"
     },
     "answer": "A",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "N-REM Sleep Stages. Stage 1: When we first go to sleep, likely unaware that we are sleeping, theta waves.",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page21]. Spontaneous recovery: the reappearance of conditioned responses (CRs) after periods of rest.",
     "incorrect_count": 0
   },
   {
-    "question": "Many psychoactive drugs work by ________.",
+    "question": "Little Albert was conditioned to fear a white rat. Later, he also showed fear towards a white rabbit, a dog, and a Santa Claus mask. This tendency to respond to stimuli similar to the original conditioned stimulus is called ______.",
     "options": {
-      "A": "increasing electrical stimulation in the brain",
-      "B": "affecting the balance of positive and negative ions",
-      "C": "mimicking, increasing, or decreasing the activity of neurotransmitters",
-      "D": "speeding up the transmission of action potentials"
-    },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Psychoactive Drugs: Work by changing neurotransmission in the brain. Mimic, increase, or decrease activity of neurotransmitters.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "During ________ sleep, the body's muscles are paralyzed, and brain activity resembles that of an awake, alert person.",
-    "options": {
-      "A": "N-REM stage 1",
-      "B": "N-REM stage 2",
-      "C": "N-REM stage 4",
-      "D": "REM"
-    },
-    "answer": "D",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Rapid eye movement (REM) sleep: Characterized by waveforms resembling waking (Beta waves). Body is paralyzed.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "The ________ suggests that the content of dreams represents the mind's efforts to make sense of random neural activity.",
-    "options": {
-      "A": "circadian rhythm theory",
-      "B": "activation-synthesis theory",
-      "C": "default mode network theory",
-      "D": "psychoanalytic theory"
+      "A": "discrimination",
+      "B": "generalization",
+      "C": "habituation",
+      "D": "latent inhibition"
     },
     "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Activation-synthesis theory: The content of dreams represents the mind's efforts to make sense of physical sensations (or random neural firing).",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page24]. Generalization: The tendency to respond to neutral stimuli that are similar to an original conditioned stimulus.",
     "incorrect_count": 0
   },
   {
-    "question": "Alcohol primarily works as a depressant by boosting the effects of ________, an inhibitory neurotransmitter.",
+    "question": "A dog is trained to salivate to a high-pitched tone but not to a low-pitched tone. The dog's ability to distinguish between these two stimuli is an example of ______.",
     "options": {
-      "A": "Dopamine",
-      "B": "Serotonin",
-      "C": "GABA",
-      "D": "Acetylcholine"
+      "A": "generalization",
+      "B": "spontaneous recovery",
+      "C": "discrimination",
+      "D": "sensitization"
     },
     "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Alcohol: Boosts the effects of GABA.",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page25]. Discrimination: A learned ability to distinguish between stimuli.",
     "incorrect_count": 0
   },
   {
-    "question": "A person suffering from ________ experiences sudden sleep attacks during waking hours, often accompanied by muscle paralysis.",
+    "question": "It takes longer to condition a person to dislike a food they have eaten many times before (like pizza) compared to a food they are trying for the first time. This phenomenon, where a familiar CS leads to slower learning, is called ______.",
     "options": {
-      "A": "insomnia",
-      "B": "sleep apnea",
-      "C": "narcolepsy",
-      "D": "sleep terrors"
-    },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Narcolepsy: Characterized by sudden sleep attacks occurring during wakefulness. Cataplexy: Occurs when the muscle paralysis of REM occurs during wakefulness.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Cocaine and amphetamines are stimulants that primarily increase the activity of which neurotransmitter, leading to feelings of alertness and pleasure?",
-    "options": {
-      "A": "Serotonin",
-      "B": "Dopamine",
-      "C": "GABA",
-      "D": "Endorphins"
-    },
-    "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Cocaine & Amphetamines: Increase activity of dopamine. Cocaine: keeps dopamine in synaptic gap. Amphetamines: mimic dopamine.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Our daily biological rhythm, which controls our sleep and waking cycles, is known as the ________.",
-    "options": {
-      "A": "sleep cycle",
-      "B": "circadian rhythm",
-      "C": "default mode network",
-      "D": "REM cycle"
-    },
-    "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Circadian rhythm: A daily biological rhythm. Controls cycles of sleep and waking.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Deep sleep, occurring in N-REM stages 3 and 4, is crucial for ________.",
-    "options": {
-      "A": "vivid dreaming and emotional processing",
-      "B": "physical repair and memory consolidation",
-      "C": "muscle paralysis to prevent acting out dreams",
-      "D": "responding to external environmental cues"
-    },
-    "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Benefits of N-REM Sleep: Helps transform memories... Stages 3 & 4: Repairs the body... Helps the BODY.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "A person who needs to drink more coffee than they used to in order to feel the same level of alertness has developed a(n) ________.",
-    "options": {
-      "A": "addiction",
-      "B": "withdrawal symptom",
-      "C": "tolerance",
-      "D": "cataplexy"
-    },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Tolerance: Needing a larger dose of a drug to achieve the same subjective effect.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Which sleep disorder is characterized by a person stopping breathing for brief periods while asleep?",
-    "options": {
-      "A": "Narcolepsy",
-      "B": "Insomnia",
-      "C": "Nightmares",
-      "D": "Sleep apnea"
-    },
-    "answer": "D",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Sleep apnea: Disorder in which the person stops breathing while asleep.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "LSD is a hallucinogen that primarily interacts with receptors for which neurotransmitter?",
-    "options": {
-      "A": "Dopamine",
-      "B": "Serotonin",
-      "C": "Acetylcholine",
-      "D": "GABA"
-    },
-    "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "LSD: Lysergic acid diethylamide. Lab-produced compound that interacts with serotonin receptors.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "The brain's ________ maintains unconscious background activity and is active during mind-wandering and daydreaming.",
-    "options": {
-      "A": "circadian rhythm",
-      "B": "reticular formation",
-      "C": "default mode network",
-      "D": "thalamus"
-    },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Default mode network: Maintains unconscious, background activity and helps prepare the brain for conscious thought. Daydreaming, mind-wandering.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "A child wakes up screaming and in a state of panic but cannot remember what caused the distress the next day. This child most likely experienced a ________.",
-    "options": {
-      "A": "nightmare",
-      "B": "sleep terror",
-      "C": "narcoleptic attack",
-      "D": "seizure"
-    },
-    "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Sleep Terrors: Distress that usually isn't remembered the next day. Occur during transition from stage 4 N-REM sleep into REM sleep.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "A patient is awake but shows no signs of consciousness or purposeful behavior following a brain injury. This condition is known as a ________.",
-    "options": {
-      "A": "coma",
-      "B": "vegetative state",
-      "C": "generalized seizure",
-      "D": "narcolepsy"
-    },
-    "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Vegetative state: Abnormal state following brain injury featuring wakefulness without consciousness.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Nicotine is a stimulant that mimics the effects of the neurotransmitter ________.",
-    "options": {
-      "A": "dopamine",
-      "B": "serotonin",
-      "C": "acetylcholine",
-      "D": "GABA"
-    },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Nicotine: Stimulant that mimics the neurotransmitter acetylcholine.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "The compulsive dependence on a substance or activity that continues despite negative consequences is defined as ________.",
-    "options": {
-      "A": "tolerance",
-      "B": "withdrawal",
-      "C": "addiction",
-      "D": "coma"
-    },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Addiction: Compulsive dependence on a substance or activity that continues despite negative consequences.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Which type of brain wave is typically associated with being in a relaxed, waking state, such as during daydreaming?",
-    "options": {
-      "A": "Alpha",
-      "B": "Beta",
-      "C": "Gamma",
-      "D": "Delta"
+      "A": "latent inhibition",
+      "B": "higher-order conditioning",
+      "C": "spontaneous recovery",
+      "D": "sensory adaptation"
     },
     "answer": "A",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Waking. Alpha: Relaxed waking. Daydreaming, mind wandering.",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page23]. Latent inhibition: A familiar CS -> slower (later) learning. An unfamiliar CS -> quicker (immediate) learning.",
     "incorrect_count": 0
   },
   {
-    "question": "Opioids reduce pain and produce euphoria by interacting with receptors for ________.",
+    "question": "According to Thorndike’s Law of Effect, behaviors that are followed by something ______ are more likely to be repeated.",
     "options": {
-      "A": "dopamine",
-      "B": "serotonin",
-      "C": "endorphins",
-      "D": "acetylcholine"
-    },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Opioids: Natural or synthetic substances that interact with endorphin receptors.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "REM deprivation is most likely to lead to ________.",
-    "options": {
-      "A": "physical exhaustion and a weakened immune system",
-      "B": "irritability and difficulty concentrating",
-      "C": "a complete inability to form new memories",
-      "D": "an increase in deep sleep on subsequent nights"
-    },
-    "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Benefits of REM Sleep. REM deprivation is linked to: irritability and difficulty concentrating.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "A person is in a state of deep unconsciousness, is unresponsive to pain or light, and has no sleep-wake cycles. This condition is called a ________.",
-    "options": {
-      "A": "vegetative state",
-      "B": "coma",
-      "C": "generalized seizure",
-      "D": "cataplexy"
-    },
-    "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Coma: An abnormal state of deep unconsciousness. No sleep-wake cycles, Unresponsive to pain/light, No voluntary behavior.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "Which of the following is considered a stimulant drug?",
-    "options": {
-      "A": "Alcohol",
-      "B": "Marijuana",
-      "C": "Opioids",
-      "D": "MDMA (Ecstasy)"
+      "A": "neutral",
+      "B": "unpleasant",
+      "C": "variable",
+      "D": "pleasant"
     },
     "answer": "D",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "MDMA (Ecstasy): Stimulates activity of serotonin and oxytocin. Consequences for Consciousness: Increased sociability, Increased heart rate, blood pressure, and body temperature.",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page32]. Thorndike’s Law of Effect: Behaviors that are followed by something pleasant are more likely to be repeated.",
     "incorrect_count": 0
   },
   {
-    "question": "The physical response to the removal of a drug, which often produces effects opposite to those of the drug, is known as ________.",
+    "question": "In operant conditioning, 'positive' means ______ and 'negative' means ______.",
     "options": {
-      "A": "tolerance",
-      "B": "addiction",
-      "C": "withdrawal",
-      "D": "relapse"
-    },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Withdrawal: Physical response to the removal of a drug. Effects opposite of the drug.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "A ________ seizure originates in a particular part of the brain and distorts consciousness, while a ________ seizure involves abnormal activation of circuits connecting the cortex and thalamus, leading to a loss of consciousness.",
-    "options": {
-      "A": "generalized; partial",
-      "B": "partial; generalized",
-      "C": "focal; tonic-clonic",
-      "D": "tonic-clonic; focal"
+      "A": "good; bad",
+      "B": "adding a stimulus; subtracting a stimulus",
+      "C": "increasing behavior; decreasing behavior",
+      "D": "voluntary; involuntary"
     },
     "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Seizures. Partial: originate in a particular part of the brain (focal area) -> Consciousness distorted. Generalized: abnormal activation of circuits connecting the cerebral cortex and thalamus -> Consciousness lost.",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page35]. Positive = ADDING a stimulus... Negative = SUBTRACTING a stimulus.",
     "incorrect_count": 0
   },
   {
-    "question": "From an evolutionary perspective, the ability of higher-order animals to recognize themselves in a mirror is an example of ________, which helps in choosing appropriate responses to threats.",
+    "question": "A student studies hard and gets an A on their exam. As a result, they study hard for the next exam as well. The 'A' grade served as a ______.",
     "options": {
-      "A": "awareness of sensations",
-      "B": "variations in alertness",
-      "C": "self-awareness",
-      "D": "default mode network"
+      "A": "positive punisher",
+      "B": "negative punisher",
+      "C": "positive reinforcer",
+      "D": "negative reinforcer"
     },
     "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "The Evolutionary Perspective: Consciousness. Self-awareness: Heightens our ability to choose appropriate responses to threat and engage in self-preservation.",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page36]. Positive Reinforcement: Adding something desirable to increase the frequency of a behavior.",
     "incorrect_count": 0
   },
   {
-    "question": "Sleep spindles and K-complexes are characteristic brain wave patterns of which stage of sleep?",
+    "question": "When you get into a car and buckle your seatbelt, the annoying 'dinging' sound stops. You are more likely to buckle up in the future. This is an example of ______.",
     "options": {
-      "A": "N-REM Stage 1",
-      "B": "N-REM Stage 2",
-      "C": "N-REM Stage 3",
-      "D": "REM Sleep"
+      "A": "positive reinforcement",
+      "B": "negative reinforcement",
+      "C": "positive punishment",
+      "D": "negative punishment"
     },
     "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "N-REM Sleep Stages. Stage 2: Brain still monitoring external environment, K complexes and sleep spindles.",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page36]. Negative Reinforcement: Taking away something unpleasant to increase the frequency of a behavior.",
     "incorrect_count": 0
   },
   {
-    "question": "Which of the following best describes the difference in function between N-REM and REM sleep?",
+    "question": "A teenager comes home past curfew, so her parents take away her cell phone for a week. This removal of a pleasant stimulus to decrease a behavior is known as ______.",
     "options": {
-      "A": "N-REM helps the mind and REM helps the body.",
-      "B": "N-REM helps the body and REM helps the mind.",
-      "C": "Both N-REM and REM are primarily for physical restoration.",
-      "D": "Both N-REM and REM are primarily for memory consolidation."
+      "A": "positive punishment",
+      "B": "negative reinforcement",
+      "C": "negative punishment",
+      "D": "positive reinforcement"
+    },
+    "answer": "C",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page37]. Negative Punishment: Taking away something pleasant to decrease the frequency of a behavior.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "A coffee shop gives a free coffee after a customer buys exactly 10 coffees. This schedule of reinforcement is known as ______.",
+    "options": {
+      "A": "fixed interval",
+      "B": "variable interval",
+      "C": "fixed ratio",
+      "D": "variable ratio"
+    },
+    "answer": "C",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page41]. Fixed ratio: Reinforcement follows a set number of behaviors.",
+    "incorrect_count": 0
+  },
+  {
+    "question": "Checking your phone for text messages is reinforced on a ______ schedule, because the first response is reinforced after a varying amount of time has passed.",
+    "options": {
+      "A": "fixed ratio",
+      "B": "variable ratio",
+      "C": "fixed interval",
+      "D": "variable interval"
+    },
+    "answer": "D",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page42]. Variable interval: The first response following a varying period is reinforced (e.g. every 3-7 mins).",
+    "incorrect_count": 0
+  },
+  {
+    "question": "To teach a pigeon to turn in a circle, a researcher rewards the bird for turning its head slightly, then for turning its body, and finally only rewards a full circle. This method of successive approximations is called ______.",
+    "options": {
+      "A": "habituation",
+      "B": "shaping",
+      "C": "generalization",
+      "D": "latent inhibition"
     },
     "answer": "B",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Benefits of N-REM Sleep: ...Helps the BODY. Benefits of REM Sleep: ...Helps the MIND.",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page45]. Shaping: The method of successive approximations. Used to increase the frequency of behaviors that never or rarely occur.",
     "incorrect_count": 0
   },
   {
-    "question": "Stimulant medications like Methylphenidate (Ritalin) are used to treat ADHD by boosting the neurotransmitters ________ and ________.",
+    "question": "Which of the following is NOT one of the four processes required for observational learning to occur?",
     "options": {
-      "A": "serotonin; GABA",
-      "B": "acetylcholine; endorphins",
-      "C": "dopamine; norepinephrine",
-      "D": "serotonin; oxytocin"
+      "A": "Attention",
+      "B": "Retention",
+      "C": "Reproduction",
+      "D": "Adaptation"
     },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Methylphenidate (Ritalin): Common medication used to treat ADHD. Boosts dopamine and norepinephrine.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "The cycle of addiction is characterized by needing more of a drug to get the same effect, which is called ________, and then needing to take the drug to avoid negative physical symptoms, which is called ________.",
-    "options": {
-      "A": "withdrawal; tolerance",
-      "B": "dependence; withdrawal",
-      "C": "tolerance; withdrawal",
-      "D": "addiction; tolerance"
-    },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Addiction [diagram]: Need more of the drug to have the same effect (tolerance) → Need to take the drug to avoid withdrawal.",
-    "incorrect_count": 0
-  },
-  {
-    "question": "A disorder characterized by involuntary movement and tingling feelings in the legs, which can interfere with sleep, is known as ________.",
-    "options": {
-      "A": "Cataplexy",
-      "B": "Sleep Apnea",
-      "C": "Restless Legs Syndrome (RLS)",
-      "D": "Sudden Infant Death Syndrome (SIDS)"
-    },
-    "answer": "C",
-    "chapter": "Chapter 6: The Aware Mind: Consciousness",
-    "related_info": "Restless Legs Syndrome (RLS): Characterized by involuntary movement of an extremity (usually one leg). Tingling feeling.",
+    "answer": "D",
+    "chapter": "Chapter 8: Learning",
+    "related_info": "[6_Learning:page49]. Processes of Observational Learning: 1. Attention, 2. Retention, 3. Reproduction, 4. Motivation.",
     "incorrect_count": 0
   }
 ]
