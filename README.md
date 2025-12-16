@@ -1,6 +1,6 @@
 # Psychology Quiz - Web Version
 
-심리학 문제를 학습하는 진보적 학습 시스템 (Progressive Learning System) - 웹 버전
+SOSC1960 Spaced Repetition Learning Tool
 
 ## 🎯 Features
 
