@@ -1,9 +1,9 @@
 import { QuizStateManager, CHAPTER_INFO } from '../quizLogic';
-import type { ChapterType } from '../types';
+import type { ChapterType, Problem } from '../types';
 
 interface WelcomeProps {
     stateManager: QuizStateManager;
-    onStartQuiz: (reviewProblems?: any[], onlyReview?: boolean) => void;
+    onStartQuiz: (reviewProblems?: Problem[], onlyReview?: boolean) => void;
     selectedChapter: ChapterType;
     onChapterChange: (chapter: ChapterType) => void;
 }
@@ -130,5 +130,4 @@ const Welcome = ({ stateManager, onStartQuiz, selectedChapter, onChapterChange }
 };
 
 export default Welcome;
-
 

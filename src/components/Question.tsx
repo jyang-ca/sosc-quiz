@@ -1,5 +1,7 @@
 import { useEffect, useCallback } from 'react';
-import type { Problem } from '../types';
+import type { Problem, QuizAnswer } from '../types';
+
+const QUIZ_OPTIONS: QuizAnswer[] = ['A', 'B', 'C', 'D', 'E'];
 
 interface QuestionProps {
     problem: Problem;
@@ -7,8 +9,8 @@ interface QuestionProps {
     totalQuestions: number;
     isRetry: boolean;
     retryRound: number;
-    selectedAnswer: 'A' | 'B' | 'C' | 'D' | 'E' | null;
-    onSelectAnswer: (answer: 'A' | 'B' | 'C' | 'D' | 'E') => void;
+    selectedAnswer: QuizAnswer | null;
+    onSelectAnswer: (answer: QuizAnswer) => void;
     onSubmit: () => void;
     onExit: () => void;
 }
@@ -24,21 +26,19 @@ const Question = ({
     onSubmit,
     onExit,
 }: QuestionProps) => {
-    const options: Array<'A' | 'B' | 'C' | 'D' | 'E'> = ['A', 'B', 'C', 'D', 'E'];
-
     // Keyboard navigation
     const handleKeyDown = useCallback(
         (e: KeyboardEvent) => {
             if (e.key === 'ArrowDown') {
                 e.preventDefault();
-                const currentIndex = selectedAnswer ? options.indexOf(selectedAnswer) : -1;
-                const nextIndex = (currentIndex + 1) % options.length;
-                onSelectAnswer(options[nextIndex]);
+                const currentIndex = selectedAnswer ? QUIZ_OPTIONS.indexOf(selectedAnswer) : -1;
+                const nextIndex = (currentIndex + 1) % QUIZ_OPTIONS.length;
+                onSelectAnswer(QUIZ_OPTIONS[nextIndex]);
             } else if (e.key === 'ArrowUp') {
                 e.preventDefault();
-                const currentIndex = selectedAnswer ? options.indexOf(selectedAnswer) : options.length;
-                const prevIndex = (currentIndex - 1 + options.length) % options.length;
-                onSelectAnswer(options[prevIndex]);
+                const currentIndex = selectedAnswer ? QUIZ_OPTIONS.indexOf(selectedAnswer) : QUIZ_OPTIONS.length;
+                const prevIndex = (currentIndex - 1 + QUIZ_OPTIONS.length) % QUIZ_OPTIONS.length;
+                onSelectAnswer(QUIZ_OPTIONS[prevIndex]);
             } else if (e.key === 'Enter' && selectedAnswer) {
                 e.preventDefault();
                 onSubmit();
@@ -70,7 +70,7 @@ const Question = ({
             </div>
 
             <ul className="option-list">
-                {options.map(option => (
+                {QUIZ_OPTIONS.map(option => (
                     <li
                         key={option}
                         className={`option-item ${selectedAnswer === option ? 'selected' : ''}`}
@@ -120,4 +120,3 @@ const Question = ({
 };
 
 export default Question;
-

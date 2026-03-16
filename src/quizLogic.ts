@@ -13,13 +13,9 @@ const QUESTIONS_PER_QUIZ = 20;
 
 export const CHAPTER_INFO: ChapterInfo[] = [
   { id: 'all', title: 'All Chapters', fileName: '' },
-  { id: 'chapter6', title: 'Chapter 6: Learning', fileName: 'chapter6.json' },
-  { id: 'chapter7', title: 'Chapter 7: Development', fileName: 'chapter7.json' },
-  { id: 'chapter8', title: 'Chapter 8: Social Psychology', fileName: 'chapter8.json' },
-  { id: 'chapter9', title: 'Chapter 9: Memory', fileName: 'chapter9.json' },
-  { id: 'chapter10', title: 'Chapter 10: Stress and Health', fileName: 'chapter10.json' },
-  { id: 'chapter11', title: 'Chapter 11: Psychological Disorders', fileName: 'chapter11.json' },
-  { id: 'chapter12', title: 'Chapter 12: Psychological Disorders Treatment', fileName: 'chapter12.json' },
+  { id: 'exam1-methods', title: 'Exam 1: Research Methods', fileName: 'exam1-methods.json' },
+  { id: 'exam1-module1', title: 'Exam 1: Module 1', fileName: 'exam1-module1.json' },
+  { id: 'exam1-module2', title: 'Exam 1: Module 2', fileName: 'exam1-module2.json' },
 ];
 
 export class QuizStateManager {
@@ -73,19 +69,18 @@ export class QuizStateManager {
     return { ...this.currentIterationStats };
   }
 
-  markSeen(_problem: Problem): void {
-    // No-op in new logic, or we could track seen problems per session if needed
-    // But for now, we don't track global seen problems
+  resetCurrentIterationStats(): void {
+    this.currentIterationStats = {
+      total_questions: 0,
+      correct_first_try: 0,
+      total_attempts: 0,
+      correct_attempts: 0,
+    };
   }
 
-  markCorrect(_problem: Problem): void {
-    // No-op for global state
-  }
-
-  markIncorrect(problem: Problem): void {
+  private getOrCreateProblemStat(problem: Problem): ProblemStat {
     const question = problem.question;
 
-    // Update problem stats
     if (!this.state.problem_stats[question]) {
       this.state.problem_stats[question] = {
         incorrect_count: 0,
@@ -94,11 +89,27 @@ export class QuizStateManager {
       };
     }
 
-    this.state.problem_stats[question].incorrect_count += 1;
-    this.state.problem_stats[question].total_attempts += 1;
+    return this.state.problem_stats[question];
   }
 
-  markRemainingAsIncorrect(problems: Problem[]): void {
+  markSeen(problem: Problem): void {
+    void problem;
+    // No-op in new logic, or we could track seen problems per session if needed
+    // But for now, we don't track global seen problems
+  }
+
+  markCorrect(problem: Problem): void {
+    const stat = this.getOrCreateProblemStat(problem);
+    stat.total_attempts += 1;
+  }
+
+  markIncorrect(problem: Problem): void {
+    const stat = this.getOrCreateProblemStat(problem);
+    stat.incorrect_count += 1;
+    stat.total_attempts += 1;
+  }
+
+  markRemainingAsIncorrect(problems: Problem[], countAsNewQuestions: boolean = true): void {
     problems.forEach(problem => {
       // Mark as seen
       this.markSeen(problem);
@@ -110,7 +121,9 @@ export class QuizStateManager {
       this.updateAttemptStats(false);
       
       // Record attempt
-      this.recordQuestionAttempt();
+      if (countAsNewQuestions) {
+        this.recordQuestionAttempt();
+      }
     });
   }
 
@@ -187,7 +200,8 @@ export class QuizStateManager {
     question: string;
     stat: ProblemStat;
   }> {
-    const entries = Object.entries(this.state.problem_stats);
+    const entries = Object.entries(this.state.problem_stats)
+      .filter(([, stat]) => stat.incorrect_count > 0);
     entries.sort((a, b) => b[1].incorrect_count - a[1].incorrect_count);
 
     return entries.slice(0, limit).map(([question, stat]) => ({
@@ -209,25 +223,15 @@ export class QuizStateManager {
       sessions: [],
       problem_stats: {},
     };
-    this.currentIterationStats = {
-      total_questions: 0,
-      correct_first_try: 0,
-      total_attempts: 0,
-      correct_attempts: 0,
-    };
+    this.resetCurrentIterationStats();
   }
 }
 
 export async function loadAllProblems(): Promise<Problem[]> {
-  const problemFiles = [
-    'chapter6.json',
-    'chapter7.json',
-    'chapter8.json',
-    'chapter9.json',
-    'chapter10.json',
-    'chapter11.json',
-    'chapter12.json',
-  ];
+  const problemFiles = CHAPTER_INFO
+    .filter(chapter => chapter.id !== 'all')
+    .map(chapter => chapter.fileName)
+    .filter(Boolean);
 
   const allProblems: Problem[] = [];
   const baseUrl = import.meta.env.BASE_URL;
@@ -270,4 +274,3 @@ export async function loadProblemsForChapter(chapter: ChapterType): Promise<Prob
 
   return [];
 }
-

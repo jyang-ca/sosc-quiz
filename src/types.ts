@@ -1,6 +1,13 @@
 // Types for the Psychology Quiz Application
 
-export type ChapterType = 'all' | 'chapter6' | 'chapter7' | 'chapter8' | 'chapter9' | 'chapter10' | 'chapter11' | 'chapter12';
+export type ChapterType =
+  | 'all'
+  | 'exam1-methods'
+  | 'exam1-module1'
+  | 'exam1-module2';
+
+export type ProblemOption = 'A' | 'B' | 'C' | 'D';
+export type QuizAnswer = ProblemOption | 'E';
 
 export interface ChapterInfo {
   id: ChapterType;
@@ -10,15 +17,12 @@ export interface ChapterInfo {
 
 export interface Problem {
   question: string;
-  options: {
-    A: string;
-    B: string;
-    C: string;
-    D: string;
-  };
-  answer: 'A' | 'B' | 'C' | 'D';
+  options: Record<ProblemOption, string>;
+  answer: ProblemOption;
   chapter: string;
   related_info: string;
+  why_high_yield: string;
+  source_refs: string[];
   incorrect_count: number;
 }
 
@@ -52,7 +56,7 @@ export interface CurrentIterationStats {
 
 export interface QuestionResult {
   problem: Problem;
-  selected: 'A' | 'B' | 'C' | 'D';
+  selected: QuizAnswer;
   is_correct: boolean;
   is_retry: boolean;
 }
@@ -65,4 +69,3 @@ export type GamePhase =
   | 'retry'
   | 'statistics'
   | 'iteration_complete';
-

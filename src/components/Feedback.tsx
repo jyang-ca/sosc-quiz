@@ -1,9 +1,9 @@
 import { useEffect, useCallback } from 'react';
-import type { Problem } from '../types';
+import type { Problem, QuizAnswer } from '../types';
 
 interface FeedbackProps {
     problem: Problem;
-    selectedAnswer: 'A' | 'B' | 'C' | 'D' | 'E';
+    selectedAnswer: QuizAnswer;
     onContinue: () => void;
 }
 
@@ -66,9 +66,20 @@ const Feedback = ({ problem, selectedAnswer, onContinue }: FeedbackProps) => {
                 <p className="text-secondary" style={{ marginTop: '0.5rem' }}>
                     {problem.related_info}
                 </p>
-                <p className="text-dim" style={{ marginTop: '0.5rem', fontSize: '0.9em' }}>
-                    [Lecture Slide: {problem.chapter}]
+
+                <p className="text-dim" style={{ marginTop: '1rem' }}>Why This Is High Yield:</p>
+                <p className="text-secondary" style={{ marginTop: '0.5rem' }}>
+                    {problem.why_high_yield}
                 </p>
+
+                <p className="text-dim" style={{ marginTop: '1rem' }}>Sources:</p>
+                <ul style={{ marginTop: '0.5rem', paddingLeft: '1.25rem' }}>
+                    {problem.source_refs.map((source, index) => (
+                        <li key={`${problem.question}-source-${index}`} className="text-secondary" style={{ marginBottom: '0.35rem' }}>
+                            {source}
+                        </li>
+                    ))}
+                </ul>
             </div>
 
             <div style={{ margin: '2rem 0' }}>
@@ -81,4 +92,3 @@ const Feedback = ({ problem, selectedAnswer, onContinue }: FeedbackProps) => {
 };
 
 export default Feedback;
-

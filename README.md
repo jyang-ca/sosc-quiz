@@ -123,8 +123,9 @@ web-quiz/
 │       ├── chapter2.json
 │       ├── chapter4.json
 │       ├── chapter5.json
-│       ├── chapter6.json
-│       └── chapter9.json
+│       ├── exam1-methods.json
+│       ├── exam1-module1.json
+│       └── exam1-module2.json
 ├── src/
 │   ├── components/        # React components
 │   │   ├── Loading.tsx

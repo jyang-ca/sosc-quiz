@@ -1,0 +1,535 @@
+[
+  {
+    "question": "Which statement best captures why psychology is treated as a science rather than as common sense?",
+    "options": {
+      "A": "It depends mainly on intuition developed from everyday life.",
+      "B": "It relies on objective observation, evidence-based testing, and self-correction.",
+      "C": "It accepts explanations that feel personally convincing.",
+      "D": "It focuses only on topics that cannot be measured."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The lecture defines science as building the best possible models of the world through observation and analysis, and distinguishes it from common sense by emphasizing objectivity, evidence, and self-correction.",
+    "why_high_yield": "High yield because the introduction lecture uses this distinction to frame the entire course, and Exam 1 explicitly includes research methods.",
+    "source_refs": [
+      "Exam 1 Guidelines.pdf (research methods explicitly included in coverage)",
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 3-6"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "A researcher proposes that sleep helps memory formation and predicts that sleep-deprived participants will remember less the next day. The prediction is the ______.",
+    "options": {
+      "A": "theory",
+      "B": "replication",
+      "C": "hypothesis",
+      "D": "meta-analysis"
+    },
+    "answer": "C",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "A theory is a broader explanation, whereas a hypothesis is a specific, testable prediction derived from that theory.",
+    "why_high_yield": "High yield because theory-versus-hypothesis is a foundational distinction that appears near the start of the research-methods lecture and organizes later examples.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 5",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Why are replications important in psychological science?",
+    "options": {
+      "A": "They guarantee that every individual study is correct.",
+      "B": "They help researchers check whether findings hold up across repeated tests.",
+      "C": "They replace the need for theories and hypotheses.",
+      "D": "They make correlational studies causal."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Replication matters because single studies can be noisy or misleading; repeated successful tests strengthen confidence, which is especially important in the context of the replication crisis.",
+    "why_high_yield": "High yield because the lecture highlights the replication crisis as a central reason psychology must be evidence-based and self-correcting.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 6",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "A psychologist measures students' time on social media and their loneliness scores without manipulating anything. This is best described as ______.",
+    "options": {
+      "A": "a randomized experiment",
+      "B": "a correlational study",
+      "C": "a meta-analysis",
+      "D": "a case study with experimental control"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Correlational research measures relationships between variables using observational data without manipulating an independent variable.",
+    "why_high_yield": "High yield because distinguishing correlational from experimental research is one of the main frameworks in the methods lecture and reading.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 8-11",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Why can a correlation between social media use and loneliness not, by itself, prove that social media causes loneliness?",
+    "options": {
+      "A": "Because correlations cannot be quantified.",
+      "B": "Because reverse causality or a third variable could explain the relationship.",
+      "C": "Because correlations apply only to laboratory studies.",
+      "D": "Because correlated variables are always unrelated."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Correlation does not imply causation because the direction may be reversed or both variables may be influenced by another factor.",
+    "why_high_yield": "High yield because 'correlation is not causation' is one of the most exam-friendly core ideas in introductory psychology.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 10",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "If two variables show a positive correlation, which statement is correct?",
+    "options": {
+      "A": "As one variable increases, the other tends to increase as well.",
+      "B": "As one variable increases, the other tends to decrease.",
+      "C": "The variables are unrelated.",
+      "D": "The relationship must be causal."
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "A positive correlation means the variables move in the same direction, although that still does not establish causality.",
+    "why_high_yield": "High yield because students are often tested on basic correlation interpretation before being asked to reason about causality.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 9",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which design most directly helps a researcher examine whether changes in X happen before changes in Y?",
+    "options": {
+      "A": "Longitudinal study",
+      "B": "Cross-sectional survey",
+      "C": "Single observation",
+      "D": "Archival snapshot"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The lecture notes that longitudinal or prospective studies improve causal inference by checking whether change in one variable precedes change in another.",
+    "why_high_yield": "High yield because temporal precedence is a classic bridge between correlational evidence and stronger causal inference.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 11",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "A researcher measures parental neglect and statistically removes its influence when examining violent gaming and aggression. This is an example of ______.",
+    "options": {
+      "A": "random assignment",
+      "B": "statistical control",
+      "C": "replication",
+      "D": "demand characteristics"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Statistical control strengthens causal inference in correlational work by measuring a possible third variable and adjusting for its influence.",
+    "why_high_yield": "High yield because the lecture explicitly uses a third-variable example like parental neglect when discussing why correlations are tricky to interpret.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 10-11"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which statement best defines a randomized experiment?",
+    "options": {
+      "A": "It observes naturally occurring differences without manipulation.",
+      "B": "It manipulates an independent variable and observes its effect on a dependent variable.",
+      "C": "It combines many past studies into one summary statistic.",
+      "D": "It only studies one participant in depth."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Randomized experiments manipulate the independent variable and compare outcomes on a dependent variable across conditions created by chance assignment.",
+    "why_high_yield": "High yield because experimental logic is one of the two major designs emphasized in both the lecture and the required reading.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 12-15",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "The purpose of random assignment is to ______.",
+    "options": {
+      "A": "make the experimental and control groups initially equivalent on average",
+      "B": "guarantee that no participant drops out",
+      "C": "measure the dependent variable more precisely",
+      "D": "increase the realism of the study setting"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Random assignment places participants into conditions by chance so that participant characteristics can be treated as equivalent across groups on average.",
+    "why_high_yield": "High yield because the Exam 1 Guidelines use random assignment as a sample multiple-choice question, making this distinction especially likely to be tested.",
+    "source_refs": [
+      "Exam 1 Guidelines.pdf (sample question on random assignment)",
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 14",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "In an experiment comparing violent and non-violent games, keeping the room, timing, and food intake the same across groups is an example of ______.",
+    "options": {
+      "A": "statistical control",
+      "B": "experimental control",
+      "C": "reverse causality",
+      "D": "archival research"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Experimental control means holding variables irrelevant to the theory constant so that differences in outcomes can be attributed more confidently to the manipulated variable.",
+    "why_high_yield": "High yield because students are often asked to separate random assignment from experimental control, and the lecture gives a direct gaming example.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 14-15"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Participants are assigned to either 3 hours of violent gaming or 3 hours of non-violent gaming, and later aggression is measured. In this design, the dependent variable is ______.",
+    "options": {
+      "A": "the type of game played",
+      "B": "the random assignment procedure",
+      "C": "later aggressive behavior",
+      "D": "the physical setting"
+    },
+    "answer": "C",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The dependent variable is the outcome that is measured to see whether it changes as a function of the independent variable.",
+    "why_high_yield": "High yield because identifying independent and dependent variables is a standard introductory exam skill built directly into the lecture's experiment example.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 12-15",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Why do experiments often have lower external validity than correlational studies?",
+    "options": {
+      "A": "Because experiments always use smaller samples than surveys.",
+      "B": "Because experimental settings can be artificial and limited in realism.",
+      "C": "Because experiments cannot include control groups.",
+      "D": "Because experiments never use measurement."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The lecture notes that experiments can be artificial, which may limit how well findings generalize beyond the study setting.",
+    "why_high_yield": "High yield because introductory exams commonly ask students to trade off stronger causal inference against weaker generalizability.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 16",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which research question is LEAST suitable for a randomized experiment?",
+    "options": {
+      "A": "Does a brief mindfulness exercise improve quiz performance?",
+      "B": "Does changing printer defaults reduce paper use?",
+      "C": "Does long-term exposure to neglect predict later aggression?",
+      "D": "Does playing a violent game for one hour affect immediate mood?"
+    },
+    "answer": "C",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Some variables, such as neglect, lifestyle, or major educational experiences, are impossible or unethical to manipulate and randomly assign.",
+    "why_high_yield": "High yield because the lecture explicitly says experiments are not always feasible or ethical, which is a classic exam contrast with correlational designs.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 16",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which of the following would count as correlational rather than experimental evidence?",
+    "options": {
+      "A": "Randomly assigning people to drink caffeine or water",
+      "B": "Comparing sleep quality and mood using survey responses only",
+      "C": "Manipulating study time in the lab",
+      "D": "Assigning participants to meditation or control groups"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Survey-based measurement of naturally occurring variables is correlational because nothing is manipulated.",
+    "why_high_yield": "High yield because students need to quickly identify which design is being used from a short scenario description.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 8-12",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "What does a meta-analysis do?",
+    "options": {
+      "A": "It repeats a single experiment with the same participants.",
+      "B": "It statistically combines evidence across multiple studies.",
+      "C": "It replaces theory with observation.",
+      "D": "It randomly assigns journals to publish findings."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Meta-analysis pools results from many studies to provide a broader estimate of an effect, which is especially useful when assessing replicability.",
+    "why_high_yield": "High yield because meta-analysis is named explicitly in the lecture's discussion of the replication crisis.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 6"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "In a self-correcting science, what should happen when repeated evidence contradicts a theory?",
+    "options": {
+      "A": "The theory should be protected from criticism.",
+      "B": "The hypothesis should be deleted but the theory left unchanged forever.",
+      "C": "The theory should be rejected or revised.",
+      "D": "The results should be ignored unless they match common sense."
+    },
+    "answer": "C",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The lecture's model of science shows that research with replications should confirm a theory or lead researchers to reject or revise it.",
+    "why_high_yield": "High yield because it tests whether students understand science as a process rather than a fixed set of answers.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 3-4"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "A psychologist watches children on a playground and records how often they help one another, without manipulating anything. This is best described as ______.",
+    "options": {
+      "A": "naturalistic observation",
+      "B": "random assignment",
+      "C": "experimental control",
+      "D": "higher-order conditioning"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Naturalistic observation is one form of observational data used in correlational research.",
+    "why_high_yield": "High yield because the lecture uses observational data as a core example of correlational research, and exam items often ask students to identify designs from scenarios.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 8",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which finding would give the strongest support for a causal claim?",
+    "options": {
+      "A": "Two variables are correlated in a single survey.",
+      "B": "A manipulated independent variable changes the dependent variable in a randomized experiment.",
+      "C": "An effect seems obvious from personal experience.",
+      "D": "A blog post reports that two events happened around the same time."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Causal claims are strongest when the researcher manipulates the independent variable, randomly assigns participants, and controls irrelevant influences.",
+    "why_high_yield": "High yield because many introductory exam questions ask students to choose which evidence best supports causation.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 12-15",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which phrase best describes external validity?",
+    "options": {
+      "A": "How well the findings generalize beyond the study setting",
+      "B": "Whether participants were randomly assigned",
+      "C": "Whether the dependent variable was measured accurately",
+      "D": "Whether the study used a control condition"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "External validity concerns how well a study's findings extend to other people, contexts, or situations beyond the original design.",
+    "why_high_yield": "High yield because students are commonly asked to contrast strong internal control with limited generalizability.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 16",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which type of data best fits the lecture's description of machine-learning opportunities in psychology?",
+    "options": {
+      "A": "Very small samples with only one variable",
+      "B": "Large-scale behavioral data with many dimensions",
+      "C": "Only participants' introspective diary entries interpreted informally",
+      "D": "Only studies with no numeric data"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The lecture explains that increased computing power and the availability of big, high-dimensional datasets create new opportunities for machine learning in psychology.",
+    "why_high_yield": "High yield because the course uses computational methods to extend the idea of psychology as a modern empirical science rather than mere intuition.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 17-20",
+      "Bonetti et al. (2025). Decoding the elite soccer player's psychological profile.pdf"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Using text from social media posts to infer political attitudes or emotional tone is an example of ______.",
+    "options": {
+      "A": "operant conditioning",
+      "B": "natural language processing",
+      "C": "random assignment",
+      "D": "sensory adaptation"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The lecture defines NLP as using written language data to analyze human attitudes, emotions, motives, sentiment, and well-being.",
+    "why_high_yield": "High yield because NLP is one of the clearest examples the introduction lecture gives of new research methods in psychology.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 21-24",
+      "Feuerriegel et al. (2025). Using natural language processing to analyse text data in behavioural science.pdf"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which use of large language models is most consistent with the introduction lecture?",
+    "options": {
+      "A": "Replacing all human theory building with guesswork",
+      "B": "Generating tailored health nudges or simulated practice cases for clinicians",
+      "C": "Making random assignment unnecessary in all experiments",
+      "D": "Eliminating the need for written language data"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The lecture lists applied LLM uses such as generating simulated clinical environments, fine-tuned response examples, and individualized health nudges.",
+    "why_high_yield": "High yield because LLMs are presented as an especially current extension of psychological measurement, experimentation, and practice.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 25-26",
+      "Demszky et al. (2023). Using large language models in psychology.pdf"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which change would most improve a correlational study's ability to support a causal interpretation without turning it into an experiment?",
+    "options": {
+      "A": "Collecting data at only one time point",
+      "B": "Adding a longitudinal design or statistical control",
+      "C": "Removing measurement of all possible third variables",
+      "D": "Replacing the sample with a more convenient sample"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The lecture specifically lists longitudinal designs and statistical control as ways to improve causal inference in correlational work.",
+    "why_high_yield": "High yield because it goes beyond memorizing labels and asks students to apply the lecture's causal-inference logic.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 11",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which statement about experimental control is correct?",
+    "options": {
+      "A": "It means every participant receives the experimental treatment.",
+      "B": "It means irrelevant variables are kept as constant as possible across conditions.",
+      "C": "It means only control groups are measured.",
+      "D": "It means researchers do not measure outcomes."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Experimental control reduces competing explanations by holding nonessential factors constant across conditions.",
+    "why_high_yield": "High yield because students often confuse control with random assignment, and this distinction is directly illustrated in the lecture.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 14-15"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "If a researcher can show that loneliness at Time 1 predicts later increases in social media use, what concern is being addressed most directly?",
+    "options": {
+      "A": "random measurement error",
+      "B": "external validity",
+      "C": "reverse causality",
+      "D": "implicit bias"
+    },
+    "answer": "C",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Longitudinal evidence helps address reverse causality by clarifying which variable changes first.",
+    "why_high_yield": "High yield because the lecture uses social media and loneliness specifically to illustrate how correlation leaves causal direction unclear.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 10-11"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which statement about common sense is most consistent with the introduction lecture?",
+    "options": {
+      "A": "Common sense is always false, so scientific testing is unnecessary.",
+      "B": "Common sense can feel compelling, but it is not a substitute for objective evidence and self-correction.",
+      "C": "Common sense becomes scientific whenever many people agree with it.",
+      "D": "Common sense and science differ only in writing style."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The lecture does not claim that common sense is always wrong; rather, it argues that psychology must go beyond intuition by testing claims objectively.",
+    "why_high_yield": "High yield because this is the central message of the opening lecture and shapes how students should interpret all later topics.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 2-6"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "A researcher wants to study the relationship between years of education and later income, but cannot ethically assign people to vastly different educational histories. Which design is most appropriate?",
+    "options": {
+      "A": "Correlational research using observational data",
+      "B": "A randomized controlled trial assigning education history",
+      "C": "Classical conditioning",
+      "D": "A study with no measured outcome"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "When manipulation or random assignment is impossible or unethical, psychologists often rely on correlational designs and then strengthen inference with longitudinal methods or controls.",
+    "why_high_yield": "High yield because the lecture explicitly uses lifestyle and educational experiences as cases where experiments are not feasible.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 16",
+      "Scollon, C. N. (2023). Research Designs (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which scenario best illustrates the lecture's idea that psychology is practically useful once a causal theory is supported?",
+    "options": {
+      "A": "A theory shows that changing X can change Y, allowing intervention on Y by manipulating X.",
+      "B": "A survey reports two variables are related, so one automatically becomes a treatment.",
+      "C": "A hypothesis remains untested, but practitioners apply it anyway.",
+      "D": "Researchers avoid measuring outcomes to preserve realism."
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "The lecture explains that causal theories matter because once a theory is supported, people can take practical action by changing the cause to influence the outcome.",
+    "why_high_yield": "High yield because it connects abstract methods to applied psychology, a repeated design emphasis in the course outline.",
+    "source_refs": [
+      "Course Outline SOSC1960-L1 (Spring 2026).pdf (course design emphases)",
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 5"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which research feature most directly protects psychology from becoming a collection of memorable but unreliable anecdotes?",
+    "options": {
+      "A": "Replication across studies",
+      "B": "Using only striking examples",
+      "C": "Relying on personal conviction",
+      "D": "Avoiding quantitative analysis"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Research Methods",
+    "related_info": "Replication helps separate robust effects from one-off findings or persuasive anecdotes by requiring that results recur under repeated testing.",
+    "why_high_yield": "High yield because the lecture links replication directly to the credibility of psychological science.",
+    "source_refs": [
+      "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 6"
+    ],
+    "incorrect_count": 0
+  }
+]
