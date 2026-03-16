@@ -1,0 +1,524 @@
+[
+  {
+    "question": "Which stage of memory brings stored information back into conscious awareness?",
+    "options": {
+      "A": "encoding",
+      "B": "consolidation",
+      "C": "retrieval",
+      "D": "adaptation"
+    },
+    "answer": "C",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Retrieval is the stage in which stored memories are brought back into conscious awareness so they can be used.",
+    "why_high_yield": "High yield because the memory lecture is organized around the four-stage memory process, making the sequence itself exam-worthy.",
+    "source_refs": [
+      "Exam 1 Guidelines.pdf (all Module 2 subjects included)",
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 2-7"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Transforming a temporary, fragile memory into a more stable and long-lasting form is called ______.",
+    "options": {
+      "A": "retrieval",
+      "B": "consolidation",
+      "C": "recognition",
+      "D": "priming"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Consolidation is the process by which a labile memory becomes more stable over time.",
+    "why_high_yield": "High yield because consolidation is one of the key named memory stages and connects directly with the sleep lecture from Module 1.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 3-5"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Why does unattended sensory information usually disappear quickly?",
+    "options": {
+      "A": "Because it is stored permanently in long-term memory.",
+      "B": "Because the sensory register holds it only briefly unless attention selects it.",
+      "C": "Because retrieval cues immediately erase it.",
+      "D": "Because rehearsal makes it less accessible."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture explains that sensory memory retains information accurately but only very briefly, and unattended input fades rapidly.",
+    "why_high_yield": "High yield because forgetting begins early in the memory system, and the lecture uses this point to explain why attention matters for learning.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 9-11"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which study strategy best reflects elaborative rehearsal?",
+    "options": {
+      "A": "Repeating a definition aloud without connecting it to anything else",
+      "B": "Linking a new concept to prior knowledge and organizing it meaningfully",
+      "C": "Ignoring examples in order to focus on memorization speed",
+      "D": "Reading notes once right before sleeping"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Elaborative rehearsal improves long-term memory by connecting new information to existing knowledge and organizing it meaningfully.",
+    "why_high_yield": "High yield because the lecture contrasts shallow repetition with deep processing, a very common applied-memory exam theme.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 11-18"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Breaking a long string of information into smaller, meaningful units is called ______.",
+    "options": {
+      "A": "interference",
+      "B": "chunking",
+      "C": "extinction",
+      "D": "framing"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Chunking helps memory by organizing large amounts of information into smaller meaningful units, making them easier to encode and hold.",
+    "why_high_yield": "High yield because chunking is one of the lecture's clearest memory-improvement techniques and is easy to test with examples.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 13-15"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "If the police ask you to describe a suspect from memory, they are testing ______; if they ask you to pick the suspect from a lineup, they are testing ______.",
+    "options": {
+      "A": "recognition; recall",
+      "B": "recall; recognition",
+      "C": "storage; consolidation",
+      "D": "encoding; retrieval"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Recall requires generating information without the answer present, whereas recognition is easier because the correct answer is among the options and retrieval cues are available.",
+    "why_high_yield": "High yield because recall versus recognition appears directly in the Exam 1 sample multiple-choice questions.",
+    "source_refs": [
+      "Exam 1 Guidelines.pdf (sample question on recall vs recognition)",
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 19-20"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "When older information disrupts your ability to learn or remember newer information, the problem is called ______.",
+    "options": {
+      "A": "retroactive interference",
+      "B": "proactive interference",
+      "C": "production effect",
+      "D": "false memory"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Proactive interference occurs when older material disrupts retrieval or learning of newer material; retroactive interference works in the opposite direction.",
+    "why_high_yield": "High yield because proactive-versus-retroactive interference is a classic contrast question in introductory memory units.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 19-22"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which practice schedule is most likely to produce the spacing effect?",
+    "options": {
+      "A": "Studying the same material in one long cram session",
+      "B": "Spreading several shorter study sessions across time",
+      "C": "Reading without ever trying to recall",
+      "D": "Avoiding repetition entirely"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The spacing effect means that practice distributed over time is more effective than the same amount of practice massed closely together.",
+    "why_high_yield": "High yield because the lecture explicitly labels the spacing effect as a practical memory-improvement strategy for studying.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 23-24"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which study behavior best reflects retrieval practice?",
+    "options": {
+      "A": "Rereading the same notes again and again without testing yourself",
+      "B": "Setting the list aside and trying to recall it from memory",
+      "C": "Sleeping less so you can read longer",
+      "D": "Highlighting every sentence in the textbook"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Retrieval practice strengthens memory by making learners actively bring information back to mind instead of only re-exposing themselves to it.",
+    "why_high_yield": "High yield because the lecture presents retrieval practice as one of the most actionable study strategies, making it a natural testable application.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, p. 24"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Participants who report seeing broken glass after hearing a more dramatic question about a car accident illustrate the ______.",
+    "options": {
+      "A": "McGurk effect",
+      "B": "misinformation effect",
+      "C": "gambler's fallacy",
+      "D": "rebound effect"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The misinformation effect shows that memory is reconstructive and can be altered by suggestive post-event information.",
+    "why_high_yield": "High yield because the lecture uses the Loftus and Palmer example to show that memory is not a literal video recording.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 25-28"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which description best fits System 1 thinking?",
+    "options": {
+      "A": "slow, deliberate, rule-based, and effortful",
+      "B": "fast, automatic, heuristic-based, and error-prone",
+      "C": "fully logical and never biased",
+      "D": "limited only to experts"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture presents System 1 as rapid and intuitive, whereas System 2 is slower, more effortful, and rule-based.",
+    "why_high_yield": "High yield because Kahneman's two-systems framework organizes the whole decision-making lecture.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 2-4",
+      "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Bounded rationality means that judgments and decisions are limited by ______.",
+    "options": {
+      "A": "only IQ scores",
+      "B": "psychological and contextual constraints such as attention, information, and time pressure",
+      "C": "the inability to learn from experience",
+      "D": "the total absence of intuition"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture explains that even capable thinkers are bounded by limited information, attentional resources, motivation, persistence, time pressure, and other contextual factors.",
+    "why_high_yield": "High yield because bounded rationality is the core answer to the module's title question about sticking with bad investments.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 2-4",
+      "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Believing that a lucky charm can influence the outcome of a chance event is an example of ______.",
+    "options": {
+      "A": "magical thinking",
+      "B": "statistical control",
+      "C": "retrieval practice",
+      "D": "shape constancy"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Magical thinking is the belief that an object, action, or circumstance not logically related to an event can influence its outcome.",
+    "why_high_yield": "High yield because it is a memorable illustration of illogical beliefs undermining rational judgment, which is a repeated theme in the lecture.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 5-6"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Preferring a lottery ticket that you personally chose over an identical ticket given to you by someone else best reflects the ______.",
+    "options": {
+      "A": "availability bias",
+      "B": "illusion of control",
+      "C": "spacing effect",
+      "D": "self-reference effect"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The illusion of control is the tendency to believe one can influence outcomes that are actually uncontrollable, such as lottery results.",
+    "why_high_yield": "High yield because the lecture gives direct lottery-ticket examples, making this concept especially easy to convert into exam scenarios.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 7-12",
+      "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "When people choose the sure option in a gain frame but the risky option in a loss frame, they are showing the ______.",
+    "options": {
+      "A": "framing effect",
+      "B": "production effect",
+      "C": "conditioned response",
+      "D": "stereotype threat"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The framing effect occurs when judgment changes depending on how objectively equivalent information is presented, such as lives saved versus lives lost.",
+    "why_high_yield": "High yield because framing is one of the lecture's main heuristics-and-biases examples and is a standard introductory exam topic.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 15-17",
+      "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Changing the default setting on printers from single-sided to double-sided printing without removing any option is an example of a ______.",
+    "options": {
+      "A": "punisher",
+      "B": "nudge",
+      "C": "conditioned stimulus",
+      "D": "retrieval cue"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "A nudge changes choice architecture so that decisions shift without changing the available options themselves.",
+    "why_high_yield": "High yield because the lecture gives the printer-default study as a concrete applied example of behavioral decision making.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 17-19",
+      "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Eating more food simply because it was served in a larger bowl or on a larger plate best illustrates ______.",
+    "options": {
+      "A": "mindless eating",
+      "B": "perceptual constancy",
+      "C": "consolidation",
+      "D": "terror management"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Mindless eating refers to the strong influence of seemingly irrelevant environmental factors, such as container or plate size, on eating behavior.",
+    "why_high_yield": "High yield because the lecture uses several intuitive eating examples to show how context shapes decisions outside conscious analytic reasoning.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 20-24"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "After black appears on the roulette wheel five times in a row, betting on red because it 'must be next' reflects the ______.",
+    "options": {
+      "A": "gambler's fallacy",
+      "B": "availability bias",
+      "C": "self-reference effect",
+      "D": "flynn effect"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The gambler's fallacy is the mistaken belief that a chance event becomes more likely because it has not occurred recently or because the opposite outcome has repeated.",
+    "why_high_yield": "High yield because this is one of the clearest heuristics-and-biases examples in the decision-making lecture.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 25-28",
+      "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Judging 'bank teller and feminist' as more likely than 'bank teller' alone is a classic example of the ______.",
+    "options": {
+      "A": "conjunction fallacy",
+      "B": "production effect",
+      "C": "spacing effect",
+      "D": "placebo effect"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The conjunction fallacy occurs when people incorrectly judge the probability of two events occurring together as greater than the probability of either event alone.",
+    "why_high_yield": "High yield because the lecture links the Linda problem directly to representativeness, making it a classic exam-ready example.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 29-31",
+      "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Worrying about plane crashes immediately after hearing about several recent crashes in the news is the best example of ______.",
+    "options": {
+      "A": "availability bias",
+      "B": "illusion of transparency",
+      "C": "random assignment",
+      "D": "operant conditioning"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Availability bias occurs when people judge the probability of an event by how easily examples come to mind rather than by complete or representative evidence.",
+    "why_high_yield": "High yield because availability bias appears directly in the Exam 1 sample multiple-choice questions.",
+    "source_refs": [
+      "Exam 1 Guidelines.pdf (sample question on availability bias)",
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 32-35",
+      "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Fluid intelligence refers most directly to the ability to ______.",
+    "options": {
+      "A": "use previously learned vocabulary and general knowledge",
+      "B": "think and reason without relying on learned knowledge",
+      "C": "repeat information through rote rehearsal",
+      "D": "regulate emotions in social contexts"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture contrasts fluid intelligence, which supports novel reasoning, with crystallized intelligence, which draws on accumulated knowledge.",
+    "why_high_yield": "High yield because fluid-versus-crystallized intelligence is the opening conceptual contrast in the intelligence lecture.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 2-3"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Norming in intelligence testing means ______.",
+    "options": {
+      "A": "allowing each test taker to choose their own scoring system",
+      "B": "collecting data from a representative sample so scores can be interpreted relative to a population",
+      "C": "making every test item equally difficult",
+      "D": "removing all cultural influences from testing"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Norming provides comparison data from a representative sample so that a person's score can be interpreted relative to peers.",
+    "why_high_yield": "High yield because standardization and norming are key definitions in the history and logic of IQ testing.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 4-8"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Spearman's g-factor refers to ______.",
+    "options": {
+      "A": "the tendency for people to show a growth mindset",
+      "B": "a single hypothetical factor underlying many intellectual abilities",
+      "C": "a measure of emotional intelligence only",
+      "D": "the average IQ score of a group"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Spearman proposed that performance across many mental tasks is positively correlated because of a general underlying factor, g.",
+    "why_high_yield": "High yield because g is the lecture's main theoretical answer to why diverse cognitive abilities often correlate.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 5-7"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which research designs are especially useful for estimating heritability?",
+    "options": {
+      "A": "Gestalt demonstrations and psychophysical threshold studies",
+      "B": "Twin studies and adoption studies",
+      "C": "Randomized printer-default experiments",
+      "D": "Priming and lexical decision tasks"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture explains heritability using adoption studies that compare biological versus adoptive resemblance and twin studies that compare identical and fraternal twins.",
+    "why_high_yield": "High yield because heritability is a core interpretive topic in the intelligence lecture and depends on recognizing these study designs.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 9-10"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "According to the lecture, an additional year of education is associated with roughly ______.",
+    "options": {
+      "A": "no change in IQ at all",
+      "B": "1 to 5 IQ points on average",
+      "C": "a guaranteed 15-point increase",
+      "D": "a decrease in abstract reasoning"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture cites a large meta-analysis suggesting that an additional year of education is associated with about a 1-to-5-point IQ increase.",
+    "why_high_yield": "High yield because it shows that IQ is influenced by environment rather than being fixed, which directly answers the module's guiding question.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 10-11"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "When making a negative group stereotype salient worsens test performance for members of that group, the effect is called ______.",
+    "options": {
+      "A": "cognitive dissonance",
+      "B": "stereotype threat",
+      "C": "sensory adaptation",
+      "D": "operant extinction"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Stereotype threat refers to anxiety or arousal triggered by a negative stereotype, which can depress performance on the very task being evaluated.",
+    "why_high_yield": "High yield because the lecture uses stereotype threat to show that group differences in test scores are not fixed and can depend on context.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 11-12"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Worldwide gains in IQ scores across decades are known as the ______.",
+    "options": {
+      "A": "placebo effect",
+      "B": "Flynn effect",
+      "C": "halo effect",
+      "D": "availability effect"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The Flynn effect refers to large long-term increases in measured IQ scores, especially on tasks involving abstract reasoning.",
+    "why_high_yield": "High yield because it is a named effect that strongly supports the lecture's argument that intelligence test performance is shaped by historical and environmental conditions.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 13-14"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Why can highly intelligent people still make irrational decisions and judgments?",
+    "options": {
+      "A": "Because IQ automatically causes stronger emotions than cognition.",
+      "B": "Because IQ is unrelated to biases such as myside bias and does not guarantee rational thinking.",
+      "C": "Because high IQ people cannot use System 2 thinking.",
+      "D": "Because intelligence tests only measure sleep quality."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture explicitly states that high IQ does not guarantee rational thinking and notes that IQ is unrelated to myside bias.",
+    "why_high_yield": "High yield because this exact issue appears as the sample short-answer question in the Exam 1 Guidelines.",
+    "source_refs": [
+      "Exam 1 Guidelines.pdf (sample short-answer question on high IQ and irrational judgment)",
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 17-18"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "In the lecture, myside bias refers to ______.",
+    "options": {
+      "A": "judging evidence in a way biased toward one's prior beliefs and opinions",
+      "B": "preferring positive over negative emotions",
+      "C": "the tendency to overestimate rare dramatic events because of news coverage",
+      "D": "group members coordinating poorly on joint tasks"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Myside bias is the tendency to evaluate and generate evidence in ways that support one's existing beliefs, regardless of intelligence level.",
+    "why_high_yield": "High yield because the lecture uses myside bias to answer why IQ alone cannot guarantee good judgment.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 17-18"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "According to Sternberg's triarchic theory, practical intelligence is best described as ______.",
+    "options": {
+      "A": "the ability to solve only abstract verbal analogies",
+      "B": "tacit, experience-based know-how for real-world problems",
+      "C": "a synonym for g-factor",
+      "D": "the tendency to prefer familiar options"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture defines practical intelligence as context-specific, experience-based know-how for solving ill-defined real-world problems.",
+    "why_high_yield": "High yield because the lecture closes by moving beyond IQ, so practical intelligence is central to the answer that success depends on more than test scores.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 19-23"
+    ],
+    "incorrect_count": 0
+  }
+]

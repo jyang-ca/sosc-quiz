@@ -1,0 +1,531 @@
+[
+  {
+    "question": "Which statement best distinguishes sensation from perception?",
+    "options": {
+      "A": "Sensation organizes meaning, whereas perception detects raw stimulation.",
+      "B": "Sensation encodes incoming stimulation, whereas perception organizes and interprets it.",
+      "C": "Sensation occurs only in vision, whereas perception occurs in every sense.",
+      "D": "Sensation is always conscious, whereas perception is always unconscious."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture defines sensory processes as encoding stimulation through the sensory organs, while perception is the brain's active organization and interpretation of that input.",
+    "why_high_yield": "High yield because sensation-versus-perception is the first conceptual distinction in the perception lecture and anchors many later examples.",
+    "source_refs": [
+      "Exam 1 Guidelines.pdf (all Module 1 subjects included; Lachs required reading listed)",
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 3-6",
+      "Lachs, L. (2023). Multi-modal perception (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "The conversion of environmental stimulation into electrical signals that the nervous system can process is called ______.",
+    "options": {
+      "A": "sensory adaptation",
+      "B": "transduction",
+      "C": "perceptual constancy",
+      "D": "retrieval"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Transduction refers to converting sensory input into neural signals, which is one of the basic functions of sensory systems.",
+    "why_high_yield": "High yield because transduction is a core definition-level concept from the opening part of the perception lecture.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, p. 3"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "When a stimulus is too weak to be detected at all, it falls below the ______.",
+    "options": {
+      "A": "sensory adaptation threshold",
+      "B": "absolute threshold",
+      "C": "difference threshold",
+      "D": "response bias"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture defines the absolute threshold as the point below which sensory information is too weak to be detected.",
+    "why_high_yield": "High yield because threshold concepts are classic perception test items and appear early in the lecture's explanation of why not all sensory input becomes conscious perception.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, p. 6",
+      "Lachs, L. (2023). Multi-modal perception (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "After sitting in a room with a strong perfume for several minutes, you barely notice the smell. This is an example of ______.",
+    "options": {
+      "A": "sensory adaptation",
+      "B": "priming",
+      "C": "random assignment",
+      "D": "classical conditioning"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Sensory adaptation is diminished sensitivity to a stimulus after prolonged exposure.",
+    "why_high_yield": "High yield because the lecture presents sensory adaptation as one of the fundamental reasons perception is selective rather than a perfect copy of the environment.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, p. 6"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "A student is so focused on texting while walking that she fails to notice a friend waving directly in front of her. This best illustrates ______.",
+    "options": {
+      "A": "inattentional blindness",
+      "B": "retinal disparity",
+      "C": "shape constancy",
+      "D": "operant conditioning"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Inattentional blindness occurs when attention determines what is perceived and what is missed, even when the stimulus is present.",
+    "why_high_yield": "High yield because it turns the lecture's abstract claim that not all stimulation becomes perception into a vivid applied example.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, p. 6"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Seeing a broken circle as a complete circle because the mind fills in missing parts is an example of the Gestalt principle of ______.",
+    "options": {
+      "A": "closure",
+      "B": "interposition",
+      "C": "retinal disparity",
+      "D": "conditioning"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Closure is the Gestalt tendency to supply missing elements so that incomplete stimuli are perceived as complete wholes.",
+    "why_high_yield": "High yield because Gestalt laws are one of the most testable perception subtopics in the slide deck.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 9-12"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Reading a messy sentence successfully because you use prior knowledge about language and context is best explained by ______ processing.",
+    "options": {
+      "A": "bottom-up",
+      "B": "top-down",
+      "C": "sensory",
+      "D": "reflexive"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Top-down processing uses existing knowledge and expectations to identify a stimulus efficiently and predictively.",
+    "why_high_yield": "High yield because top-down versus bottom-up processing is a classic comparison and often appears in example-based questions.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 13-15",
+      "Lachs, L. (2023). Multi-modal perception (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "With respect to vision, what remains stable in perceptual constancy?",
+    "options": {
+      "A": "the retinal image",
+      "B": "the physical lighting conditions",
+      "C": "our perception of the object's properties",
+      "D": "the amount of sensory adaptation"
+    },
+    "answer": "C",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Perceptual constancy refers to the stability of perception despite changes in the retinal image; for example, perceived size or shape can remain constant.",
+    "why_high_yield": "High yield because perceptual constancy appears directly in the Exam 1 sample multiple-choice questions.",
+    "source_refs": [
+      "Exam 1 Guidelines.pdf (sample question on perceptual constancy)",
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 16-17",
+      "Lachs, L. (2023). Multi-modal perception (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "When the two eyes receive slightly different images and the brain uses that difference to judge distance, the relevant cue is ______.",
+    "options": {
+      "A": "interposition",
+      "B": "retinal disparity",
+      "C": "closure",
+      "D": "sensory adaptation"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Retinal disparity is a binocular cue: the greater the difference between the two retinal images, the closer the object tends to be perceived.",
+    "why_high_yield": "High yield because the lecture clearly separates binocular and monocular depth cues, a distinction that is easy to test through scenarios.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 18-21"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "The McGurk effect is strongest evidence that perception is ______.",
+    "options": {
+      "A": "completely separate across the senses",
+      "B": "based only on audition",
+      "C": "multisensory and integrative",
+      "D": "immune to visual input"
+    },
+    "answer": "C",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The McGurk effect shows that visual information about speech can alter what people hear, demonstrating multisensory perception.",
+    "why_high_yield": "High yield because multisensory perception is the required reading topic and the McGurk effect is its signature example in the lecture.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 28-32",
+      "Lachs, L. (2023). Multi-modal perception (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which statement about REM sleep is correct?",
+    "options": {
+      "A": "It is the stage in which heart rate and breathing are at their lowest and stable levels.",
+      "B": "It features brain waves similar to wakefulness, rapid eye movements, and muscle paralysis.",
+      "C": "It contains no dreaming at all.",
+      "D": "It is identical to deep stage 3 and 4 sleep."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "REM sleep is marked by wake-like brain activity, rapid eye movements, increases in several physiological measures, and temporary muscle paralysis.",
+    "why_high_yield": "High yield because REM is one of the clearest definitional contrasts in the sleep lecture and easy to turn into multiple-choice questions.",
+    "source_refs": [
+      "Exam 1 Guidelines.pdf (all Module 1 subjects included)",
+      "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 3-5"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Why is sleep especially relevant to learning in this course?",
+    "options": {
+      "A": "Because sleep eliminates the need for retrieval practice.",
+      "B": "Because sleep supports memory formation and consolidation.",
+      "C": "Because only REM sleep stores procedural memories.",
+      "D": "Because staying awake longer always improves attention."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture emphasizes that sleep supports cognitive functions such as memory formation and consolidation, and that sleep after learning can improve later performance.",
+    "why_high_yield": "High yield because sleep's role in memory bridges Module 1 and Module 2, making it especially likely to appear in integrative exam questions.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 6-8"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "External cues such as light and daily activities that help synchronize circadian rhythms are called ______.",
+    "options": {
+      "A": "heuristics",
+      "B": "zeitgebers",
+      "C": "conditioned stimuli",
+      "D": "implicit attitudes"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Zeitgebers are external time-givers, such as light and regular activities, that help align internal rhythms with the 24-hour day.",
+    "why_high_yield": "High yield because zeitgeber is one of the few specialized terms in the sleep lecture and is tied directly to circadian misalignment.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 13-14"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which condition is most directly characterized by repeated breathing interruptions during sleep, loud snoring, and abrupt awakenings?",
+    "options": {
+      "A": "insomnia",
+      "B": "sleep apnea",
+      "C": "circadian free running",
+      "D": "REM rebound"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture distinguishes sleep apnea from insomnia by emphasizing breathing difficulties, snoring, and abrupt awakenings.",
+    "why_high_yield": "High yield because this is a straightforward but highly testable distinction within the sleep-problems section.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 18-20"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which statement best describes an implicit process?",
+    "options": {
+      "A": "It is a mental activity of which we are always consciously aware.",
+      "B": "It is a mental activity that influences us even without conscious awareness.",
+      "C": "It occurs only during dream sleep.",
+      "D": "It is limited to voluntary movement."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture contrasts explicit processes, which are conscious, with implicit processes, which can influence perception, memory, and action without awareness.",
+    "why_high_yield": "High yield because explicit-versus-implicit processing is the organizing contrast for the consciousness lecture.",
+    "source_refs": [
+      "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 7-9",
+      "Biswas-Diener, R. & Teeny, J. (2023). States of consciousness (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Patient TN could avoid obstacles in a hallway despite being clinically blind. This phenomenon is called ______.",
+    "options": {
+      "A": "visual agnosia",
+      "B": "blindsight",
+      "C": "sensory adaptation",
+      "D": "subliminal persuasion"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Blindsight refers to responding to visual information without conscious visual awareness, as in the case described in the lecture.",
+    "why_high_yield": "High yield because blindsight is the lecture's clearest empirical example showing that perception and awareness can come apart.",
+    "source_refs": [
+      "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 10-12",
+      "Biswas-Diener, R. & Teeny, J. (2023). States of consciousness (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "The Implicit Association Test is designed to measure ______.",
+    "options": {
+      "A": "explicit memory for faces",
+      "B": "unconscious or automatic attitudes",
+      "C": "visual acuity",
+      "D": "sleep-related motor behavior"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture describes the IAT as a reaction-time measure of implicit attitudes, such as stereotypes toward social groups.",
+    "why_high_yield": "High yield because it is a named assessment tool attached to the broader theme of implicit processing.",
+    "source_refs": [
+      "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 17-18"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "When a briefly presented word influences how quickly you identify a later target without your awareness, the effect is called ______.",
+    "options": {
+      "A": "priming",
+      "B": "extinction",
+      "C": "retrieval practice",
+      "D": "shape constancy"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Priming occurs when exposure to one stimulus influences a later perception, memory, or response, even without conscious awareness of the prime.",
+    "why_high_yield": "High yield because priming is a classic introductory psychology effect and an easy way to test implicit processing.",
+    "source_refs": [
+      "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 19-22",
+      "Biswas-Diener, R. & Teeny, J. (2023). States of consciousness (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "According to the lecture, subliminal advertising appears to influence product choice mainly when ______.",
+    "options": {
+      "A": "people are motivated in a relevant way, such as already being thirsty",
+      "B": "people are never motivated at all",
+      "C": "the message is consciously read for a long time",
+      "D": "the product is unrelated to the person's needs"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture notes that subliminal priming can affect purchase intentions only under relevant active states, such as thirst, and cannot simply override people's wishes.",
+    "why_high_yield": "High yield because it tests a common misconception about unconscious influence and turns it into a nuanced application question.",
+    "source_refs": [
+      "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 21-22"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Terror management theory proposes that many behaviors are shaped by the tension between ______.",
+    "options": {
+      "A": "the desire for variety and the fear of boredom",
+      "B": "the desire for survival and awareness of death",
+      "C": "the id and the superego only",
+      "D": "sleep pressure and circadian rhythm"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture explains terror management theory as an unconscious motivation arising from the juxtaposition of the desire to survive and the awareness of death.",
+    "why_high_yield": "High yield because the lecture provides a clear named theory plus concrete experiments, which is a common exam combination.",
+    "source_refs": [
+      "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 28-30"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "According to basic emotion theory, which claim is most consistent with the lecture?",
+    "options": {
+      "A": "All emotions are purely language-based constructions with no physiological patterning.",
+      "B": "Basic emotions are universal and linked to distinctive physiological or neural profiles.",
+      "C": "Emotions are too socially variable to have any common features.",
+      "D": "Only happiness and sadness are real emotions."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Basic emotion theory argues that some emotions are universally manifested and recognized and have distinctive biological profiles with adaptive functions.",
+    "why_high_yield": "High yield because the emotions lecture is organized around the contrast between basic emotion theory and constructivist theory.",
+    "source_refs": [
+      "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 3-7",
+      "Hwang, H. & Matsumoto, D. (2023). Functions of emotions (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "In the circumplex model, emotional experiences are organized mainly along the dimensions of ______.",
+    "options": {
+      "A": "valence and arousal",
+      "B": "consciousness and memory",
+      "C": "reward and punishment",
+      "D": "clarity and vividness"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture presents the circumplex model as a constructivist account that maps emotions along valence and arousal or activation.",
+    "why_high_yield": "High yield because it is the most concrete representation of constructivist emotion theory in the slides.",
+    "source_refs": [
+      "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 8-10",
+      "Hwang, H. & Matsumoto, D. (2023). Functions of emotions (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which example best illustrates an interpersonal function of emotion?",
+    "options": {
+      "A": "Fear redistributes blood flow in preparation for fleeing.",
+      "B": "Gratitude helps build supportive and caring relationships.",
+      "C": "Sleep strengthens memory consolidation.",
+      "D": "A prime speeds lexical decisions."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture explains that emotions help people navigate the social world and specifically notes that experienced gratitude can strengthen supportive relationships.",
+    "why_high_yield": "High yield because the functions-of-emotion framework is required reading material and gratitude is the lecture's clearest relationship example.",
+    "source_refs": [
+      "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 15-16",
+      "Hwang, H. & Matsumoto, D. (2023). Functions of emotions (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Deliberately visiting a favorite peaceful place in order to feel better before an important meeting is an example of ______.",
+    "options": {
+      "A": "emotion regulation",
+      "B": "perceptual constancy",
+      "C": "classical conditioning extinction",
+      "D": "circadian misalignment"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Emotion regulation refers to processes by which people influence which emotions they have, when they have them, and how those emotions are experienced or expressed.",
+    "why_high_yield": "High yield because the lecture provides a full section of concrete examples that are easy to transform into scenario-based exam questions.",
+    "source_refs": [
+      "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 18-21"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "In Pavlov's framework, a bell that originally meant nothing but later triggers salivation after repeated pairings with food becomes the ______.",
+    "options": {
+      "A": "unconditioned stimulus",
+      "B": "conditioned stimulus",
+      "C": "unconditioned response",
+      "D": "primary reinforcer"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "A conditioned stimulus is a once-neutral stimulus that acquires the ability to trigger a response after being paired with an unconditioned stimulus.",
+    "why_high_yield": "High yield because classical-conditioning terminology is one of the most standard and repeatedly tested topic areas in introductory psychology.",
+    "source_refs": [
+      "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 3-8",
+      "Bouton, M. E. (2023). Conditioning and learning (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Feeling sick after eating a food that was paired with illness in the past is the best example of ______.",
+    "options": {
+      "A": "conditioned taste aversion",
+      "B": "shape constancy",
+      "C": "negative punishment",
+      "D": "priming"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Conditioned taste aversion occurs when a taste becomes associated with sickness, leading the organism to avoid or dislike that taste later.",
+    "why_high_yield": "High yield because it is a memorable real-world application of classical conditioning highlighted in the lecture.",
+    "source_refs": [
+      "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 11-13",
+      "Bouton, M. E. (2023). Conditioning and learning (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Why is extinction central to exposure therapy?",
+    "options": {
+      "A": "Because it strengthens a conditioned fear response.",
+      "B": "Because it reduces a conditioned response when the conditioned stimulus is no longer paired with the unconditioned stimulus.",
+      "C": "Because it increases the power of punishment.",
+      "D": "Because it creates new retrieval cues."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Extinction occurs when a conditioned response weakens because the conditioned stimulus is repeatedly presented without the unconditioned stimulus.",
+    "why_high_yield": "High yield because the lecture directly names exposure therapy as an application of extinction, creating an obvious exam link between concept and intervention.",
+    "source_refs": [
+      "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, p. 14",
+      "Bouton, M. E. (2023). Conditioning and learning (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "In operant conditioning, a consequence that increases the future likelihood of a behavior is called ______.",
+    "options": {
+      "A": "reinforcement",
+      "B": "punishment",
+      "C": "generalization",
+      "D": "inattentional blindness"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Operant conditioning focuses on how consequences change voluntary behavior; reinforcement strengthens behavior, whereas punishment weakens it.",
+    "why_high_yield": "High yield because reinforcement-versus-punishment is a high-frequency introductory distinction and a core part of the conditioning lecture.",
+    "source_refs": [
+      "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 15-18",
+      "Bouton, M. E. (2023). Conditioning and learning (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Rewarding closer and closer approximations to a desired complex behavior is called ______.",
+    "options": {
+      "A": "shaping",
+      "B": "sensory adaptation",
+      "C": "retrieval practice",
+      "D": "display rule training"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Shaping teaches a complex behavior gradually by reinforcing successive approximations of the target response.",
+    "why_high_yield": "High yield because shaping is one of the lecture's clearest applied examples of operant conditioning and links directly to the pigeons theme.",
+    "source_refs": [
+      "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 19-21"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Children who imitate an aggressive model less when they saw the model punished demonstrate the importance of ______.",
+    "options": {
+      "A": "sensory transduction",
+      "B": "vicarious reinforcement or punishment in observational learning",
+      "C": "REM rebound",
+      "D": "perceptual constancy"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Observational learning does not require direct reinforcement; seeing a model rewarded or punished can change whether the observer imitates the behavior.",
+    "why_high_yield": "High yield because Bandura-style modeling is a classic introductory psychology finding and the lecture explicitly connects it to Bobo doll evidence.",
+    "source_refs": [
+      "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 24-29",
+      "Bouton, M. E. (2023). Conditioning and learning (required reading)"
+    ],
+    "incorrect_count": 0
+  }
+]
