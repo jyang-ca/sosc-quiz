@@ -9,7 +9,7 @@ import type {
   ChapterInfo,
 } from './types';
 
-const QUESTIONS_PER_QUIZ = 20;
+const QUESTIONS_PER_QUIZ = 30;
 
 export const CHAPTER_INFO: ChapterInfo[] = [
   { id: 'all', title: 'All Chapters', fileName: '' },

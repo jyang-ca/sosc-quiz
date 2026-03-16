@@ -4,7 +4,7 @@ SOSC1960 Spaced Repetition Learning Tool
 
 ## 🎯 Features
 
-- 📚 20 questions per quiz session
+- 📚 30 questions per quiz session
 - 🔄 Smart problem selection (prioritizes previously incorrect answers)
 - ✅ Immediate feedback with explanations
 - 📊 Detailed statistics and progress tracking
@@ -153,7 +153,7 @@ web-quiz/
 ### Quiz Flow
 
 1. **Welcome Screen**: Shows current progress and statistics
-2. **Question Phase**: Answer 20 questions
+2. **Question Phase**: Answer 30 questions
 3. **Feedback**: View correct answer and explanation after each question
 4. **Retry Phase**: Incorrectly answered questions are retested
 5. **Statistics**: View detailed results and progress
@@ -202,7 +202,7 @@ const problemFiles = [
 Edit `src/quizLogic.ts`:
 
 ```typescript
-const QUESTIONS_PER_QUIZ = 20;  // Change this
+const QUESTIONS_PER_QUIZ = 30;  // Change this
 ```
 
 ### Modify Terminal Colors
