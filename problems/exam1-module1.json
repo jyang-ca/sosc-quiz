@@ -527,5 +527,264 @@
       "Bouton, M. E. (2023). Conditioning and learning (required reading)"
     ],
     "incorrect_count": 0
+  },
+  {
+    "question": "When perception separates an object from its background, the relevant Gestalt idea is ______.",
+    "options": {
+      "A": "figure-ground organization",
+      "B": "retroactive interference",
+      "C": "fixed ratio reinforcement",
+      "D": "availability bias"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Figure-ground organization refers to the tendency to separate elements into a focal figure and a background.",
+    "why_high_yield": "High yield because figure-ground is one of the named Gestalt laws in the perception lecture and is easy to assess visually or verbally.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 9-11"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "When one object partly blocks another and is therefore seen as closer, the monocular depth cue is ______.",
+    "options": {
+      "A": "interposition",
+      "B": "convergence",
+      "C": "closure",
+      "D": "sensory adaptation"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Interposition is a monocular depth cue in which nearer objects obscure parts of farther objects.",
+    "why_high_yield": "High yield because the lecture gives a clear list of depth cues and exams often ask students to map a concrete scene to the right cue.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 18-22"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Seeing a hill as steeper when you are tired or carrying a heavy backpack best supports the idea of ______.",
+    "options": {
+      "A": "action-specific or embodied perception",
+      "B": "perceptual constancy",
+      "C": "classical conditioning",
+      "D": "circadian free running"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Embodied or action-specific perception means the body and its ability to act shape how the environment is perceived.",
+    "why_high_yield": "High yield because the heavy-backpack example is one of the lecture's most memorable perception applications.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 33-35",
+      "Lachs, L. (2023). Multi-modal perception (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which sleep stage is described as deep sleep and as the least responsive to outside stimulation?",
+    "options": {
+      "A": "REM sleep",
+      "B": "Non-REM stages 3 and 4",
+      "C": "Non-REM stage 1 only",
+      "D": "wakefulness"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture identifies stages 3 and 4 of non-REM sleep as deep sleep, with minimal responsiveness to external stimulation.",
+    "why_high_yield": "High yield because sleep-stage contrasts are straightforward but central test material from the sleep lecture.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 3-5"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "If people are deprived of REM sleep, what is likely to happen when they can sleep normally again?",
+    "options": {
+      "A": "They show REM rebound and spend more time in REM sleep.",
+      "B": "They permanently lose the ability to dream.",
+      "C": "They skip all non-REM stages.",
+      "D": "They become unable to consolidate memories at all."
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "REM rebound refers to increased REM sleep after REM deprivation.",
+    "why_high_yield": "High yield because REM rebound is a named sleep concept that is easy to test with a short scenario.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Can people die from not sleeping.pdf, p. 5"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Working night shifts and then trying to sleep at biologically unusual times most directly illustrates ______.",
+    "options": {
+      "A": "circadian misalignment",
+      "B": "classical conditioning",
+      "C": "perceptual constancy",
+      "D": "implicit bias"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Circadian misalignment occurs when sleep-wake timing is out of sync with the body's biological rhythms, as in shift work or social jet lag.",
+    "why_high_yield": "High yield because the sleep lecture emphasizes modern causes of poor sleep and the health risks linked to circadian disruption.",
+    "source_refs": [
+      "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 19-22"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Alcohol is classified in the consciousness lecture as a ______.",
+    "options": {
+      "A": "stimulant",
+      "B": "depressant",
+      "C": "hallucinogen",
+      "D": "sleep-stage marker"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture groups psychoactive drugs into depressants, stimulants, and hallucinogens, with alcohol listed as a depressant.",
+    "why_high_yield": "High yield because altered states of consciousness are introduced through a simple but exam-friendly drug classification scheme.",
+    "source_refs": [
+      "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 4-6",
+      "Biswas-Diener, R. & Teeny, J. (2023). States of consciousness (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "In the lecture, meditation is described mainly as ______.",
+    "options": {
+      "A": "a form of operant punishment",
+      "B": "focusing on a single target to achieve awareness and present-moment attention",
+      "C": "evidence that all cognition is unconscious",
+      "D": "a replacement for sleep"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Meditation is presented as sustained focus on a single target, with benefits for stress, hypertension, pain, and sleep quality.",
+    "why_high_yield": "High yield because meditation is one of the main altered states named in the consciousness lecture and ties to well-being applications.",
+    "source_refs": [
+      "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 5-6"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Noticing your own name in a noisy room even while focused on another conversation is the classic ______ effect.",
+    "options": {
+      "A": "cocktail party",
+      "B": "Ebbinghaus",
+      "C": "Flynn",
+      "D": "Ponzo"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The cocktail party effect shows that some processing of unattended information occurs outside focal awareness.",
+    "why_high_yield": "High yield because it is one of the lecture's clearest examples of unconscious or implicit processing in everyday life.",
+    "source_refs": [
+      "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 13-15"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "How is skilled cycling, swimming, or driving described once it has been extensively practiced?",
+    "options": {
+      "A": "As an explicit process that requires constant conscious control",
+      "B": "As an implicit or automatic procedural memory process",
+      "C": "As a type of sensory adaptation",
+      "D": "As a form of experimental control"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture explains that retrieval of procedural skills becomes implicit and automatic with extensive practice.",
+    "why_high_yield": "High yield because it connects implicit processing to everyday skilled performance, not just laboratory demonstrations.",
+    "source_refs": [
+      "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 15-16"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which statement best distinguishes a mood from an emotion?",
+    "options": {
+      "A": "A mood is usually briefer and more physiologically intense than an emotion.",
+      "B": "A mood is an emotional state extended over time, whereas an emotion is a briefer episode.",
+      "C": "A mood is always unconscious, whereas an emotion is always conscious.",
+      "D": "A mood cannot influence behavior."
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture defines emotion as a brief episode involving experience, behavior, and physiology, while mood is an emotional state extended in time.",
+    "why_high_yield": "High yield because emotion-versus-mood is a foundational distinction at the start of the emotions lecture.",
+    "source_refs": [
+      "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 1-2"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Which of the following is presented as a secondary emotion rather than a primary basic emotion?",
+    "options": {
+      "A": "fear",
+      "B": "disgust",
+      "C": "gratitude",
+      "D": "anger"
+    },
+    "answer": "C",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture lists emotions such as guilt, gratitude, and nostalgia as secondary emotions that rely more heavily on social experience and higher cognition.",
+    "why_high_yield": "High yield because the lecture explicitly contrasts primary basic emotions with secondary emotions.",
+    "source_refs": [
+      "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 10-11"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "The Little Albert experiment is used in the lecture as an example of ______.",
+    "options": {
+      "A": "fear conditioning",
+      "B": "collective intelligence",
+      "C": "sensory transduction",
+      "D": "emotion regulation"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "Little Albert is presented as a classic example of fear conditioning, in which a previously neutral stimulus comes to elicit fear after pairing.",
+    "why_high_yield": "High yield because it is the signature human example attached to fear conditioning in the lecture.",
+    "source_refs": [
+      "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 8-10",
+      "Bouton, M. E. (2023). Conditioning and learning (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Giving tokens that can later be exchanged for privileges in order to increase desired behaviors is called a ______.",
+    "options": {
+      "A": "token economy",
+      "B": "perceptual illusion",
+      "C": "response bias",
+      "D": "circadian cue"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "A token economy is an operant-conditioning system in which tokens function as reinforcers that can later be traded for desired outcomes.",
+    "why_high_yield": "High yield because it is one of the lecture's clearest real-world applications of operant conditioning.",
+    "source_refs": [
+      "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 21-23"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Children becoming less afraid of dogs after watching a fearless peer interact with one is used in the lecture as an example of ______.",
+    "options": {
+      "A": "observational learning in therapy",
+      "B": "REM rebound",
+      "C": "top-down processing",
+      "D": "availability bias"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 1",
+    "related_info": "The lecture describes therapy examples in which observing a model can reduce fear and encourage approach behavior.",
+    "why_high_yield": "High yield because it extends observational learning from Bobo doll aggression to a practical therapeutic context.",
+    "source_refs": [
+      "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 27-29",
+      "Bouton, M. E. (2023). Conditioning and learning (required reading)"
+    ],
+    "incorrect_count": 0
   }
 ]
