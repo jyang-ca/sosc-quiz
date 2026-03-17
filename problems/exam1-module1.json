@@ -16,7 +16,9 @@
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 3-6",
       "Lachs, L. (2023). Multi-modal perception (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-sensation-vs-perception",
+    "item_form": "comparison"
   },
   {
     "question": "The conversion of environmental stimulation into electrical signals that the nervous system can process is called ______.",
@@ -33,7 +35,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, p. 3"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-sensation-transduction",
+    "item_form": "definition"
   },
   {
     "question": "When a stimulus is too weak to be detected at all, it falls below the ______.",
@@ -51,7 +55,9 @@
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, p. 6",
       "Lachs, L. (2023). Multi-modal perception (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-sensation-thresholds",
+    "item_form": "definition"
   },
   {
     "question": "After sitting in a room with a strong perfume for several minutes, you barely notice the smell. This is an example of ______.",
@@ -68,7 +74,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, p. 6"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-sensation-thresholds",
+    "item_form": "scenario"
   },
   {
     "question": "A student is so focused on texting while walking that she fails to notice a friend waving directly in front of her. This best illustrates ______.",
@@ -85,7 +93,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, p. 6"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-attention-awareness",
+    "item_form": "scenario"
   },
   {
     "question": "Seeing a broken circle as a complete circle because the mind fills in missing parts is an example of the Gestalt principle of ______.",
@@ -102,7 +112,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 9-12"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-gestalt-perception",
+    "item_form": "scenario"
   },
   {
     "question": "Reading a messy sentence successfully because you use prior knowledge about language and context is best explained by ______ processing.",
@@ -120,7 +132,9 @@
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 13-15",
       "Lachs, L. (2023). Multi-modal perception (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-top-down-perception",
+    "item_form": "scenario"
   },
   {
     "question": "With respect to vision, what remains stable in perceptual constancy?",
@@ -139,7 +153,9 @@
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 16-17",
       "Lachs, L. (2023). Multi-modal perception (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-top-down-perception",
+    "item_form": "definition"
   },
   {
     "question": "When the two eyes receive slightly different images and the brain uses that difference to judge distance, the relevant cue is ______.",
@@ -156,7 +172,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 18-21"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-depth-cues",
+    "item_form": "definition"
   },
   {
     "question": "The McGurk effect is strongest evidence that perception is ______.",
@@ -174,7 +192,9 @@
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 28-32",
       "Lachs, L. (2023). Multi-modal perception (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-multisensory-perception",
+    "item_form": "definition"
   },
   {
     "question": "Which statement about REM sleep is correct?",
@@ -192,7 +212,9 @@
       "Exam 1 Guidelines.pdf (all Module 1 subjects included)",
       "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 3-5"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-sleep-stages",
+    "item_form": "definition"
   },
   {
     "question": "Why is sleep especially relevant to learning in this course?",
@@ -209,7 +231,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 6-8"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-sleep-learning",
+    "item_form": "definition"
   },
   {
     "question": "External cues such as light and daily activities that help synchronize circadian rhythms are called ______.",
@@ -226,7 +250,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 13-14"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-circadian-rhythm",
+    "item_form": "definition"
   },
   {
     "question": "Which condition is most directly characterized by repeated breathing interruptions during sleep, loud snoring, and abrupt awakenings?",
@@ -243,7 +269,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 18-20"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-sleep-disorders",
+    "item_form": "scenario"
   },
   {
     "question": "Which statement best describes an implicit process?",
@@ -261,7 +289,9 @@
       "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 7-9",
       "Biswas-Diener, R. & Teeny, J. (2023). States of consciousness (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-consciousness-implicit",
+    "item_form": "definition"
   },
   {
     "question": "Patient TN could avoid obstacles in a hallway despite being clinically blind. This phenomenon is called ______.",
@@ -279,7 +309,9 @@
       "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 10-12",
       "Biswas-Diener, R. & Teeny, J. (2023). States of consciousness (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-consciousness-implicit",
+    "item_form": "scenario"
   },
   {
     "question": "The Implicit Association Test is designed to measure ______.",
@@ -296,7 +328,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 17-18"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-consciousness-implicit",
+    "item_form": "definition"
   },
   {
     "question": "When a briefly presented word influences how quickly you identify a later target without your awareness, the effect is called ______.",
@@ -314,7 +348,9 @@
       "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 19-22",
       "Biswas-Diener, R. & Teeny, J. (2023). States of consciousness (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-consciousness-implicit",
+    "item_form": "scenario"
   },
   {
     "question": "According to the lecture, subliminal advertising appears to influence product choice mainly when ______.",
@@ -331,7 +367,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 21-22"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-consciousness-implicit",
+    "item_form": "definition"
   },
   {
     "question": "Terror management theory proposes that many behaviors are shaped by the tension between ______.",
@@ -348,7 +386,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 28-30"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-terror-management",
+    "item_form": "definition"
   },
   {
     "question": "According to basic emotion theory, which claim is most consistent with the lecture?",
@@ -366,7 +406,9 @@
       "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 3-7",
       "Hwang, H. & Matsumoto, D. (2023). Functions of emotions (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-emotion-theories",
+    "item_form": "definition"
   },
   {
     "question": "In the circumplex model, emotional experiences are organized mainly along the dimensions of ______.",
@@ -384,7 +426,9 @@
       "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 8-10",
       "Hwang, H. & Matsumoto, D. (2023). Functions of emotions (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-emotion-theories",
+    "item_form": "definition"
   },
   {
     "question": "Which example best illustrates an interpersonal function of emotion?",
@@ -402,7 +446,9 @@
       "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 15-16",
       "Hwang, H. & Matsumoto, D. (2023). Functions of emotions (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-emotion-functions",
+    "item_form": "scenario"
   },
   {
     "question": "Deliberately visiting a favorite peaceful place in order to feel better before an important meeting is an example of ______.",
@@ -419,7 +465,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 18-21"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-emotion-functions",
+    "item_form": "scenario"
   },
   {
     "question": "In Pavlov's framework, a bell that originally meant nothing but later triggers salivation after repeated pairings with food becomes the ______.",
@@ -437,7 +485,9 @@
       "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 3-8",
       "Bouton, M. E. (2023). Conditioning and learning (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-classical-conditioning",
+    "item_form": "scenario"
   },
   {
     "question": "Feeling sick after eating a food that was paired with illness in the past is the best example of ______.",
@@ -455,7 +505,9 @@
       "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 11-13",
       "Bouton, M. E. (2023). Conditioning and learning (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-classical-conditioning",
+    "item_form": "scenario"
   },
   {
     "question": "Why is extinction central to exposure therapy?",
@@ -473,7 +525,9 @@
       "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, p. 14",
       "Bouton, M. E. (2023). Conditioning and learning (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-classical-conditioning",
+    "item_form": "definition"
   },
   {
     "question": "In operant conditioning, a consequence that increases the future likelihood of a behavior is called ______.",
@@ -491,7 +545,9 @@
       "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 15-18",
       "Bouton, M. E. (2023). Conditioning and learning (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-operant-conditioning",
+    "item_form": "definition"
   },
   {
     "question": "Rewarding closer and closer approximations to a desired complex behavior is called ______.",
@@ -508,7 +564,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 19-21"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-operant-conditioning",
+    "item_form": "definition"
   },
   {
     "question": "Children who imitate an aggressive model less when they saw the model punished demonstrate the importance of ______.",
@@ -526,7 +584,9 @@
       "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 24-29",
       "Bouton, M. E. (2023). Conditioning and learning (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-observational-learning",
+    "item_form": "scenario"
   },
   {
     "question": "When perception separates an object from its background, the relevant Gestalt idea is ______.",
@@ -543,7 +603,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 9-11"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-gestalt-perception",
+    "item_form": "definition"
   },
   {
     "question": "When one object partly blocks another and is therefore seen as closer, the monocular depth cue is ______.",
@@ -560,7 +622,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 18-22"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-depth-cues",
+    "item_form": "scenario"
   },
   {
     "question": "Seeing a hill as steeper when you are tired or carrying a heavy backpack best supports the idea of ______.",
@@ -578,7 +642,9 @@
       "Module 1/Lecture Slides - Why does the moon look so big near the horizonpdf, pp. 33-35",
       "Lachs, L. (2023). Multi-modal perception (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-embodied-perception",
+    "item_form": "scenario"
   },
   {
     "question": "Which sleep stage is described as deep sleep and as the least responsive to outside stimulation?",
@@ -595,7 +661,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 3-5"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-sleep-stages",
+    "item_form": "definition"
   },
   {
     "question": "If people are deprived of REM sleep, what is likely to happen when they can sleep normally again?",
@@ -612,7 +680,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Can people die from not sleeping.pdf, p. 5"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-sleep-stages",
+    "item_form": "scenario"
   },
   {
     "question": "Working night shifts and then trying to sleep at biologically unusual times most directly illustrates ______.",
@@ -629,7 +699,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - Can people die from not sleeping.pdf, pp. 19-22"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-circadian-rhythm",
+    "item_form": "scenario"
   },
   {
     "question": "Alcohol is classified in the consciousness lecture as a ______.",
@@ -647,7 +719,9 @@
       "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 4-6",
       "Biswas-Diener, R. & Teeny, J. (2023). States of consciousness (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-altered-states",
+    "item_form": "definition"
   },
   {
     "question": "In the lecture, meditation is described mainly as ______.",
@@ -664,7 +738,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 5-6"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-altered-states",
+    "item_form": "definition"
   },
   {
     "question": "Noticing your own name in a noisy room even while focused on another conversation is the classic ______ effect.",
@@ -681,7 +757,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 13-15"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-consciousness-implicit",
+    "item_form": "scenario"
   },
   {
     "question": "How is skilled cycling, swimming, or driving described once it has been extensively practiced?",
@@ -698,7 +776,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - are you truly in control, or is your brain on autopilot.pdf, pp. 15-16"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-consciousness-implicit",
+    "item_form": "definition"
   },
   {
     "question": "Which statement best distinguishes a mood from an emotion?",
@@ -715,7 +795,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 1-2"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-emotion-theories",
+    "item_form": "comparison"
   },
   {
     "question": "Which of the following is presented as a secondary emotion rather than a primary basic emotion?",
@@ -732,7 +814,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - why do we feel emotionally connected to characters in animations.pdf, pp. 10-11"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-emotion-theories",
+    "item_form": "comparison"
   },
   {
     "question": "The Little Albert experiment is used in the lecture as an example of ______.",
@@ -750,7 +834,9 @@
       "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 8-10",
       "Bouton, M. E. (2023). Conditioning and learning (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-classical-conditioning",
+    "item_form": "definition"
   },
   {
     "question": "Giving tokens that can later be exchanged for privileges in order to increase desired behaviors is called a ______.",
@@ -767,7 +853,9 @@
     "source_refs": [
       "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 21-23"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-operant-conditioning",
+    "item_form": "scenario"
   },
   {
     "question": "Children becoming less afraid of dogs after watching a fearless peer interact with one is used in the lecture as an example of ______.",
@@ -785,6 +873,8 @@
       "Module 1/Lecture Slides - how is it possible to teach pigeons to play ping-pong.pdf, pp. 27-29",
       "Bouton, M. E. (2023). Conditioning and learning (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module1-observational-learning",
+    "item_form": "scenario"
   }
 ]

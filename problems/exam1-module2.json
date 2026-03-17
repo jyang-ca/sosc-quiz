@@ -15,7 +15,9 @@
       "Exam 1 Guidelines.pdf (all Module 2 subjects included)",
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 2-7"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-processes",
+    "item_form": "definition"
   },
   {
     "question": "Transforming a temporary, fragile memory into a more stable and long-lasting form is called ______.",
@@ -32,7 +34,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 3-5"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-processes",
+    "item_form": "definition"
   },
   {
     "question": "Why does unattended sensory information usually disappear quickly?",
@@ -49,7 +53,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 9-11"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-processes",
+    "item_form": "definition"
   },
   {
     "question": "Which study strategy best reflects elaborative rehearsal?",
@@ -66,7 +72,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 11-18"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-strategies",
+    "item_form": "scenario"
   },
   {
     "question": "Breaking a long string of information into smaller, meaningful units is called ______.",
@@ -83,7 +91,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 13-15"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-strategies",
+    "item_form": "definition"
   },
   {
     "question": "If the police ask you to describe a suspect from memory, they are testing ______; if they ask you to pick the suspect from a lineup, they are testing ______.",
@@ -101,7 +111,9 @@
       "Exam 1 Guidelines.pdf (sample question on recall vs recognition)",
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 19-20"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-recall-recognition",
+    "item_form": "comparison"
   },
   {
     "question": "When older information disrupts your ability to learn or remember newer information, the problem is called ______.",
@@ -118,7 +130,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 19-22"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-interference",
+    "item_form": "definition"
   },
   {
     "question": "Which practice schedule is most likely to produce the spacing effect?",
@@ -135,7 +149,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 23-24"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-strategies",
+    "item_form": "scenario"
   },
   {
     "question": "Which study behavior best reflects retrieval practice?",
@@ -152,7 +168,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, p. 24"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-strategies",
+    "item_form": "scenario"
   },
   {
     "question": "Participants who report seeing broken glass after hearing a more dramatic question about a car accident illustrate the ______.",
@@ -169,7 +187,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 25-28"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-false-memory",
+    "item_form": "scenario"
   },
   {
     "question": "Which description best fits System 1 thinking?",
@@ -187,7 +207,9 @@
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 2-4",
       "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-dual-process",
+    "item_form": "definition"
   },
   {
     "question": "Bounded rationality means that judgments and decisions are limited by ______.",
@@ -205,7 +227,9 @@
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 2-4",
       "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-dual-process",
+    "item_form": "definition"
   },
   {
     "question": "Believing that a lucky charm can influence the outcome of a chance event is an example of ______.",
@@ -222,7 +246,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 5-6"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-magical-thinking",
+    "item_form": "scenario"
   },
   {
     "question": "Preferring a lottery ticket that you personally chose over an identical ticket given to you by someone else best reflects the ______.",
@@ -240,7 +266,9 @@
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 7-12",
       "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-illusion-of-control",
+    "item_form": "scenario"
   },
   {
     "question": "When people choose the sure option in a gain frame but the risky option in a loss frame, they are showing the ______.",
@@ -258,7 +286,9 @@
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 15-17",
       "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-framing-and-nudges",
+    "item_form": "scenario"
   },
   {
     "question": "Changing the default setting on printers from single-sided to double-sided printing without removing any option is an example of a ______.",
@@ -276,7 +306,9 @@
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 17-19",
       "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-framing-and-nudges",
+    "item_form": "scenario"
   },
   {
     "question": "Eating more food simply because it was served in a larger bowl or on a larger plate best illustrates ______.",
@@ -293,7 +325,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 20-24"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-framing-and-nudges",
+    "item_form": "scenario"
   },
   {
     "question": "After black appears on the roulette wheel five times in a row, betting on red because it 'must be next' reflects the ______.",
@@ -311,7 +345,9 @@
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 25-28",
       "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-heuristics-and-biases",
+    "item_form": "scenario"
   },
   {
     "question": "Judging 'bank teller and feminist' as more likely than 'bank teller' alone is a classic example of the ______.",
@@ -329,7 +365,9 @@
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 29-31",
       "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-heuristics-and-biases",
+    "item_form": "scenario"
   },
   {
     "question": "Worrying about plane crashes immediately after hearing about several recent crashes in the news is the best example of ______.",
@@ -348,7 +386,9 @@
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 32-35",
       "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-heuristics-and-biases",
+    "item_form": "scenario"
   },
   {
     "question": "Fluid intelligence refers most directly to the ability to ______.",
@@ -365,7 +405,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 2-3"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-intelligence-foundations",
+    "item_form": "definition"
   },
   {
     "question": "Norming in intelligence testing means ______.",
@@ -382,7 +424,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 4-8"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-intelligence-foundations",
+    "item_form": "definition"
   },
   {
     "question": "Spearman's g-factor refers to ______.",
@@ -399,7 +443,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 5-7"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-intelligence-foundations",
+    "item_form": "definition"
   },
   {
     "question": "Which research designs are especially useful for estimating heritability?",
@@ -416,7 +462,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 9-10"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-intelligence-origins",
+    "item_form": "definition"
   },
   {
     "question": "According to the lecture, an additional year of education is associated with roughly ______.",
@@ -433,7 +481,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 10-11"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-intelligence-origins",
+    "item_form": "definition"
   },
   {
     "question": "When making a negative group stereotype salient worsens test performance for members of that group, the effect is called ______.",
@@ -450,7 +500,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 11-12"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-intelligence-origins",
+    "item_form": "scenario"
   },
   {
     "question": "Worldwide gains in IQ scores across decades are known as the ______.",
@@ -467,7 +519,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 13-14"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-intelligence-origins",
+    "item_form": "definition"
   },
   {
     "question": "Why can highly intelligent people still make irrational decisions and judgments?",
@@ -485,7 +539,9 @@
       "Exam 1 Guidelines.pdf (sample short-answer question on high IQ and irrational judgment)",
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 17-18"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-beyond-iq",
+    "item_form": "counterexample"
   },
   {
     "question": "In the lecture, myside bias refers to ______.",
@@ -502,7 +558,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 17-18"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-beyond-iq",
+    "item_form": "definition"
   },
   {
     "question": "According to Sternberg's triarchic theory, practical intelligence is best described as ______.",
@@ -519,7 +577,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 19-23"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-beyond-iq",
+    "item_form": "definition"
   },
   {
     "question": "Which example best illustrates automatic rather than effortful encoding?",
@@ -536,7 +596,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 3-4"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-processes",
+    "item_form": "scenario"
   },
   {
     "question": "According to the lecture, information in short-term memory is likely to be lost within about ______ if rehearsal is disrupted.",
@@ -553,7 +615,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, p. 11"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-processes",
+    "item_form": "definition"
   },
   {
     "question": "Using the sentence \"Every Good Boy Does Fine\" to remember musical notes is an example of ______.",
@@ -570,7 +634,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 15-16"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-strategies",
+    "item_form": "scenario"
   },
   {
     "question": "Why does saying, writing, or typing information often improve later memory compared with silent reading alone?",
@@ -587,7 +653,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 16-18"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-strategies",
+    "item_form": "definition"
   },
   {
     "question": "When newly learned material disrupts your memory for older material, the problem is called ______.",
@@ -604,7 +672,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 21-22"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-memory-interference",
+    "item_form": "definition"
   },
   {
     "question": "Why is recognition generally easier than recall?",
@@ -622,7 +692,9 @@
       "Exam 1 Guidelines.pdf (sample question on recall vs recognition)",
       "Module 2/Lecture Slides - why do you forget things you have studied.pdf, p. 20"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-recall-recognition",
+    "item_form": "definition"
   },
   {
     "question": "In the lecture, the conjunction fallacy is explained mainly by the ______ heuristic.",
@@ -640,7 +712,9 @@
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 29-31",
       "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-heuristics-and-biases",
+    "item_form": "comparison"
   },
   {
     "question": "Believing that you are a personally lucky person and therefore more likely to win games of chance is an example of belief in ______.",
@@ -657,7 +731,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 8-12"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-magical-thinking",
+    "item_form": "scenario"
   },
   {
     "question": "The tendency to notice biases easily in other people while missing them in yourself is called the ______.",
@@ -674,7 +750,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, p. 36"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-heuristics-and-biases",
+    "item_form": "definition"
   },
   {
     "question": "Overestimating the frequency of dramatic causes of death because they receive heavy news coverage is a classic case of ______.",
@@ -692,7 +770,9 @@
       "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 32-35",
       "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-heuristics-and-biases",
+    "item_form": "scenario"
   },
   {
     "question": "If IQ scores have a mean of 100 and a standard deviation of 15, an IQ of 115 indicates that the test taker is ______.",
@@ -709,7 +789,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 6-8"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-intelligence-foundations",
+    "item_form": "scenario"
   },
   {
     "question": "Crystallized intelligence refers most directly to the ability to ______.",
@@ -726,7 +808,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 2-3"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-intelligence-foundations",
+    "item_form": "definition"
   },
   {
     "question": "Why did Black students perform worse in the stereotype-threat demonstration when ethnicity was made salient before the test?",
@@ -743,7 +827,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 11-12"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-intelligence-origins",
+    "item_form": "scenario"
   },
   {
     "question": "What does the lecture conclude about the relationship between IQ and creativity?",
@@ -760,7 +846,9 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 18-19, 24-27"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-beyond-iq",
+    "item_form": "counterexample"
   },
   {
     "question": "According to the lecture, what predicts collective intelligence more strongly overall: member skill alone or group interaction process?",
@@ -777,6 +865,8 @@
     "source_refs": [
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 28-29"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "module2-beyond-iq",
+    "item_form": "comparison"
   }
 ]
