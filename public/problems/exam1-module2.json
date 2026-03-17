@@ -520,5 +520,263 @@
       "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 19-23"
     ],
     "incorrect_count": 0
+  },
+  {
+    "question": "Which example best illustrates automatic rather than effortful encoding?",
+    "options": {
+      "A": "Memorizing a long list of definitions by repetition",
+      "B": "Noticing where you were sitting when a surprising event happened",
+      "C": "Making flashcards for a new vocabulary list",
+      "D": "Building a mnemonic for a biology classification chart"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Automatic encoding occurs without deliberate effort, whereas effortful encoding requires conscious study strategies.",
+    "why_high_yield": "High yield because the memory lecture begins by distinguishing automatic from effortful entry of information into the system.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 3-4"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "According to the lecture, information in short-term memory is likely to be lost within about ______ if rehearsal is disrupted.",
+    "options": {
+      "A": "1 to 2 seconds",
+      "B": "15 to 25 seconds",
+      "C": "5 to 10 minutes",
+      "D": "several hours"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture notes that short-term memory is fragile and can fade in roughly 15 to 25 seconds when rehearsal is interrupted.",
+    "why_high_yield": "High yield because it makes the short-term-memory discussion concrete and differentiates simple rehearsal from durable learning.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, p. 11"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Using the sentence \"Every Good Boy Does Fine\" to remember musical notes is an example of ______.",
+    "options": {
+      "A": "a mnemonic",
+      "B": "retrieval-induced forgetting",
+      "C": "the gambler's fallacy",
+      "D": "a framing effect"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Mnemonics are formal strategies that organize information meaningfully to make it easier to remember.",
+    "why_high_yield": "High yield because the lecture uses memorable mnemonic examples as applied memory aids that students can easily recognize on an exam.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 15-16"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Why does saying, writing, or typing information often improve later memory compared with silent reading alone?",
+    "options": {
+      "A": "Because of the production effect",
+      "B": "Because of the conjunction fallacy",
+      "C": "Because of sleep apnea",
+      "D": "Because of random assignment"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The production effect refers to better memory when items are actively produced rather than only read silently.",
+    "why_high_yield": "High yield because it is a concrete, practical study tip from the memory lecture and fits the course's applied emphasis.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 16-18"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "When newly learned material disrupts your memory for older material, the problem is called ______.",
+    "options": {
+      "A": "proactive interference",
+      "B": "retroactive interference",
+      "C": "sensory adaptation",
+      "D": "bounded rationality"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Retroactive interference occurs when new information makes older information harder to retrieve.",
+    "why_high_yield": "High yield because students are often tested on whether they can distinguish proactive from retroactive interference.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, pp. 21-22"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Why is recognition generally easier than recall?",
+    "options": {
+      "A": "Because recognition requires no memory at all",
+      "B": "Because recognition provides retrieval cues that help access the target information",
+      "C": "Because recall happens only in long-term memory",
+      "D": "Because recognition prevents interference from occurring"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture states that recognition is easier than recall because the answer is present and acts as a retrieval cue.",
+    "why_high_yield": "High yield because it directly elaborates the recall-versus-recognition sample question from the exam guidelines.",
+    "source_refs": [
+      "Exam 1 Guidelines.pdf (sample question on recall vs recognition)",
+      "Module 2/Lecture Slides - why do you forget things you have studied.pdf, p. 20"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "In the lecture, the conjunction fallacy is explained mainly by the ______ heuristic.",
+    "options": {
+      "A": "availability",
+      "B": "representativeness",
+      "C": "anchoring",
+      "D": "retrieval"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Representativeness leads people to judge probability by similarity to a prototype, which is why the Linda problem feels compelling even though it violates logic.",
+    "why_high_yield": "High yield because the lecture uses representativeness to explain one of the most famous decision-making fallacies in psychology.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 29-31",
+      "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Believing that you are a personally lucky person and therefore more likely to win games of chance is an example of belief in ______.",
+    "options": {
+      "A": "personal luck",
+      "B": "perceptual constancy",
+      "C": "collective intelligence",
+      "D": "distributed practice"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture describes personal luck as a belief in a stable personal quality of luck that can influence uncontrollable outcomes.",
+    "why_high_yield": "High yield because personal luck extends the illusion-of-control theme with a specific applied belief pattern relevant to bad investments and gambling.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 8-12"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "The tendency to notice biases easily in other people while missing them in yourself is called the ______.",
+    "options": {
+      "A": "bias blind spot",
+      "B": "spacing effect",
+      "C": "McGurk effect",
+      "D": "theta rhythm"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Bias blind spot refers to seeing bias all around us while underestimating our own susceptibility to the same distortions.",
+    "why_high_yield": "High yield because it is the lecture's closing reminder that knowledge of biases does not automatically eliminate them.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, p. 36"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Overestimating the frequency of dramatic causes of death because they receive heavy news coverage is a classic case of ______.",
+    "options": {
+      "A": "availability bias",
+      "B": "fixed ratio learning",
+      "C": "top-down perception",
+      "D": "stereotype threat"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture uses news coverage of dramatic deaths to show that availability bias depends on what comes to mind easily rather than on objective frequencies.",
+    "why_high_yield": "High yield because it turns the general definition of availability bias into a very concrete applied example.",
+    "source_refs": [
+      "Module 2/Lecture Slides - why do people stick to bad investments.pdf, pp. 32-35",
+      "Bazerman, M. H. (2023). Judgment and decision making (required reading)"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "If IQ scores have a mean of 100 and a standard deviation of 15, an IQ of 115 indicates that the test taker is ______.",
+    "options": {
+      "A": "one standard deviation above the average for same-aged peers",
+      "B": "one standard deviation below the average for same-aged peers",
+      "C": "exactly average",
+      "D": "outside the normal scoring range"
+    },
+    "answer": "A",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture states that IQ scores are interpreted relative to age peers, with 100 as the mean and 15 as the standard deviation.",
+    "why_high_yield": "High yield because introductory intelligence questions often ask students to interpret IQ numerically rather than just memorize definitions.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 6-8"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Crystallized intelligence refers most directly to the ability to ______.",
+    "options": {
+      "A": "solve novel problems without relying on prior learning",
+      "B": "use learned knowledge such as vocabulary and general information",
+      "C": "ignore cultural influences during testing",
+      "D": "override myside bias automatically"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "Crystallized intelligence involves using previously learned knowledge, such as vocabulary, comprehension, and general information.",
+    "why_high_yield": "High yield because the lecture introduces intelligence by contrasting crystallized with fluid intelligence.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 2-3"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "Why did Black students perform worse in the stereotype-threat demonstration when ethnicity was made salient before the test?",
+    "options": {
+      "A": "Because the test suddenly became objectively harder",
+      "B": "Because negative group stereotypes increased anxiety and cognitive burden during performance",
+      "C": "Because their crystallized intelligence decreased permanently",
+      "D": "Because norming no longer applied"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture explains stereotype threat as anxiety and arousal triggered by a negative stereotype, which can reduce performance on the test itself.",
+    "why_high_yield": "High yield because the lecture gives both the concept and a classic experimental illustration, making it ideal for scenario-based testing.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 11-12"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "What does the lecture conclude about the relationship between IQ and creativity?",
+    "options": {
+      "A": "They are identical constructs.",
+      "B": "IQ guarantees high creative achievement.",
+      "C": "The relationship exists but is small, so high IQ does not ensure creativity.",
+      "D": "Creativity depends only on stereotype threat."
+    },
+    "answer": "C",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture cites a meta-analysis showing only a small correlation between IQ and creativity, which means intelligence alone does not guarantee creative output.",
+    "why_high_yield": "High yield because it strengthens the module's overall message that success involves capacities beyond IQ.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 18-19, 24-27"
+    ],
+    "incorrect_count": 0
+  },
+  {
+    "question": "According to the lecture, what predicts collective intelligence more strongly overall: member skill alone or group interaction process?",
+    "options": {
+      "A": "Member skill alone",
+      "B": "Group interaction process",
+      "C": "Sleep duration only",
+      "D": "Pure chance"
+    },
+    "answer": "B",
+    "chapter": "Exam 1 - Module 2",
+    "related_info": "The lecture concludes that although group composition matters, the interaction process is the stronger overall predictor of collective intelligence.",
+    "why_high_yield": "High yield because the lecture ends by broadening intelligence from individuals to groups, a natural higher-order extension for exam questions.",
+    "source_refs": [
+      "Module 2/Lecture Slides - does a high IQ guarantee success.pdf, pp. 28-29"
+    ],
+    "incorrect_count": 0
   }
 ]
