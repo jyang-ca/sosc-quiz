@@ -7,9 +7,11 @@ import type {
   CurrentIterationStats,
   ChapterType,
   ChapterInfo,
+  ProblemOption,
 } from './types';
 
 const QUESTIONS_PER_QUIZ = 30;
+const PROBLEM_OPTIONS: ProblemOption[] = ['A', 'B', 'C', 'D'];
 
 export const CHAPTER_INFO: ChapterInfo[] = [
   { id: 'all', title: 'All Chapters', fileName: '' },
@@ -17,6 +19,106 @@ export const CHAPTER_INFO: ChapterInfo[] = [
   { id: 'exam1-module1', title: 'Exam 1: Module 1', fileName: 'exam1-module1.json' },
   { id: 'exam1-module2', title: 'Exam 1: Module 2', fileName: 'exam1-module2.json' },
 ];
+
+function deduplicateProblemsByQuestion(problems: Problem[]): Problem[] {
+  const uniqueProblems = new Map<string, Problem>();
+
+  problems.forEach(problem => {
+    if (!uniqueProblems.has(problem.question)) {
+      uniqueProblems.set(problem.question, problem);
+    }
+  });
+
+  return Array.from(uniqueProblems.values());
+}
+
+export function canonicalizeProblems(problems: Problem[], allProblems: Problem[]): Problem[] {
+  const lookup = new Map(allProblems.map(problem => [problem.question, problem]));
+
+  return deduplicateProblemsByQuestion(
+    problems.map(problem => lookup.get(problem.question) ?? problem)
+  );
+}
+
+function shuffleArray<T>(array: T[]): void {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+function shuffleProblemOptions(problem: Problem): Problem {
+  const optionEntries = PROBLEM_OPTIONS.map(option => ({
+    originalOption: option,
+    text: problem.options[option],
+  }));
+
+  shuffleArray(optionEntries);
+
+  const shuffledOptions = {} as Record<ProblemOption, string>;
+  let shuffledAnswer: ProblemOption = 'A';
+
+  optionEntries.forEach((entry, index) => {
+    const newOption = PROBLEM_OPTIONS[index];
+    shuffledOptions[newOption] = entry.text;
+
+    if (entry.originalOption === problem.answer) {
+      shuffledAnswer = newOption;
+    }
+  });
+
+  return {
+    ...problem,
+    options: shuffledOptions,
+    answer: shuffledAnswer,
+  };
+}
+
+function prepareProblemsForQuiz(problems: Problem[]): Problem[] {
+  return problems.map(problem => shuffleProblemOptions(problem));
+}
+
+function selectRetryVariant(problem: Problem, allProblems: Problem[], usedQuestions: Set<string>): Problem {
+  const sameConcept = allProblems.filter(candidate => candidate.concept_id === problem.concept_id);
+
+  const candidatePools = [
+    sameConcept.filter(
+      candidate =>
+        candidate.question !== problem.question &&
+        candidate.item_form !== problem.item_form &&
+        !usedQuestions.has(candidate.question)
+    ),
+    sameConcept.filter(
+      candidate =>
+        candidate.question !== problem.question &&
+        !usedQuestions.has(candidate.question)
+    ),
+    sameConcept.filter(
+      candidate =>
+        candidate.item_form !== problem.item_form &&
+        !usedQuestions.has(candidate.question)
+    ),
+    sameConcept.filter(candidate => candidate.question !== problem.question),
+    sameConcept.filter(candidate => candidate.item_form !== problem.item_form),
+    sameConcept.filter(candidate => !usedQuestions.has(candidate.question)),
+  ];
+
+  const pool = candidatePools.find(candidates => candidates.length > 0) ?? [problem];
+  const selected = pool[Math.floor(Math.random() * pool.length)];
+  usedQuestions.add(selected.question);
+
+  return selected;
+}
+
+export function buildRetryProblems(allProblems: Problem[], wrongProblems: Problem[]): Problem[] {
+  const canonicalWrong = canonicalizeProblems(wrongProblems, allProblems);
+  const usedQuestions = new Set<string>();
+  const retryProblems = canonicalWrong.map(problem => selectRetryVariant(problem, allProblems, usedQuestions));
+
+  shuffleArray(retryProblems);
+
+  return prepareProblemsForQuiz(retryProblems);
+}
 
 export class QuizStateManager {
   private state: QuizState;
@@ -164,17 +266,13 @@ export class QuizStateManager {
   }
 
   selectQuizProblems(allProblems: Problem[], reviewProblems: Problem[] = [], onlyReview: boolean = false): Problem[] {
-    const selected: Problem[] = [];
+    const selected: Problem[] = canonicalizeProblems(reviewProblems, allProblems);
 
     // 1. Add review problems
-    if (reviewProblems.length > 0) {
-      selected.push(...reviewProblems);
-    }
-
     // If only review, return immediately (after shuffling if needed, but shuffling is done at end)
     if (onlyReview) {
       this.shuffleArray(selected);
-      return selected;
+      return prepareProblemsForQuiz(selected);
     }
 
     // 2. Add new random problems
@@ -193,7 +291,7 @@ export class QuizStateManager {
     // Shuffle final list
     this.shuffleArray(selected);
 
-    return selected;
+    return prepareProblemsForQuiz(selected);
   }
 
   getTopIncorrectProblems(limit: number = 5): Array<{
@@ -211,10 +309,7 @@ export class QuizStateManager {
   }
 
   private shuffleArray<T>(array: T[]): void {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
+    shuffleArray(array);
   }
 
   resetState(): void {

@@ -58,7 +58,7 @@ const Question = ({
                 <p>
                     <span className="text-primary">
                         [{questionNumber}/{totalQuestions}]
-                        {isRetry && ` retry-${retryRound}`}
+                        {isRetry && ` review-${retryRound}`}
                     </span>
                     {' '}
                     <span className="text-dim">{problem.chapter}</span>
@@ -84,7 +84,7 @@ const Question = ({
                         }}
                     >
                         {option === 'E' ? (
-                            <>E. I don't know (Repeat this problem)</>
+                            <>E. I don't know (Practice this idea again)</>
                         ) : (
                             <>{option}. {problem.options[option]}</>
                         )}

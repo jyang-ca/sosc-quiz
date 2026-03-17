@@ -1,6 +1,11 @@
 import { useState, useEffect, useCallback } from 'react';
 import type { Problem, GamePhase, ChapterType, QuizAnswer } from './types';
-import { QuizStateManager, loadProblemsForChapter } from './quizLogic';
+import {
+  QuizStateManager,
+  buildRetryProblems,
+  canonicalizeProblems,
+  loadProblemsForChapter,
+} from './quizLogic';
 import Welcome from './components/Welcome';
 import Question from './components/Question';
 import Feedback from './components/Feedback';
@@ -65,6 +70,7 @@ function App() {
     const currentProblem = isRetryPhase
       ? retryProblems[currentProblemIndex]
       : quizProblems[currentProblemIndex];
+    const canonicalProblem = canonicalizeProblems([currentProblem], allProblems)[0] ?? currentProblem;
 
     // If user selects "I don't know" (E), treat as incorrect
     const isCorrect = selectedAnswer !== 'E' && selectedAnswer === currentProblem.answer;
@@ -85,9 +91,9 @@ function App() {
     } else {
       stateManager.markIncorrect(currentProblem);
       if (isRetryPhase) {
-        setIncorrectInRetryRound(prev => [...prev, currentProblem]);
+        setIncorrectInRetryRound(prev => [...prev, canonicalProblem]);
       } else {
-        setFirstRoundIncorrect(prev => [...prev, currentProblem]);
+        setFirstRoundIncorrect(prev => [...prev, canonicalProblem]);
       }
     }
 
@@ -99,6 +105,7 @@ function App() {
     quizProblems,
     retryProblems,
     stateManager,
+    allProblems,
   ]);
 
   const handleFeedbackContinue = useCallback(() => {
@@ -108,7 +115,7 @@ function App() {
     if (isLastQuestion) {
       if (isRetryPhase) {
         if (incorrectInRetryRound.length > 0) {
-          setRetryProblems(incorrectInRetryRound);
+          setRetryProblems(buildRetryProblems(allProblems, incorrectInRetryRound));
           setIncorrectInRetryRound([]);
           setCurrentProblemIndex(0);
           setSelectedAnswer(null);
@@ -123,7 +130,7 @@ function App() {
         // Initial phase done
         if (firstRoundIncorrect.length > 0) {
           setIsRetryPhase(true);
-          setRetryProblems(firstRoundIncorrect);
+          setRetryProblems(buildRetryProblems(allProblems, firstRoundIncorrect));
           setIncorrectInRetryRound([]);
           setCurrentProblemIndex(0);
           setSelectedAnswer(null);
@@ -151,6 +158,7 @@ function App() {
     quizProblems,
     retryProblems,
     stateManager,
+    allProblems,
   ]);
 
   const handleBackToWelcome = useCallback(() => {
@@ -162,24 +170,23 @@ function App() {
   const handleExit = useCallback(() => {
     const currentProblems = isRetryPhase ? retryProblems : quizProblems;
     const remainingProblems = currentProblems.slice(currentProblemIndex);
+    const canonicalRemaining = canonicalizeProblems(remainingProblems, allProblems);
 
     stateManager.markRemainingAsIncorrect(remainingProblems, !isRetryPhase);
 
     let wrongProblems: Problem[] = [];
     if (!isRetryPhase) {
-      wrongProblems = [...firstRoundIncorrect, ...remainingProblems];
+      wrongProblems = [...firstRoundIncorrect, ...canonicalRemaining];
     } else {
       wrongProblems = [...firstRoundIncorrect];
     }
 
-    // Deduplicate just in case
-    const uniqueWrong = Array.from(new Set(wrongProblems.map(p => p.question)))
-      .map(q => wrongProblems.find(p => p.question === q)!);
+    const uniqueWrong = canonicalizeProblems(wrongProblems, allProblems);
 
     stateManager.addSession(uniqueWrong, quizProblems.length);
 
     setPhase('statistics');
-  }, [currentProblemIndex, firstRoundIncorrect, isRetryPhase, quizProblems, retryProblems, stateManager]);
+  }, [allProblems, currentProblemIndex, firstRoundIncorrect, isRetryPhase, quizProblems, retryProblems, stateManager]);
 
   const currentProblem = isRetryPhase
     ? retryProblems[currentProblemIndex]

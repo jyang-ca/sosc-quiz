@@ -15,7 +15,9 @@
       "Exam 1 Guidelines.pdf (research methods explicitly included in coverage)",
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 3-6"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-science-vs-common-sense",
+    "item_form": "comparison"
   },
   {
     "question": "A researcher proposes that sleep helps memory formation and predicts that sleep-deprived participants will remember less the next day. The prediction is the ______.",
@@ -33,7 +35,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 5",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-theory-hypothesis",
+    "item_form": "scenario"
   },
   {
     "question": "Why are replications important in psychological science?",
@@ -51,7 +55,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 6",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-replication",
+    "item_form": "definition"
   },
   {
     "question": "A psychologist measures students' time on social media and their loneliness scores without manipulating anything. This is best described as ______.",
@@ -69,7 +75,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 8-11",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-correlational-design",
+    "item_form": "scenario"
   },
   {
     "question": "Why can a correlation between social media use and loneliness not, by itself, prove that social media causes loneliness?",
@@ -87,7 +95,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 10",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-causal-inference",
+    "item_form": "definition"
   },
   {
     "question": "If two variables show a positive correlation, which statement is correct?",
@@ -105,7 +115,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 9",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-correlation-strength-direction",
+    "item_form": "definition"
   },
   {
     "question": "Which design most directly helps a researcher examine whether changes in X happen before changes in Y?",
@@ -123,7 +135,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 11",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-temporal-precedence",
+    "item_form": "definition"
   },
   {
     "question": "A researcher measures parental neglect and statistically removes its influence when examining violent gaming and aggression. This is an example of ______.",
@@ -140,7 +154,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 10-11"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-third-variable-control",
+    "item_form": "scenario"
   },
   {
     "question": "Which statement best defines a randomized experiment?",
@@ -158,7 +174,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 12-15",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-randomized-experiment",
+    "item_form": "definition"
   },
   {
     "question": "The purpose of random assignment is to ______.",
@@ -177,7 +195,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 14",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-random-assignment",
+    "item_form": "definition"
   },
   {
     "question": "In an experiment comparing violent and non-violent games, keeping the room, timing, and food intake the same across groups is an example of ______.",
@@ -194,7 +214,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 14-15"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-experimental-control",
+    "item_form": "scenario"
   },
   {
     "question": "Participants are assigned to either 3 hours of violent gaming or 3 hours of non-violent gaming, and later aggression is measured. In this design, the dependent variable is ______.",
@@ -212,7 +234,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 12-15",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-variables",
+    "item_form": "scenario"
   },
   {
     "question": "Why do experiments often have lower external validity than correlational studies?",
@@ -230,7 +254,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 16",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-validity",
+    "item_form": "definition"
   },
   {
     "question": "Which research question is LEAST suitable for a randomized experiment?",
@@ -248,7 +274,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 16",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-experiment-feasibility",
+    "item_form": "counterexample"
   },
   {
     "question": "Which of the following would count as correlational rather than experimental evidence?",
@@ -266,7 +294,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 8-12",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-correlational-design",
+    "item_form": "counterexample"
   },
   {
     "question": "What does a meta-analysis do?",
@@ -283,7 +313,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 6"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-replication",
+    "item_form": "definition"
   },
   {
     "question": "In a self-correcting science, what should happen when repeated evidence contradicts a theory?",
@@ -300,7 +332,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 3-4"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-replication",
+    "item_form": "definition"
   },
   {
     "question": "A psychologist watches children on a playground and records how often they help one another, without manipulating anything. This is best described as ______.",
@@ -318,7 +352,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 8",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-correlational-design",
+    "item_form": "scenario"
   },
   {
     "question": "Which finding would give the strongest support for a causal claim?",
@@ -336,7 +372,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 12-15",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-randomized-experiment",
+    "item_form": "comparison"
   },
   {
     "question": "Which phrase best describes external validity?",
@@ -354,7 +392,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 16",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-validity",
+    "item_form": "definition"
   },
   {
     "question": "Which type of data best fits the lecture's description of machine-learning opportunities in psychology?",
@@ -372,7 +412,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 17-20",
       "Bonetti et al. (2025). Decoding the elite soccer player's psychological profile.pdf"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-computational-psychology",
+    "item_form": "definition"
   },
   {
     "question": "Using text from social media posts to infer political attitudes or emotional tone is an example of ______.",
@@ -390,7 +432,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 21-24",
       "Feuerriegel et al. (2025). Using natural language processing to analyse text data in behavioural science.pdf"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-computational-psychology",
+    "item_form": "scenario"
   },
   {
     "question": "Which use of large language models is most consistent with the introduction lecture?",
@@ -408,7 +452,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 25-26",
       "Demszky et al. (2023). Using large language models in psychology.pdf"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-computational-psychology",
+    "item_form": "definition"
   },
   {
     "question": "Which change would most improve a correlational study's ability to support a causal interpretation without turning it into an experiment?",
@@ -426,7 +472,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 11",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-temporal-precedence",
+    "item_form": "scenario"
   },
   {
     "question": "Which statement about experimental control is correct?",
@@ -443,7 +491,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 14-15"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-experimental-control",
+    "item_form": "definition"
   },
   {
     "question": "If a researcher can show that loneliness at Time 1 predicts later increases in social media use, what concern is being addressed most directly?",
@@ -460,7 +510,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 10-11"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-temporal-precedence",
+    "item_form": "scenario"
   },
   {
     "question": "Which statement about common sense is most consistent with the introduction lecture?",
@@ -477,7 +529,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 2-6"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-science-vs-common-sense",
+    "item_form": "counterexample"
   },
   {
     "question": "A researcher wants to study the relationship between years of education and later income, but cannot ethically assign people to vastly different educational histories. Which design is most appropriate?",
@@ -495,7 +549,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 16",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-experiment-feasibility",
+    "item_form": "scenario"
   },
   {
     "question": "Which scenario best illustrates the lecture's idea that psychology is practically useful once a causal theory is supported?",
@@ -513,7 +569,9 @@
       "Course Outline SOSC1960-L1 (Spring 2026).pdf (course design emphases)",
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 5"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-causal-inference",
+    "item_form": "scenario"
   },
   {
     "question": "Which research feature most directly protects psychology from becoming a collection of memorable but unreliable anecdotes?",
@@ -530,7 +588,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 6"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-replication",
+    "item_form": "definition"
   },
   {
     "question": "If loneliness actually leads people to spend more time on social media, which problem for causal inference does this illustrate?",
@@ -548,7 +608,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 10-11",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-causal-inference",
+    "item_form": "scenario"
   },
   {
     "question": "Suppose violent gaming and aggression are correlated only because both are linked to poor parental supervision. Poor parental supervision would be a ______.",
@@ -566,7 +628,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 10",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-third-variable-control",
+    "item_form": "scenario"
   },
   {
     "question": "A correlation coefficient of -0.85 would be described as ______.",
@@ -583,7 +647,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 9"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-correlation-strength-direction",
+    "item_form": "definition"
   },
   {
     "question": "In the violent-game experiment described in the lecture, the independent variable is ______.",
@@ -600,7 +666,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 12-15"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-variables",
+    "item_form": "scenario"
   },
   {
     "question": "What is the main purpose of including a control condition in a randomized experiment?",
@@ -618,7 +686,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 12-15",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-experimental-control",
+    "item_form": "definition"
   },
   {
     "question": "A school delays start time for all students and compares attention scores before and after the change, but students were not randomly assigned. This is best described as ______.",
@@ -636,7 +706,9 @@
       "Scollon, C. N. (2023). Research Designs (required reading)",
       "Exam 1 Guidelines.pdf (research methods and required readings included)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-experiment-feasibility",
+    "item_form": "scenario"
   },
   {
     "question": "Asking participants to answer questions about their own stress, sleep, or attitudes is an example of using ______ data.",
@@ -654,7 +726,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 8",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-data-sources",
+    "item_form": "scenario"
   },
   {
     "question": "Using existing hospital records or school files that were originally collected for another purpose is an example of ______.",
@@ -671,7 +745,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 8"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-data-sources",
+    "item_form": "scenario"
   },
   {
     "question": "Which statement is LEAST likely to qualify as a good scientific hypothesis?",
@@ -688,7 +764,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 5"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-theory-hypothesis",
+    "item_form": "counterexample"
   },
   {
     "question": "Why are multi-lab studies especially useful when researchers worry about replicability?",
@@ -705,7 +783,9 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 6"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-replication",
+    "item_form": "definition"
   },
   {
     "question": "Training a cross-validated algorithm to classify elite soccer players from psychological scores is an example of ______.",
@@ -723,7 +803,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 18-20",
       "Bonetti et al. (2025). Decoding the elite soccer player's psychological profile.pdf"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-computational-psychology",
+    "item_form": "scenario"
   },
   {
     "question": "Using blog posts or other text to identify signs of depression, anxiety, or suicidal thinking is presented in the lecture as an example of ______.",
@@ -741,7 +823,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 21-24",
       "Feuerriegel et al. (2025). Using natural language processing to analyse text data in behavioural science.pdf"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-computational-psychology",
+    "item_form": "scenario"
   },
   {
     "question": "Generating personalized health nudges and then testing whether different people respond differently is described in the lecture as one potential use of ______.",
@@ -759,7 +843,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 25-26",
       "Demszky et al. (2023). Using large language models in psychology.pdf"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-computational-psychology",
+    "item_form": "scenario"
   },
   {
     "question": "Which label is essentially another name for a randomized experiment in the lecture and required reading?",
@@ -777,7 +863,9 @@
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, p. 12",
       "Scollon, C. N. (2023). Research Designs (required reading)"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-randomized-experiment",
+    "item_form": "comparison"
   },
   {
     "question": "In research design, a manipulation refers to ______.",
@@ -794,6 +882,8 @@
     "source_refs": [
       "Introduction/Lecture Slides - isn't psychology just common sense.pdf, pp. 12-15"
     ],
-    "incorrect_count": 0
+    "incorrect_count": 0,
+    "concept_id": "methods-variables",
+    "item_form": "definition"
   }
 ]

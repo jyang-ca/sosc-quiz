@@ -8,6 +8,7 @@ export type ChapterType =
 
 export type ProblemOption = 'A' | 'B' | 'C' | 'D';
 export type QuizAnswer = ProblemOption | 'E';
+export type ItemForm = 'definition' | 'scenario' | 'comparison' | 'counterexample';
 
 export interface ChapterInfo {
   id: ChapterType;
@@ -24,6 +25,8 @@ export interface Problem {
   why_high_yield: string;
   source_refs: string[];
   incorrect_count: number;
+  concept_id: string;
+  item_form: ItemForm;
 }
 
 export interface Session {
